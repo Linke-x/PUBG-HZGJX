@@ -1,0 +1,741 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#F5F5F5</ppt>
+<event></event>
+</View>
+<View id="53" did="1" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="54" did="53" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="54" type="CardView">
+<ppt>width=-1
+height=-2
+layout_marginLeft=12dp
+layout_marginRight=12dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginTop=12dp
+</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="60" did="4" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+layout_marginTop=15dp
+layout_marginBottom=15dp</ppt>
+<event></event>
+</View>
+<View id="62" did="60" type="ImageView">
+<ppt>width=45dp
+height=45dp
+src=@icon.png
+ut_centerVertical=true
+layout_marginLeft=15dp</ppt>
+<event></event>
+</View>
+<View id="61" did="60" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+ut_centerVertical=true
+ut_toRightOf=62
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="63" did="61" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+</ppt>
+<event></event>
+</View>
+<View id="17" did="63" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#ff000000
+textSize=16dp</ppt>
+<event></event>
+</View>
+<View id="64" did="63" type="TextView">
+<ppt>width=-2
+height=-2
+text=Max
+textColor=#ffff1f1f
+textStyle=bold
+textSize=8dp
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="19" did="61" type="TextView">
+<ppt>width=-2
+height=-2
+text=当前状态：超级Svip会员
+textSize=11dp
+textColor=#ffa0a0a0
+layout_marginTop=3dp
+</ppt>
+<event></event>
+</View>
+<View id="18" did="60" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=@162920.png
+ut_centerVertical=true
+ut_alignParentRight=true
+layout_marginRight=12dp</ppt>
+<event></event>
+</View>
+<View id="22" did="54" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_margin=10dp
+layout_marginTop=15dp
+layout_marginBottom=20dp</ppt>
+<event></event>
+</View>
+<View id="83" did="22" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="84" did="83" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundRipple=#EEEEEE</ppt>
+<event><eventItme type="clicki">
+
+f(sss.全局配置 == null)
+{
+fn 配置.配置()
+ufnsui()
+{
+tws(v, "无法链接到服务器！", 0)
+}
+}
+else
+{
+
+sss 网 = sss.快手
+
+uigo("网页.iyu")
+
+
+}
+</eventItme></event>
+</View>
+<View id="85" did="84" type="LinearLayout">
+<ppt>width=60dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="89" did="85" type="CardView">
+<ppt>width=30dp
+height=30dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="86" did="89" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@img/IMG_20230218_002732.jpg</ppt>
+<event></event>
+</View>
+<View id="91" did="84" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+ut_centerVertical=true
+ut_toRightOf=85
+</ppt>
+<event></event>
+</View>
+<View id="87" did="91" type="TextView">
+<ppt>width=-2
+height=-2
+text=支持作者，保持长久更新
+textColor=#ff000000
+textSize=15.5dp
+</ppt>
+<event></event>
+</View>
+<View id="90" did="84" type="ImageView">
+<ppt>width=13dp
+height=13dp
+src=@widget_right.png
+ut_alignParentRight=true
+ut_centerVertical=true
+layout_marginRight=18dp
+</ppt>
+<event></event>
+</View>
+<View id="23" did="22" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="24" did="23" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundRipple=#EEEEEE</ppt>
+<event><eventItme type="clicki">
+f(sss.任务开关=="关")
+{
+
+s tsnr = "暂不支持切换字体"
+s anxx = "确定"
+s tsxx = null
+fn 弹窗.提示("true", tsnr, anxx, tsxx)
+
+}
+else
+{
+
+fe(sss.dtlj,dq)
+f(dq==true)
+{
+
+s tsnr = "暂不支持切换字体"
+s anxx = "确定"
+s tsxx = null
+fn 弹窗.提示("true", tsnr, anxx, tsxx)
+
+}
+else
+{
+//调用模块(函数)
+ufnsui()
+{
+fn 弹窗.任务提示()
+}
+}
+
+}
+</eventItme></event>
+</View>
+<View id="25" did="24" type="LinearLayout">
+<ppt>width=60dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="26" did="25" type="ImageView">
+<ppt>width=28dp
+height=28dp
+src=@img/wd/1.png</ppt>
+<event></event>
+</View>
+<View id="27" did="24" type="TextView">
+<ppt>width=-2
+height=-2
+text=字体样式
+textColor=#ff000000
+textSize=15.5dp
+ut_centerVertical=true
+ut_toRightOf=25
+</ppt>
+<event></event>
+</View>
+<View id="65" did="24" type="TextView">
+<ppt>width=-2
+height=-2
+text=系统默认
+textColor=#ff999999
+textSize=13dp
+ut_centerVertical=true
+ut_alignParentRight=true
+layout_marginRight=15dp</ppt>
+<event></event>
+</View>
+<View id="66" did="22" type="CardView">
+<ppt>width=-1
+height=250dp
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="67" did="66" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="29" did="67" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardElevation=0dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="30" did="29" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundRipple=#EEEEEE</ppt>
+<event><eventItme type="clicki">
+uigo("帮助.iyu")
+</eventItme></event>
+</View>
+<View id="31" did="30" type="LinearLayout">
+<ppt>width=60dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="32" did="31" type="ImageView">
+<ppt>width=28dp
+height=28dp
+src=@img/wd/2.png</ppt>
+<event></event>
+</View>
+<View id="33" did="30" type="TextView">
+<ppt>width=-2
+height=-2
+text=使用帮助
+textColor=#ff000000
+textSize=15.5dp
+ut_centerVertical=true
+ut_toRightOf=31
+</ppt>
+<event></event>
+</View>
+<View id="34" did="30" type="ImageView">
+<ppt>width=13dp
+height=13dp
+src=@widget_right.png
+ut_alignParentRight=true
+ut_centerVertical=true
+layout_marginRight=18dp
+</ppt>
+<event></event>
+</View>
+<View id="47" did="67" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardElevation=0dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="48" did="47" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundRipple=#EEEEEE</ppt>
+<event><eventItme type="clicki">
+hws(sss.更新链接)
+</eventItme></event>
+</View>
+<View id="49" did="48" type="LinearLayout">
+<ppt>width=60dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="50" did="49" type="ImageView">
+<ppt>width=28dp
+height=28dp
+src=@img/wd/3.png</ppt>
+<event></event>
+</View>
+<View id="51" did="48" type="TextView">
+<ppt>width=-2
+height=-2
+text=永久下载地址
+textColor=#ff000000
+textSize=15.5dp
+ut_centerVertical=true
+ut_toRightOf=49
+</ppt>
+<event></event>
+</View>
+<View id="52" did="48" type="ImageView">
+<ppt>width=13dp
+height=13dp
+src=@widget_right.png
+ut_alignParentRight=true
+ut_centerVertical=true
+layout_marginRight=18dp
+</ppt>
+<event></event>
+</View>
+<View id="41" did="67" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardElevation=0dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="42" did="41" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundRipple=#EEEEEE</ppt>
+<event><eventItme type="clicki">f(sss.全局配置 == null)
+{
+fn 配置.配置()
+ufnsui()
+{
+tws(v, "无法链接到服务器！", 0)
+}
+}
+else
+{
+s qq = sss.QQ
+
+ss("mqqapi://card/show_pslcard?src_type=internal&source=sharecard&version=1&uin="+qq,url)
+sit(a, "action", "android.intent.action.VIEW")
+sit(a, "data", url)
+uit(a, "chooser", "跳转名片")
+
+}
+</eventItme></event>
+</View>
+<View id="43" did="42" type="LinearLayout">
+<ppt>width=60dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="44" did="43" type="ImageView">
+<ppt>width=28dp
+height=28dp
+src=@img/wd/4.png</ppt>
+<event></event>
+</View>
+<View id="45" did="42" type="TextView">
+<ppt>width=-2
+height=-2
+text=联系客服
+textColor=#ff000000
+textSize=15.5dp
+ut_centerVertical=true
+ut_toRightOf=43
+</ppt>
+<event></event>
+</View>
+<View id="46" did="42" type="ImageView">
+<ppt>width=13dp
+height=13dp
+src=@widget_right.png
+ut_alignParentRight=true
+ut_centerVertical=true
+layout_marginRight=18dp
+</ppt>
+<event></event>
+</View>
+<View id="92" did="67" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardElevation=0dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="93" did="92" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundRipple=#EEEEEE</ppt>
+<event><eventItme type="clicki">f(sss.全局配置 == null)
+{
+fn 配置.配置()
+ufnsui()
+{
+tws(v, "无法链接到服务器！", 0)
+}
+}
+else
+{
+ss("mqqapi://card/show_pslcard?src_type=internal&version=1&uin="+sss.Q群+"&card_type=group&source=qrcode",joinqq)
+sit(a,"action", "android.intent.action.VIEW")
+sit(a,"data",joinqq)
+uit(a, "chooser", "选择QQ")
+}
+</eventItme></event>
+</View>
+<View id="94" did="93" type="LinearLayout">
+<ppt>width=60dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="95" did="94" type="ImageView">
+<ppt>width=28dp
+height=28dp
+src=@img/wd/4.png</ppt>
+<event></event>
+</View>
+<View id="96" did="93" type="TextView">
+<ppt>width=-2
+height=-2
+text=官方群聊
+textColor=#ff000000
+textSize=15.5dp
+ut_centerVertical=true
+ut_toRightOf=94</ppt>
+<event></event>
+</View>
+<View id="97" did="93" type="ImageView">
+<ppt>width=13dp
+height=13dp
+src=@widget_right.png
+ut_alignParentRight=true
+ut_centerVertical=true
+layout_marginRight=18dp
+</ppt>
+<event></event>
+</View>
+<View id="68" did="22" type="CardView">
+<ppt>width=-1
+height=120dp
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="69" did="68" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="35" did="69" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardElevation=0dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="36" did="35" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundRipple=#EEEEEE</ppt>
+<event><eventItme type="clicki">
+s te = "宇宙最强画质助手："
+
+
+ss("《" + sss.软件名字 + "》" + te + sss.更新链接, text)
+sit(a, "action", "android.intent.action.SEND")
+sit(a, "type", "text/plain")
+sit(a,"classname","com.tencent.mobileqq", "com.tencent.mobileqq.activity.JumpActivity")
+sit(a, "extra", "android.intent.extra.TEXT",text)
+uit(a, "chooser", "分享")
+</eventItme></event>
+</View>
+<View id="37" did="36" type="LinearLayout">
+<ppt>width=60dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="38" did="37" type="ImageView">
+<ppt>width=24dp
+height=24dp
+src=@img/wd/5.png</ppt>
+<event></event>
+</View>
+<View id="39" did="36" type="TextView">
+<ppt>width=-2
+height=-2
+text=分享应用
+textColor=#ff000000
+textSize=15.5dp
+ut_centerVertical=true
+ut_toRightOf=37
+</ppt>
+<event></event>
+</View>
+<View id="40" did="36" type="ImageView">
+<ppt>width=13dp
+height=13dp
+src=@widget_right.png
+ut_alignParentRight=true
+ut_centerVertical=true
+layout_marginRight=18dp
+</ppt>
+<event></event>
+</View>
+<View id="70" did="69" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardElevation=0dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="71" did="70" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundRipple=#EEEEEE</ppt>
+<event><eventItme type="clicki">
+fn 弹窗.加载()
+
+t()
+{
+
+fn 配置.配置()
+stop(1200)
+
+f(sss.全局配置 == null)
+{
+
+ufnsui()
+{
+java(null,ss.utwv,"android.app.Dialog.dismiss")
+
+tws(v, "无法链接到服务器！", 0)
+}
+
+}
+else
+{
+
+ufnsui()
+{
+f(sss.版本 &gt; sss.软件版本)
+{
+java(null,ss.utwv,"android.app.Dialog.dismiss")
+
+fn 弹窗.更新()
+}
+else
+{
+java(null,ss.utwv,"android.app.Dialog.dismiss")
+
+s ts = "已是最新版本！"
+s anxx = "确定"
+s tsxx = null
+ss(sss.软件名字 + ts, tsnr)
+fn 弹窗.提示("true", tsnr, anxx, tsxx)
+
+
+}
+}
+
+}
+
+}
+</eventItme></event>
+</View>
+<View id="72" did="71" type="LinearLayout">
+<ppt>width=60dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="73" did="72" type="ImageView">
+<ppt>width=26dp
+height=26dp
+src=@img/wd/6.png</ppt>
+<event></event>
+</View>
+<View id="74" did="71" type="TextView">
+<ppt>width=-2
+height=-2
+text=检查更新
+textColor=#ff000000
+textSize=15.5dp
+ut_centerVertical=true
+ut_toRightOf=72
+</ppt>
+<event></event>
+</View>
+<View id="75" did="71" type="ImageView">
+<ppt>width=13dp
+height=13dp
+src=@widget_right.png
+ut_alignParentRight=true
+ut_centerVertical=true
+layout_marginRight=18dp
+</ppt>
+<event></event>
+</View>
+<View id="76" did="22" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="77" did="76" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundRipple=#EEEEEE</ppt>
+<event><eventItme type="clicki">
+s ts = "是专为和平精英玩家量身打造的画质助手。我们致力于提供简洁高效的服务，以协助玩家获得更加优质的游戏体验。"
+ss(sss.软件名字 + ts, tsnr)
+s anxx = "确定"
+s tsxx = null
+fn 弹窗.提示("true", tsnr, anxx, tsxx)
+</eventItme></event>
+</View>
+<View id="78" did="77" type="LinearLayout">
+<ppt>width=60dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="79" did="78" type="ImageView">
+<ppt>width=27dp
+height=27dp
+src=@img/wd/7.png</ppt>
+<event></event>
+</View>
+<View id="80" did="77" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#ff000000
+textSize=15.5dp
+ut_centerVertical=true
+ut_toRightOf=78
+</ppt>
+<event></event>
+</View>
+<View id="82" did="77" type="ImageView">
+<ppt>width=13dp
+height=13dp
+src=@widget_right.png
+ut_alignParentRight=true
+ut_centerVertical=true
+layout_marginRight=18dp
+</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

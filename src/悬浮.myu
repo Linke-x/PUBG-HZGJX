@@ -1,0 +1,62 @@
+fn 悬浮()
+
+javags(SDK_INT,null,"android.os.Build$VERSION","SDK_INT")
+s canDraw = false
+f(SDK_INT &gt;= 23) {
+  //6.0及以上，调用Settings.canDrawOverlays
+  java(canDraw,null,"android.provider.Settings.canDrawOverlays","Context",activity)
+  } else f(SDK_INT &lt; 19) {
+  //4.4以下，不检测
+  s canDraw = true
+  }
+
+f(!canDraw && SDK_INT &gt;= 19) {
+  //拿AppOpsManager再检测一次
+  //一是6.0以下无法使用Settings.canDrawOverlays
+  //二是8.0时存在一个bug，更改悬浮窗权限不会立即反映过来
+  //所以拿AppOpsManager再试试（听说没用）
+  java(appops,activity,"android.app.Activity.getSystemService","String","appops")
+  f(appops == null) {
+    syso("no AppOpsManager")
+    s canDraw = true
+    //拿不到AppOpsManager，默认true
+    } else {
+    java(pn,activity,"android.content.Context.getPackageName")
+    java(uid,null,"android.os.Process.myUid")
+    java(mode,appops,"android.app.AppOpsManager.noteOpNoThrow","int",24,"int",uid,"String",pn)
+    f(mode == 0) {
+      s canDraw = true
+      }
+    }
+  }
+f(canDraw ? true)
+{
+}
+else
+{
+utw("@icon.png","温馨提示","请给予软件悬浮窗权限，否则无法正常使用软件！","设置","取消",true,v)
+{
+javags(SDK_INT,null,"android.os.Build$VERSION","SDK_INT")
+f(SDK_INT &gt;= 23) {
+  sit(intent,"action","android.settings.action.MANAGE_OVERLAY_PERMISSION")
+  java(pn,activity,"android.content.Context.getPackageName")
+  ss("package:" + pn, uri)
+  sit(intent,"data",uri)
+  sit(intent,"flags",268435456)
+  uit(intent,"result",0)
+  } else {
+  ufnsui()
+  {
+  tw("系统版本太低")
+  }
+  }
+
+}
+else
+{
+end()
+}
+}
+
+
+end fn

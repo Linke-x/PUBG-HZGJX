@@ -1,0 +1,92 @@
+fn 读写测试()
+utw(null,"提示","保存失败了呢，请点击下方修复，修复文件后您需要进入一次游戏并退出，然后再尝试修改画质，如修改的是陀螺仪灵敏度，修复后游戏设置会重置，请提前备份!","修复","取消",true,v)
+{
+fn 修复.判断()
+}
+else
+{
+}
+end fn
+
+
+fn 判断()
+t()
+{
+ss(sss.dir+"qingran.ini",路径)
+javanew(sss.fileWrite,sss.DocFile,"Activity",activity,"String",sss.dir2)
+javax(boo,sss.fileWrite,sss.DocFile,"fileWrite","String",路径,"String","xl")
+f(boo?"true")
+{
+fn 修复.修复()
+}
+else
+{
+ufnsui()
+{
+utw(null,"提示","测试读写失败，您需要进行深度修复，点击开始深度修复。","开始","取消",true,v)
+{
+fn 修复.深度修复()
+}
+else
+{
+}
+}
+}
+}
+end fn
+
+
+
+fn 修复()
+
+
+t()
+{
+javanew(sss.fileDelete,sss.DocFile,"Activity",activity,"String",sss.dir2)
+javax(boo,sss.fileDelete,sss.DocFile,"fileDelete","String",sss.修复路径)
+javanew(sss.fileWrite,sss.DocFile,"Activity",activity,"String",sss.dir2)
+javax(boo,sss.fileWrite,sss.DocFile,"fileWrite","String",sss.修复路径,"String","")
+ufnsui()
+{
+
+f(boo?"true")
+{
+tw("修复成功 请重启游戏")
+}
+else
+{
+tw("修复失败 请联系客服")
+}
+}
+}
+
+
+end fn
+
+
+
+fn 深度修复()
+t()
+{
+ufnsui()
+{
+utw(null,"深度修复","现在，请前往手机的系统设置-应用管理-和平精英，点击清除全部数据，然后点击下一步!修复成功后要先进游戏下载资源包，再改画质!\n注意:该操作会导致游戏重新下载资源包!一定要先清楚数据再点下一步!","下一步","取消",true,v)
+{
+ss("/storage/emulated/0/Android/data/com.tencent.tmgp.pubgmhd/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/Active.sav",sss.修复路径)
+ss(sss.dir+"UserCustom.ini",UC路径)
+ss(sss.dir+"EnjoyCJZC.ini",EC路径)
+fr("@hz/qingran/1.ini",代码)
+javanew(sss.fileWrite,sss.DocFile,"Activity",activity,"String",sss.dir2)
+javax(boo,sss.fileWrite,sss.DocFile,"fileWrite","String",UC路径,"String","")
+javanew(sss.fileWrite,sss.DocFile,"Activity",activity,"String",sss.dir2)
+javax(boo,sss.fileWrite,sss.DocFile,"fileWrite","String",EC路径,"String",代码)
+sss ts=false
+fn 代码.YZ("2")
+fn 修复.修复()
+}
+else
+{
+}
+}
+}
+end fn

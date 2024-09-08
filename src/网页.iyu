@@ -1,0 +1,77 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=55dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=55dp
+height=-1
+orientation=vertical
+gravity=center
+BackgroundRipple=#ffcbcbcb</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="6" did="3" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@img/202a7f656eb.png
+</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="8" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textSize=15dp
+textStyle=bold
+textColor=#ff2a2a2a
+</ppt>
+<event></event>
+</View>
+<View id="37" did="1" type="LinearLayout">
+<ppt>width=-1
+height=0.8dp
+orientation=vertica
+background=#eeeeee</ppt>
+<event></event>
+</View>
+<View id="38" did="1" type="WebView">
+<ppt>width=-1
+height=-1
+overScrollMode=never</ppt>
+<event><eventItme type="onprogresschanged">f(st_nS==100)
+{
+  ug(38,"title",a)
+  us(8,"text",a)
+}
+else
+{
+  ss("正在加载中...",a)
+  us(8,"text",a)
+}
+</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffffff",true,0)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+
+us(38,"url",sss.网)
+
+</eventItme></UIEventset>

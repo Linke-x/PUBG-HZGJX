@@ -1,0 +1,1084 @@
+<View id="75" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="2" did="75" type="TextView">
+<ppt>width=-2
+height=-2
+text=准星设置
+textSize=17dp
+textStyle=bold
+textColor=#ff505050
+layout_marginLeft=20dp
+layout_marginTop=15dp
+layout_marginBottom=0dp
+</ppt>
+<event></event>
+</View>
+<View id="76" did="75" type="ScrollView">
+<ppt>width=-1
+height=-1
+overScrollMode=never</ppt>
+<event></event>
+</View>
+<View id="1" did="76" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="113" did="1" type="LinearLayout">
+<ppt>width=-1
+height=55dp
+orientation=vertical
+layout_marginTop=50dp</ppt>
+<event></event>
+</View>
+<View id="115" did="113" type="CardView">
+<ppt>width=-1
+height=-1
+layout_weight=1
+app_CardBackgroundColor=#5889FE
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_marginLeft=30dp
+layout_marginRight=30dp
+
+</ppt>
+<event></event>
+</View>
+<View id="116" did="115" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+</ppt>
+<event><eventItme type="clicki">
+
+f(sss.vs == null)
+{
+
+sss flagas = 0
+s w = -2
+s h = -2
+s gravity = "top|left"
+uxf("xf.iyu", 200, 200, w, h,0, gravity, sss.flagas, 0, sss.vs)
+
+us(117,"text","关闭悬浮窗")
+us(115,"app_cardbackgroundcolor","#fff54242")
+
+}
+else
+{
+
+uxf(sss.vs, "del")
+sss vs = null
+
+us(117,"text","开启悬浮窗")
+us(115,"app_cardbackgroundcolor","#5889FE")
+}
+</eventItme></event>
+</View>
+<View id="117" did="116" type="TextView">
+<ppt>width=-2
+height=-2
+text=开启悬浮窗
+textSize=14dp
+textColor=#ffffffff
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="131" did="1" type="LinearLayout">
+<ppt>width=-1
+height=25dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="132" did="131" type="TextView">
+<ppt>width=-2
+height=-2
+text=Tips：长按准星也可以打开悬浮窗！</ppt>
+<event></event>
+</View>
+<View id="58" did="1" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal
+gravity=center_vertical
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="59" did="58" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@top.png
+layout_marginLeft=15dp
+</ppt>
+<event></event>
+</View>
+<View id="64" did="58" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="60" did="64" type="TextView">
+<ppt>width=-2
+height=-2
+text=准星大小
+textColor=#ff505050
+textSize=15dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="61" did="1" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=horizontal
+gravity=center_vertical
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="125" did="61" type="CardView">
+<ppt>width=-1
+height=55dp
+layout_marginLeft=30dp
+layout_marginRight=10dp
+app_CardcornerRadius=5dp
+app_CardBackgroundColor=#5889FE
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="127" did="125" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#82B1FF</ppt>
+<event><eventItme type="clicki">
+
+fr(sss.xfdx,大小)
+
+f(大小 &gt;= 250)
+{
+tw("已经不能再大了！")
+}
+else
+{
+
+s+(大小,"10",大小)
+
+gvs(sss.xfc,悬浮窗.1, x)
+
+fw(sss.xfdx,大小)
+
+us(x,"height",大小)
+us(x,"width",大小)
+
+uxf(sss.v)
+
+
+}
+
+
+</eventItme></event>
+</View>
+<View id="128" did="127" type="TextView">
+<ppt>width=-2
+height=-2
+text=大
+textSize=13dp
+textColor=#ffffffff
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="126" did="61" type="CardView">
+<ppt>width=-1
+height=55dp
+layout_marginLeft=10dp
+layout_marginRight=30dp
+app_CardcornerRadius=5dp
+app_CardBackgroundColor=#5889FE
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="129" did="126" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#82B1FF</ppt>
+<event><eventItme type="clicki">
+fr(sss.xfdx,大小)
+f(大小 &lt;= 10)
+{
+tw("已经不能再小了！")
+}
+else
+{
+s-(大小,"10",大小)
+
+gvs(sss.xfc,悬浮窗.1, x)
+
+us(x,"height",大小)
+us(x,"width",大小)
+
+
+uxf(sss.v)
+
+fw(sss.xfdx,大小)
+
+}
+
+</eventItme></event>
+</View>
+<View id="130" did="129" type="TextView">
+<ppt>width=-2
+height=-2
+text=小
+textSize=13dp
+textColor=#ffffffff
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="67" did="1" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=horizontal
+gravity=center_vertical
+layout_marginTop=20dp
+visibility=0</ppt>
+<event></event>
+</View>
+<View id="68" did="67" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@top.png
+layout_marginLeft=15dp
+</ppt>
+<event></event>
+</View>
+<View id="69" did="67" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="70" did="69" type="TextView">
+<ppt>width=-2
+height=-2
+text=准星旋转
+textColor=#ff505050
+textSize=15dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="71" did="69" type="TextView">
+<ppt>width=-2
+height=-2
+text=0
+textSize=10dp</ppt>
+<event></event>
+</View>
+<View id="72" did="1" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal
+gravity=center_vertical
+visibility=0</ppt>
+<event></event>
+</View>
+<View id="73" did="72" type="TextView">
+<ppt>width=-2
+height=-2
+text=准星旋转
+layout_marginLeft=20dp
+textStyle=bold
+textColor=#ff505050
+visibility=0
+textSize=12dp</ppt>
+<event></event>
+</View>
+<View id="99" did="72" type="CardView">
+<ppt>width=-1
+height=-2
+layout_marginLeft=20dp
+layout_marginRight=20dp
+app_CardcornerRadius=10dp
+</ppt>
+<event></event>
+</View>
+<View id="74" did="99" type="SeekBar">
+<ppt>width=-1
+height=-2
+layout_marginRight=30dp
+layout_marginLeft=10dp
+max=360
+layout_marginTop=10dp
+</ppt>
+<event><eventItme type="onprogresschanged2">ug(74,"progress",x)
+us(71,"text",x)
+
+gvs(sss.xfc,悬浮窗.1,view)
+
+javax(null,view,"android.view.View","setRotation","float",x)
+
+</eventItme></event>
+</View>
+<View id="98" did="72" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal
+gravity=center
+layout_marginLeft=50dp
+layout_marginRight=50dp
+layout_marginTop=10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="101" did="98" type="CardView">
+<ppt>width=-1
+height=-1
+layout_weight=1
+app_CardBackgroundColor=#ff555555
+layout_marginRight=20dp
+app_CardcornerRadius=8dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="102" did="101" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+f(sss.v != null)
+{
+syso("1")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy)
+s-(1,yy)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy)
+us(sss.v, "y", yy)
+uxf(sss.v)
+}
+
+
+f(sss.v2 != null)
+{
+syso("1")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy2)
+s-(1,yy2)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy2)
+us(sss.v2, "y", yy2)
+uxf(sss.v2)
+}
+
+
+f(sss.v3 != null)
+{
+syso("1")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy3)
+s-(1,yy3)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy3)
+us(sss.v3, "y", yy3)
+uxf(sss.v3)
+}
+
+
+f(sss.v4 != null)
+{
+syso("4")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy4)
+s-(1,yy4)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy4)
+us(sss.v4, "y", yy4)
+uxf(sss.v4)
+}
+
+
+f(sss.v5 != null)
+{
+syso("5")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy5)
+s-(1,yy5)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy5)
+us(sss.v5, "y", yy5)
+uxf(sss.v5)
+}
+
+
+f(sss.v6 != null)
+{
+syso("6")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy6)
+s-(1,yy6)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy6)
+us(sss.v6, "y", yy6)
+uxf(sss.v6)
+}
+
+
+f(sss.v7 != null)
+{
+syso("7")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy7)
+s-(1,yy7)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy7)
+us(sss.v7, "y", yy7)
+uxf(sss.v7)
+}
+
+
+f(sss.v8 != null)
+{
+syso("8")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy8)
+s-(1,yy8)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy8)
+us(sss.v8, "y", yy8)
+uxf(sss.v8)
+}
+
+
+
+</eventItme><eventItme type="press">
+f(sss.v != null)
+{
+syso("1")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy)
+s-(50,yy)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy)
+us(sss.v, "y", yy)
+uxf(sss.v)
+}
+
+
+f(sss.v2 != null)
+{
+syso("1")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy2)
+s-(50,yy2)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy2)
+us(sss.v2, "y", yy2)
+uxf(sss.v2)
+}
+
+
+f(sss.v3 != null)
+{
+syso("1")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy3)
+s-(50,yy3)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy3)
+us(sss.v3, "y", yy3)
+uxf(sss.v3)
+}
+
+
+f(sss.v4 != null)
+{
+syso("4")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy4)
+s-(50,yy4)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy4)
+us(sss.v4, "y", yy4)
+uxf(sss.v4)
+}
+
+
+f(sss.v5 != null)
+{
+syso("5")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy5)
+s-(50,yy5)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy5)
+us(sss.v5, "y", yy5)
+uxf(sss.v5)
+}
+
+
+f(sss.v6 != null)
+{
+syso("6")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy6)
+s-(50,yy6)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy6)
+us(sss.v6, "y", yy6)
+uxf(sss.v6)
+}
+
+
+f(sss.v7 != null)
+{
+syso("7")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy7)
+s-(50,yy7)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy7)
+us(sss.v7, "y", yy7)
+uxf(sss.v7)
+}
+
+
+f(sss.v8 != null)
+{
+syso("8")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy8)
+s-(50,yy8)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy8)
+us(sss.v8, "y", yy8)
+uxf(sss.v8)
+}
+
+
+
+</eventItme></event>
+</View>
+<View id="103" did="102" type="TextView">
+<ppt>width=-2
+height=-2
+text=加
+textSize=15dp
+textColor=#ffffffff
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="104" did="98" type="CardView">
+<ppt>width=-1
+height=-1
+layout_weight=1
+app_CardBackgroundColor=#ff555555
+layout_marginLeft=20dp
+app_CardcornerRadius=8dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="105" did="104" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+f(sss.v != null)
+{
+syso("1")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy)
+s+(1,yy)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy)
+us(sss.v, "y", yy)
+uxf(sss.v)
+}
+
+
+f(sss.v2 != null)
+{
+syso("1")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy2)
+s+(1,yy2)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy2)
+us(sss.v2, "y", yy2)
+uxf(sss.v2)
+}
+
+
+f(sss.v3 != null)
+{
+syso("1")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy3)
+s+(1,yy3)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy3)
+us(sss.v3, "y", yy3)
+uxf(sss.v3)
+}
+
+
+f(sss.v4 != null)
+{
+syso("4")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy4)
+s+(1,yy4)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy4)
+us(sss.v4, "y", yy4)
+uxf(sss.v4)
+}
+
+f(sss.v5 != null)
+{
+syso("5")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy5)
+s+(1,yy5)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy5)
+us(sss.v5, "y", yy5)
+uxf(sss.v5)
+}
+
+
+f(sss.v6 != null)
+{
+syso("6")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy6)
+s+(1,yy6)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy6)
+us(sss.v6, "y", yy6)
+uxf(sss.v6)
+}
+
+
+f(sss.v7 != null)
+{
+syso("7")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy7)
+s+(1,yy7)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy7)
+us(sss.v7, "y", yy7)
+uxf(sss.v7)
+}
+
+
+f(sss.v8 != null)
+{
+syso("8")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy8)
+s+(1,yy8)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy8)
+us(sss.v8, "y", yy8)
+uxf(sss.v8)
+}
+</eventItme><eventItme type="press">
+f(sss.v != null)
+{
+syso("1")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy)
+s+(50,yy)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy)
+us(sss.v, "y", yy)
+uxf(sss.v)
+}
+
+
+f(sss.v2 != null)
+{
+syso("1")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy2)
+s+(50,yy2)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy2)
+us(sss.v2, "y", yy2)
+uxf(sss.v2)
+}
+
+
+f(sss.v3 != null)
+{
+syso("1")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy3)
+s+(50,yy3)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy3)
+us(sss.v3, "y", yy3)
+uxf(sss.v3)
+}
+
+
+f(sss.v4 != null)
+{
+syso("4")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy4)
+s+(50,yy4)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy4)
+us(sss.v4, "y", yy4)
+uxf(sss.v4)
+}
+
+f(sss.v5 != null)
+{
+syso("5")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy5)
+s+(50,yy5)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy5)
+us(sss.v5, "y", yy5)
+uxf(sss.v5)
+}
+
+
+f(sss.v6 != null)
+{
+syso("6")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy6)
+s+(50,yy6)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy6)
+us(sss.v6, "y", yy6)
+uxf(sss.v6)
+}
+
+
+f(sss.v7 != null)
+{
+syso("7")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy7)
+s+(50,yy7)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy7)
+us(sss.v7, "y", yy7)
+uxf(sss.v7)
+}
+
+
+f(sss.v8 != null)
+{
+syso("8")
+fr("/storage/emulated/0/准星大师/辅助准星/xfy", yy8)
+s+(50,yy8)
+fw("/storage/emulated/0/准星大师/辅助准星/xfy", yy8)
+us(sss.v8, "y", yy8)
+uxf(sss.v8)
+}
+</eventItme></event>
+</View>
+<View id="106" did="105" type="TextView">
+<ppt>width=-2
+height=-2
+text=减
+textSize=15dp
+textColor=#ffffffff
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="77" did="1" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+gravity=center_vertical
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="78" did="77" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@top.png
+layout_marginLeft=15dp
+</ppt>
+<event></event>
+</View>
+<View id="79" did="77" type="TextView">
+<ppt>width=-2
+height=-2
+text=准星位置
+textColor=#ff505050
+textSize=15dp
+textStyle=bold
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="108" did="77" type="TextView">
+<ppt>width=-2
+height=-2
+text=（长按加快）</ppt>
+<event></event>
+</View>
+<View id="80" did="1" type="LinearLayout">
+<ppt>width=-1
+height=130dp
+orientation=vertical
+layout_marginTop=5dp
+layout_marginBottom=30dp</ppt>
+<event></event>
+</View>
+<View id="81" did="80" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+layout_marginLeft=30dp
+layout_marginRight=30dp
+layout_marginTop=10dp
+layout_marginBottom=7dp</ppt>
+<event></event>
+</View>
+<View id="83" did="81" type="CardView">
+<ppt>width=-1
+height=-1
+layout_weight=1
+app_CardBackgroundColor=#5889FE
+layout_marginRight=8dp
+app_CardcornerRadius=8dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="85" did="83" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#82B1FF</ppt>
+<event><eventItme type="clicki">
+
+fr(sss.yy, yy)
+s-(1,yy)
+fw(sss.yy, yy)
+us(sss.v, "y", yy)
+uxf(sss.v)
+</eventItme><eventItme type="press">
+
+fr(sss.yy, yy)
+s-(50,yy)
+fw(sss.yy, yy)
+us(sss.v, "y", yy)
+uxf(sss.v)
+
+</eventItme></event>
+</View>
+<View id="86" did="85" type="TextView">
+<ppt>width=-2
+height=-2
+text=上调
+textSize=13dp
+textColor=#ffffffff
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="84" did="81" type="CardView">
+<ppt>width=-1
+height=-1
+layout_weight=1
+app_CardBackgroundColor=#5889FE
+layout_marginLeft=8dp
+app_CardcornerRadius=8dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="87" did="84" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#82B1FF</ppt>
+<event><eventItme type="clicki">
+fr(sss.yy, yy)
+s+(1,yy)
+fw(sss.yy, yy)
+us(sss.v, "y", yy)
+uxf(sss.v)
+</eventItme><eventItme type="press">
+
+
+fr(sss.yy, yy)
+s+(50,yy)
+fw(sss.yy, yy)
+us(sss.v, "y", yy)
+uxf(sss.v)
+
+
+
+</eventItme></event>
+</View>
+<View id="88" did="87" type="TextView">
+<ppt>width=-2
+height=-2
+text=下调
+textSize=13dp
+textColor=#ffffffff
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="89" did="80" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+layout_marginLeft=30dp
+layout_marginRight=30dp
+layout_marginTop=7dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="90" did="89" type="CardView">
+<ppt>width=-1
+height=-1
+layout_weight=1
+app_CardBackgroundColor=#5889FE
+layout_marginRight=8dp
+app_CardcornerRadius=8dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="91" did="90" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#82B1FF</ppt>
+<event><eventItme type="clicki">
+
+
+fr(sss.xx, xx)
+s-(1,xx)
+fw(sss.xx, xx)
+us(sss.v, "x", xx)
+uxf(sss.v)
+
+
+</eventItme><eventItme type="press">
+
+
+fr(sss.xx, xx)
+s-(50,xx)
+fw(sss.xx, xx)
+us(sss.v, "x", xx)
+uxf(sss.v)
+
+
+
+</eventItme></event>
+</View>
+<View id="92" did="91" type="TextView">
+<ppt>width=-2
+height=-2
+text=左调
+textSize=13dp
+textColor=#ffffffff
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="93" did="89" type="CardView">
+<ppt>width=-1
+height=-1
+layout_weight=1
+app_CardBackgroundColor=#5889FE
+layout_marginLeft=8dp
+app_CardcornerRadius=8dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="94" did="93" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#82B1FF</ppt>
+<event><eventItme type="clicki">
+
+
+fr(sss.xx, xx)
+s+(1,xx)
+fw(sss.xx, xx)
+us(sss.v, "x", xx)
+uxf(sss.v)
+
+
+</eventItme><eventItme type="press">
+
+
+fr(sss.xx, xx)
+s+(50,xx)
+fw(sss.xx, xx)
+us(sss.v, "x", xx)
+uxf(sss.v)
+
+
+
+</eventItme></event>
+</View>
+<View id="95" did="94" type="TextView">
+<ppt>width=-2
+height=-2
+text=右调
+textSize=13dp
+textColor=#ffffffff
+textStyle=bold</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffffff",true,0)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+
+
+f(sss.vs == null)
+{
+
+us(117,"text","开启悬浮窗")
+us(115,"app_cardbackgroundcolor","#5889FE")
+
+}
+else
+{
+
+us(117,"text","关闭悬浮窗")
+us(115,"app_cardbackgroundcolor","#fff54242")
+
+}
+
+
+sjxx(info)
+sgsz(info, 2, info2)
+sl(info2, "\n", info3)
+sgsz(info3, 2, sdk)
+f(sdk &gt;= 30)
+{
+}
+else
+{
+us(76,"overscrollmode","never")
+}
+
+
+
+ss("/storage/emulated/0/" + sss.软件名字 + "/准星/xfy",sss.yy)
+
+ss("/storage/emulated/0/" + sss.软件名字 + "/准星/xfx",sss.xx)
+
+ss("/storage/emulated/0/" + sss.软件名字 + "/准星/xftp",sss.xftp)
+
+ss("/storage/emulated/0/" + sss.软件名字 + "/准星/xfdx",sss.xfdx)
+
+
+sss 图片大小 = "50"
+
+sss xfc = sss.v
+
+
+fe(sss.xx, bbb)
+fe(sss.xfdx,ccc)
+fe(sss.xftp,ddd)
+f(bbb == "false")
+{
+fw(sss.xx,"0")
+fw(sss.yy,"-33")
+}
+
+f(ccc == "false")
+{
+fw(sss.xfdx,"80")
+}
+
+f(ddd == "false")
+{
+fw(sss.xftp,"@xk/color_zx23.png")
+}
+
+
+
+</eventItme><eventItme type="restart">
+f(sss.vs == null)
+{
+
+us(117,"text","开启悬浮窗")
+us(115,"app_cardbackgroundcolor","#5889FE")
+
+}
+else
+{
+
+us(117,"text","关闭悬浮窗")
+us(115,"app_cardbackgroundcolor","#fff54242")
+
+}
+
+
+</eventItme></UIEventset>

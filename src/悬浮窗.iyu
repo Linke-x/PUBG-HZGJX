@@ -1,0 +1,27 @@
+<View id="1" did="0" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=@yx/color_zx8.png
+</ppt>
+<event><eventItme type="press">
+
+f(sss.vs == null)
+{
+
+sss flagas = 0
+s w = -2
+s h = -2
+s gravity = "top|left"
+uxf("xf.iyu", 200, 200, w, h,0, gravity, sss.flagas, 0, sss.vs)
+
+}
+else
+{
+
+uxf(sss.vs, "del")
+sss vs = null
+
+}
+</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl(true)</eventItme></UIEventset>

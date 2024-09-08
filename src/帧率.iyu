@@ -1,0 +1,44 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+paddingLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#ffff0000
+textSize=11dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#ffff0000
+textSize=11dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#ffff0000
+textSize=11dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="5" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#ffff0000
+textSize=11dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

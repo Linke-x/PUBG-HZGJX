@@ -1,0 +1,440 @@
+<View id="67" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="60" did="67" type="LinearLayout">
+<ppt>width=-1
+height=55dp
+orientation=horizontal
+</ppt>
+<event></event>
+</View>
+<View id="61" did="60" type="LinearLayout">
+<ppt>width=55dp
+height=-1
+orientation=vertical
+gravity=center
+BackgroundRipple=#ffcbcbcb</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="62" did="61" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@img/202a7f656eb.png</ppt>
+<event></event>
+</View>
+<View id="63" did="60" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical
+layout_marginRight=55dp</ppt>
+<event></event>
+</View>
+<View id="64" did="63" type="TextView">
+<ppt>width=-2
+height=-2
+text=自定义画质
+textSize=15dp
+textStyle=bold
+textColor=#ff2a2a2a
+</ppt>
+<event></event>
+</View>
+<View id="65" did="67" type="TextView">
+<ppt>width=-1
+height=2
+text=
+background=#ffefefef
+ut_below=60</ppt>
+<event></event>
+</View>
+<View id="66" did="67" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=0dp
+app_CardElevation=0dp
+ut_below=65
+ut_above=82</ppt>
+<event></event>
+</View>
+<View id="68" did="66" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="29" did="68" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="4" did="29" type="EditText">
+<ppt>width=-1
+height=-1
+text=正在加载画质代码...
+textColor=#ff7d7d7d
+textSize=11dp
+gravity=top
+textCursorDrawable=#7ACCF3
+BackgroundColor=0
+textCursorDrawable=#81C784
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="82" did="67" type="TextView">
+<ppt>width=-1
+height=2
+text=
+background=#ffefefef
+ut_above=44</ppt>
+<event></event>
+</View>
+<View id="44" did="67" type="LinearLayout">
+<ppt>width=-1
+height=65dp
+orientation=horizontal
+ut_alignParentBottom=true
+</ppt>
+<event></event>
+</View>
+<View id="46" did="44" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+BackgroundRipple=#ffd7d7d7
+gravity=center_horizontal</ppt>
+<event><eventItme type="clicki">
+ug(4,"text",nr)
+f(nr?"r.")
+{
+fn 加解密功能.加密(nr)
+ufnsui()
+{
+us(50,"text","解密")
+us(4,"text",sss.加密文)
+}
+}
+else
+{
+fn 加解密功能.解密(nr)
+ufnsui()
+{
+us(50,"text","加密")
+us(4,"text",sss.解密文)
+}
+}
+
+</eventItme></event>
+</View>
+<View id="69" did="46" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=vertical
+gravity=center_horizontal|bottom</ppt>
+<event></event>
+</View>
+<View id="70" did="69" type="ImageView">
+<ppt>width=23dp
+height=23dp
+src=@img/zdy/ic_action_name.png</ppt>
+<event></event>
+</View>
+<View id="50" did="46" type="TextView">
+<ppt>width=-2
+height=-2
+text=加密
+textColor=#ff020202
+textStyle=bold
+textSize=10.5dp</ppt>
+<event></event>
+</View>
+<View id="57" did="44" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+BackgroundRipple=#ffd7d7d7
+gravity=center_horizontal</ppt>
+<event><eventItme type="clicki">
+f(sss.Android11 == false)
+{
+
+s file = "/storage/emulated/0/Android/data/com.tencent.tmgp.pubgmhd/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/UserCustom.ini"
+
+fr(file,ydm)
+
+f(ydm == null)
+{
+us(4,"text","请修改一次画质后再试！")
+}
+else
+{
+
+f(ydm?"[B")
+{
+sj(ydm,null,"[B",ydm)
+fn 加解密功能.解密(ydm)
+us(4,"text",sss.解密文)
+tw("刷新成功！")
+}
+else
+{
+fn 加解密功能.解密(ydm)
+us(4,"text",sss.解密文)
+tw("刷新成功！")
+}
+
+
+}
+
+
+}
+else
+{
+fn 代码.UC读取(4)
+tw("刷新成功！")
+}
+
+</eventItme></event>
+</View>
+<View id="71" did="57" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=vertical
+gravity=center_horizontal|bottom</ppt>
+<event></event>
+</View>
+<View id="72" did="71" type="ImageView">
+<ppt>width=22dp
+height=22dp
+src=@img/zdy/ic_action_refresh.png</ppt>
+<event></event>
+</View>
+<View id="58" did="57" type="TextView">
+<ppt>width=-2
+height=-2
+text=刷新
+textColor=#ff020202
+textStyle=bold
+textSize=10.5dp</ppt>
+<event></event>
+</View>
+<View id="47" did="44" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+BackgroundRipple=#ffd7d7d7
+gravity=center_horizontal</ppt>
+<event><eventItme type="clicki">
+ug(4,"text",dm)
+sxb(dm)
+tw("复制成功")
+</eventItme></event>
+</View>
+<View id="73" did="47" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=vertical
+gravity=center_horizontal|bottom</ppt>
+<event></event>
+</View>
+<View id="75" did="73" type="ImageView">
+<ppt>width=19dp
+height=19dp
+src=@img/zdy/ic_action_copy.png
+layout_marginBottom=2dp</ppt>
+<event></event>
+</View>
+<View id="51" did="47" type="TextView">
+<ppt>width=-2
+height=-2
+text=复制
+textColor=#ff020202
+textStyle=bold
+textSize=10.5dp</ppt>
+<event></event>
+</View>
+<View id="78" did="44" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+BackgroundRipple=#ffd7d7d7
+gravity=center_horizontal</ppt>
+<event><eventItme type="clicki">
+shb(dm)
+us(4,"text",dm)
+tw("粘贴成功")
+</eventItme></event>
+</View>
+<View id="79" did="78" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=vertical
+gravity=center_horizontal|bottom</ppt>
+<event></event>
+</View>
+<View id="80" did="79" type="ImageView">
+<ppt>width=19dp
+height=19dp
+src=@img/zdy/ic_action_paste.png
+layout_marginBottom=1dp</ppt>
+<event></event>
+</View>
+<View id="81" did="78" type="TextView">
+<ppt>width=-2
+height=-2
+text=粘贴
+textColor=#ff020202
+textStyle=bold
+textSize=10.5dp</ppt>
+<event></event>
+</View>
+<View id="48" did="44" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+BackgroundRipple=#ffd7d7d7
+gravity=center_horizontal</ppt>
+<event><eventItme type="clicki">
+ug(4,"text",hzdm)
+
+
+f(sss.开关=="关")
+{
+
+f(sss.Android11 == false)
+{
+
+fw(sss.lj,hzdm)
+tw("保存成功！")
+
+}
+else
+{
+fn 代码.UC3(hzdm)
+}
+
+}
+else
+{
+fe(sss.dtlj,dq)
+f(dq==true)
+{
+
+f(sss.Android11 == false)
+{
+
+fw(sss.lj,hzdm)
+tw("保存成功！")
+
+}
+else
+{
+fn 代码.UC3(hzdm)
+}
+
+}
+else
+{
+//调用模块(函数)
+fn 弹窗.任务提示()
+
+}
+}
+
+</eventItme></event>
+</View>
+<View id="76" did="48" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=vertical
+gravity=center_horizontal|bottom</ppt>
+<event></event>
+</View>
+<View id="77" did="76" type="ImageView">
+<ppt>width=21dp
+height=21dp
+src=@img/zdy/ic_action_save.png
+layout_marginBottom=1dp</ppt>
+<event></event>
+</View>
+<View id="52" did="48" type="TextView">
+<ppt>width=-2
+height=-2
+text=保存
+textColor=#ff020202
+textStyle=bold
+textSize=10.5dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffffff",true,0)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+
+
+
+f(sss.Android11 == false)
+{
+  
+  ss(sss.dir + "UserCustom.ini", file)
+  fr(file,ydm)
+  
+  f(ydm == null)
+  {
+    us(4,"text","请修改一次画质后再试！")
+  }
+  else
+  {
+    
+    f(ydm?"[B")
+    {
+      sj(ydm,null,"[B",ydm)
+      fn 加解密功能.解密(ydm)
+      us(4,"text",sss.解密文)
+      
+    }
+    else
+    {
+      fn 加解密功能.解密(ydm)
+      us(4,"text",sss.解密文)
+      
+    }
+    
+    
+  }
+  
+  
+}
+else
+{
+  fn 代码.UC读取(4)
+  
+}
+
+
+
+
+//隐藏键盘
+s flag = 18
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",flag)</eventItme><eventItme type="onactivityresult">
+javax(is,sss.DocFiles,sss.DocFile,"upPermission","int",st_sC,"int",st_lC,"android.content.Intent",st_iT)
+f(is)
+{
+tws(v, "授权成功！", 0)
+
+}
+else
+{
+tws(v, "授权失败", 0)
+}
+</eventItme></UIEventset>

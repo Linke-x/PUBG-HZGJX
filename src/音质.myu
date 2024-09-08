@@ -1,0 +1,106 @@
+fn 判断(音质)
+
+
+t()
+{
+  
+  
+  f(sss.任务开关=="关")
+  {
+    
+    f(sss.Android11 == true)
+    {
+      
+      //loadjar("lengtong.dx",jar)
+      //cls(jar,"com.lengtong.tool.lengtong",sss.cls)
+      
+      
+      //检测安卓11授权
+      f(sss.Android11)
+      {
+        javanew(sss.DocFiles,sss.DocFile,"Activity",activity,"String",sss.dir2)
+        javax(is,sss.DocFiles,sss.DocFile,"isPermission")
+        
+        f(is==false)
+        {
+        }
+        else
+        {
+          fn 代码.YZ(音质)
+        }
+      }
+      
+    }
+    else
+    {
+      s a="[SoundQuality]\n+CVars=SoundQualityType="
+      s b="\n\n[ArtQuality]\n+CVars=WaterReflectionSetting=\n\n"
+      ss(a+音质+b,YZDM)
+      
+      ss(sss.dir+"UserSettings.ini",US路径)
+      
+      ufnsui()
+      {
+        //endutw()
+        fw(US路径,YZDM)
+        //tw("Boom！\n解锁成功,请重启游戏！")
+      }
+    }
+    
+  }
+  else
+  {
+    fe(sss.dtlj,dq)
+    f(dq==true)
+    {
+      
+      f(sss.Android11 == true)
+      {
+        //检测安卓11授权
+        f(sss.Android11)
+        {
+          javanew(sss.DocFiles,sss.DocFile,"Activity",activity,"String",sss.dir2)
+          javax(is,sss.DocFiles,sss.DocFile,"isPermission")
+          
+          
+          f(is==false)
+          {
+          }
+          else
+          {
+            fn 代码.YZ(音质)
+          }
+        }
+        
+      }
+      else
+      {
+        s a="[SoundQuality]\n+CVars=SoundQualityType="
+        s b="\n\n[ArtQuality]\n+CVars=WaterReflectionSetting=\n\n"
+        ss(a+音质+b,YZDM)
+        ss(sss.dir+"UserSettings.ini",US路径)
+        
+        ufnsui()
+        {
+          //endutw()
+          fw(US路径,YZDM)
+          //tw("Boom！\n解锁成功,请重启游戏！")
+        }
+      }
+      
+    }
+    else
+    {
+      //任务提示
+      
+    }
+    
+  }
+  
+  
+}
+
+
+
+
+end fn

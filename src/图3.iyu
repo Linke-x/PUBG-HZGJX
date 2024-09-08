@@ -1,0 +1,31 @@
+<View id="3" did="0" type="CardView">
+<ppt>width=-1
+height=150dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+</ppt>
+<event></event>
+</View>
+<View id="2" did="3" type="LinearLayout">
+<ppt>width=-1
+height=150dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="1" did="2" type="ImageView">
+<ppt>width=-1
+height=150dp
+src=0
+scaleType=centercrop</ppt>
+<event><eventItme type="clicki">
+f(sss.ljzt3 == "0")
+{
+hw(sss.lblj3)
+}
+else
+{
+hws(sss.lblj3)
+}
+</eventItme></event>
+</View>
+<UIEventset></UIEventset>

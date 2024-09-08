@@ -1,0 +1,659 @@
+<View id="74" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="72" did="74" type="ScrollView">
+<ppt>width=-1
+height=-1
+</ppt>
+<event></event>
+</View>
+<View id="1" did="72" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="62" did="1" type="LinearLayout">
+<ppt>width=-1
+height=90dp
+orientation=vertical
+layout_marginTop=15dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="64" did="62" type="CardView">
+<ppt>width=80dp
+height=80dp
+app_CardcornerRadius=10dp
+</ppt>
+<event></event>
+</View>
+<View id="65" did="64" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="63" did="65" type="ImageView">
+<ppt>width=50dp
+height=50dp
+src=0</ppt>
+<event></event>
+</View>
+<View id="38" did="1" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=vertical
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="21" did="38" type="CardView">
+<ppt>width=-1
+height=45dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+app_CardcornerRadius=5dp
+layout_marginTop=5dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="25" did="21" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#5889FE
+gravity=center
+BackgroundRipple=#82B1FF</ppt>
+<event><eventItme type="clicki">
+fn 开启准星.判断()
+
+</eventItme></event>
+</View>
+<View id="26" did="25" type="TextView">
+<ppt>width=-2
+height=-2
+text=开启准星
+textColor=#ffffff
+textSize=13dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="68" did="1" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="69" did="68" type="CardView">
+<ppt>width=-1
+height=45dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+app_CardcornerRadius=5dp
+layout_marginTop=5dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="70" did="69" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#5889FE
+gravity=center
+BackgroundRipple=#82B1FF</ppt>
+<event><eventItme type="clicki">
+f(sss.v == null)
+{
+
+utw(null,"使用提示","请先开启准星！","确定",false,v)
+{
+}
+
+}
+else
+{
+
+
+f(sss.vs == null)
+{
+
+sss flagas = 0
+s w = -2
+s h = -2
+s gravity = "top|left"
+uxf("xf.iyu", 200, 200, w, h,0, gravity, sss.flagas, 0, sss.vs)
+
+tw("Tips：长按准星也可以开启准星设置悬浮窗！")
+
+}
+else
+{
+
+uxf(sss.vs, "del")
+sss vs = null
+
+}
+
+}
+</eventItme></event>
+</View>
+<View id="71" did="70" type="TextView">
+<ppt>width=-2
+height=-2
+text=准星设置悬浮
+textColor=#ffffff
+textSize=13dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="39" did="1" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=horizontal
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=12dp</ppt>
+<event></event>
+</View>
+<View id="22" did="39" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_weight=1
+layout_marginRight=6dp</ppt>
+<event></event>
+</View>
+<View id="28" did="22" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#5889FE
+gravity=center
+BackgroundRipple=#82B1FF</ppt>
+<event><eventItme type="clicki">
+
+f(sss.v == null)
+{
+
+utw(null,"使用提示","请先开启准星！","确定",false,v)
+{
+}
+
+}
+else
+{
+
+fr(sss.xx, xx)
+s-(5,xx)
+fw(sss.xx, xx)
+us(sss.v, "x", xx)
+uxf(sss.v)
+
+}
+
+</eventItme></event>
+</View>
+<View id="29" did="28" type="TextView">
+<ppt>width=-2
+height=-2
+text=左移
+textColor=#ffffff
+textSize=12dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="42" did="39" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_weight=1
+layout_marginLeft=6dp</ppt>
+<event></event>
+</View>
+<View id="43" did="42" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#5889FE
+gravity=center
+BackgroundRipple=#82B1FF</ppt>
+<event><eventItme type="clicki">
+
+
+f(sss.v == null)
+{
+
+utw(null,"使用提示","请先开启准星！","确定",false,v)
+{
+}
+
+}
+else
+{
+
+
+fr(sss.xx, xx)
+s+(5,xx)
+fw(sss.xx, xx)
+us(sss.v, "x", xx)
+uxf(sss.v)
+
+
+}
+
+</eventItme></event>
+</View>
+<View id="44" did="43" type="TextView">
+<ppt>width=-2
+height=-2
+text=右移
+textColor=#ffffff
+textSize=12dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="45" did="1" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=horizontal
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=12dp</ppt>
+<event></event>
+</View>
+<View id="46" did="45" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_weight=1
+layout_marginRight=6dp</ppt>
+<event></event>
+</View>
+<View id="47" did="46" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#5889FE
+gravity=center
+BackgroundRipple=#82B1FF</ppt>
+<event><eventItme type="clicki">
+
+
+f(sss.v == null)
+{
+
+utw(null,"使用提示","请先开启准星！","确定",false,v)
+{
+}
+
+}
+else
+{
+
+
+fr(sss.yy, yy)
+s-(5,yy)
+fw(sss.yy, yy)
+us(sss.v, "y", yy)
+uxf(sss.v)
+
+}
+
+</eventItme></event>
+</View>
+<View id="48" did="47" type="TextView">
+<ppt>width=-2
+height=-2
+text=上移
+textColor=#ffffff
+textSize=12dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="49" did="45" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_weight=1
+layout_marginLeft=6dp</ppt>
+<event></event>
+</View>
+<View id="50" did="49" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#5889FE
+gravity=center
+BackgroundRipple=#82B1FF</ppt>
+<event><eventItme type="clicki">
+
+f(sss.v == null)
+{
+
+utw(null,"使用提示","请先开启准星！","确定",false,v)
+{
+}
+
+}
+else
+{
+
+
+fr(sss.yy, yy)
+s+(5,yy)
+fw(sss.yy, yy)
+us(sss.v, "y", yy)
+uxf(sss.v)
+
+}
+</eventItme></event>
+</View>
+<View id="51" did="50" type="TextView">
+<ppt>width=-2
+height=-2
+text=下移
+textColor=#ffffff
+textSize=12dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="52" did="1" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=horizontal
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=12dp</ppt>
+<event></event>
+</View>
+<View id="53" did="52" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_weight=1
+layout_marginRight=6dp</ppt>
+<event></event>
+</View>
+<View id="54" did="53" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#5889FE
+gravity=center
+BackgroundRipple=#82B1FF</ppt>
+<event><eventItme type="clicki">
+
+f(sss.v == null)
+{
+
+utw(null,"使用提示","请先开启准星！","确定",false,v)
+{
+}
+
+}
+else
+{
+
+
+fr(sss.xfdx,大小)
+
+f(大小 &gt;= 250)
+{
+tw("已经不能再大了！")
+}
+else
+{
+
+s+(大小,"10",大小)
+
+gvs(sss.v,悬浮窗.1, x)
+
+fw(sss.xfdx,大小)
+
+us(x,"height",大小)
+us(x,"width",大小)
+
+uxf(sss.v)
+
+
+}
+
+
+}
+
+</eventItme></event>
+</View>
+<View id="55" did="54" type="TextView">
+<ppt>width=-2
+height=-2
+text=变大
+textColor=#ffffff
+textSize=12dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="56" did="52" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_weight=1
+layout_marginLeft=6dp</ppt>
+<event></event>
+</View>
+<View id="57" did="56" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#5889FE
+gravity=center
+BackgroundRipple=#82B1FF</ppt>
+<event><eventItme type="clicki">
+
+
+f(sss.v == null)
+{
+
+utw(null,"使用提示","请先开启准星！","确定",false,v)
+{
+}
+
+}
+else
+{
+
+
+fr(sss.xfdx,大小)
+f(大小 &lt;= 10)
+{
+tw("已经不能再小了！")
+}
+else
+{
+s-(大小,"10",大小)
+
+gvs(sss.v,悬浮窗.1, x)
+
+us(x,"height",大小)
+us(x,"width",大小)
+
+
+uxf(sss.v)
+
+fw(sss.xfdx,大小)
+
+}
+
+
+}
+
+</eventItme></event>
+</View>
+<View id="58" did="57" type="TextView">
+<ppt>width=-2
+height=-2
+text=变小
+textColor=#ffffff
+textSize=12dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="27" did="1" type="CardView">
+<ppt>width=-1
+height=45dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+app_CardcornerRadius=5dp
+layout_marginTop=12dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="34" did="27" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#5889FE
+gravity=center
+BackgroundRipple=#82B1FF</ppt>
+<event><eventItme type="clicki">
+
+uigo("切换准星.iyu")
+
+/.
+
+fn 弹窗.准星选择()</eventItme></event>
+</View>
+<View id="35" did="34" type="TextView">
+<ppt>width=-2
+height=-2
+text=切换准星
+textColor=#ffffff
+textSize=12dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="59" did="1" type="CardView">
+<ppt>width=-1
+height=45dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+app_CardcornerRadius=5dp
+layout_marginTop=12dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="60" did="59" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#5889FE
+gravity=center
+BackgroundRipple=#82B1FF</ppt>
+<event><eventItme type="clicki">uapp("com.tencent.tmgp.pubgmhd",uapp)
+f(uapp!=true)
+{
+  tw("你好像没有安装和平精英？")
+}
+
+</eventItme></event>
+</View>
+<View id="61" did="60" type="TextView">
+<ppt>width=-2
+height=-2
+text=启动游戏
+textColor=#ffffff
+textSize=12dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="10" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+layout_marginLeft=15dp
+layout_marginRight=15dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginTop=30dp
+layout_marginBottom=30dp</ppt>
+<event></event>
+</View>
+<View id="15" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#F5F5F5</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="LinearLayout">
+<ppt>width=-1
+height=-2
+gravity=center_vertical
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="TextView">
+<ppt>width=-2
+height=-2
+text=使用帮助
+textColor=#000000
+textStyle=bold
+textSize=13dp
+layout_marginLeft=15dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="18" did="16" type="TextView">
+<ppt>width=-2
+height=-2
+text=1.点击按钮【开启准星】即可使用，本功能提供多种准星样式欢迎体验
+layout_marginLeft=15dp
+layout_marginRight=15dp
+layout_marginTop=10dp
+textSize=12dp</ppt>
+<event></event>
+</View>
+<View id="66" did="16" type="TextView">
+<ppt>width=-2
+height=-2
+text=2.开启准星之后，然后打开和平精英，准星要过2-3秒才会显示！
+layout_marginLeft=15dp
+layout_marginRight=15dp
+layout_marginTop=10dp
+textSize=12dp</ppt>
+<event></event>
+</View>
+<View id="67" did="16" type="TextView">
+<ppt>width=-2
+height=-2
+text=3.点击【准星设置悬浮】可以使准星设置的功能悬浮，方便在游戏中调整准星的位置
+layout_marginLeft=15dp
+layout_marginRight=15dp
+layout_marginTop=10dp
+textSize=12dp
+visibility=0</ppt>
+<event></event>
+</View>
+<View id="73" did="16" type="TextView">
+<ppt>width=-2
+height=-2
+text=4.长按准星的图标也可以开启准星设置悬浮窗
+layout_marginLeft=15dp
+layout_marginRight=15dp
+layout_marginBottom=20dp
+layout_marginTop=10dp
+textSize=12dp</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>
