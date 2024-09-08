@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<title>FK和平工具箱</title>
+<icon>icon.png</icon>
+<packageName>com.fkhphzzs.app</packageName>
+<versionName>4.2</versionName>
+<versionint>1</versionint>
+<sdk>15</sdk>
+<yuv>3</yuv>
+
+<remark>清染出品</remark>
+<Permissions>android.permission.READ_EXTERNAL_STORAGE
+android.permission.REQUEST_INSTALL_PACKAGES
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.INTERNET</Permissions>
+<createTime>2022-10-19 23:08:46</createTime>
+<upTime>2022-10-19 23:08:46</upTime><manifest>
+    &lt;uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" tools:ignore="ScopedStorage" /&gt;
+</manifest><application></application>
