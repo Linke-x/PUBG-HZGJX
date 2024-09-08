@@ -1,0 +1,1977 @@
+<View id="32" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=#F9F9F9</ppt>
+<event></event>
+</View>
+<View id="177" did="32" type="LinearLayout">
+<ppt>width=-1
+height=65dp
+orientation=horizontal
+background=white</ppt>
+<event></event>
+</View>
+<View id="178" did="177" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="191" did="178" type="CardView">
+<ppt>width=35dp
+height=35dp
+app_CardBackgroundColor=#7fffffff
+app_CardcornerRadius=7dp
+app_CardElevation=0dp
+layout_marginLeft=12dp</ppt>
+<event></event>
+</View>
+<View id="192" did="191" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="189" did="192" type="ImageView">
+<ppt>width=28dp
+height=28dp
+src=@img/mmexport1668166968395.jpg
+</ppt>
+<event></event>
+</View>
+<View id="180" did="177" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="181" did="180" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical
+layout_marginLeft=10dp
+layout_marginRight=10dp
+ut_toLeftOf=182</ppt>
+<event></event>
+</View>
+<View id="183" did="181" type="CardView">
+<ppt>width=-1
+height=35dp
+app_CardElevation=0dp
+app_CardcornerRadius=7dp
+app_CardBackgroundColor=#7fffffff</ppt>
+<event></event>
+</View>
+<View id="184" did="183" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="185" did="184" type="TextView">
+<ppt>width=-2
+height=-2
+text=当前状态：普通用户
+textColor=#9e9e9e
+textSize=11dp</ppt>
+<event></event>
+</View>
+<View id="182" did="180" type="CardView">
+<ppt>width=35dp
+height=35dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_gravity=right
+layout_marginRight=12dp
+ut_centerVertical=true
+ut_alignParentRight=true
+app_CardBackgroundColor=#7fffffff</ppt>
+<event></event>
+</View>
+<View id="186" did="182" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event><eventItme type="clicki">
+fw(sss.ymbb,xr)
+
+uigo("mian.iyu")
+end()
+</eventItme></event>
+</View>
+<View id="190" did="186" type="ImageView">
+<ppt>width=23dp
+height=23dp
+src=@img/gd/shezhi.png</ppt>
+<event></event>
+</View>
+<View id="2" did="32" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+ut_below=177
+background=#F9F9F9</ppt>
+<event></event>
+</View>
+<View id="140" did="2" type="CardView">
+<ppt>width=-1
+height=125dp
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+layout_marginRight=12dp
+layout_marginTop=5dp
+layout_marginBottom=10dp
+app_CardBackgroundColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="163" did="140" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="162" did="163" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#7fffffff</ppt>
+<event></event>
+</View>
+<View id="141" did="162" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="142" did="141" type="LinearLayout">
+<ppt>width=-1
+height=37dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="144" did="142" type="TextView">
+<ppt>width=-2
+height=-2
+text=选择游戏版本
+textColor=#626262
+textSize=11dp
+textStyle=bold
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="149" did="141" type="RelativeLayout">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="150" did="149" type="RadioButton">
+<ppt>width=-2
+height=-2
+text=国际服(Global)
+layout_marginLeft=12dp
+textColor=#626262
+textSize=11dp
+visibility=0</ppt>
+<event><eventItme type="clicki">
+us(gfx.151,"checked",false)
+us(gfx.152,"checked",false)
+us(gfx.154,"checked",false)
+us(gfx.155,"checked",false)
+us(gfx.156,"checked",false)
+</eventItme></event>
+</View>
+<View id="151" did="149" type="RadioButton">
+<ppt>width=-2
+height=-2
+text=BGMI(2.0)
+textColor=#626262
+textSize=11dp
+ut_centerInParent=true</ppt>
+<event><eventItme type="clicki">
+us(gfx.150,"checked",false)
+us(gfx.152,"checked",false)
+us(gfx.154,"checked",false)
+us(gfx.155,"checked",false)
+us(gfx.156,"checked",false)
+</eventItme></event>
+</View>
+<View id="152" did="149" type="RadioButton">
+<ppt>width=-2
+height=-2
+text=韩服(KR)
+textColor=#626262
+textSize=11dp
+ut_alignParentRight=true
+layout_marginRight=20dp</ppt>
+<event><eventItme type="clicki">
+us(gfx.151,"checked",false)
+us(gfx.150,"checked",false)
+us(gfx.154,"checked",false)
+us(gfx.155,"checked",false)
+us(gfx.156,"checked",false)
+</eventItme></event>
+</View>
+<View id="157" did="141" type="LinearLayout">
+<ppt>width=-1
+height=-2
+layout_marginTop=12dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="158" did="157" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="155" did="158" type="RadioButton">
+<ppt>width=-2
+height=-2
+text=体验服(BETA)
+textColor=#626262
+textSize=11dp
+</ppt>
+<event><eventItme type="clicki">
+us(gfx.151,"checked",false)
+us(gfx.152,"checked",false)
+us(gfx.154,"checked",false)
+us(gfx.150,"checked",false)
+us(gfx.156,"checked",false)
+</eventItme></event>
+</View>
+<View id="159" did="157" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="156" did="159" type="RadioButton">
+<ppt>width=-2
+height=-2
+text=轻量服(LITE)
+textColor=#626262
+textSize=11dp
+</ppt>
+<event><eventItme type="clicki">
+us(gfx.151,"checked",false)
+us(gfx.152,"checked",false)
+us(gfx.154,"checked",false)
+us(gfx.155,"checked",false)
+us(gfx.150,"checked",false)
+</eventItme></event>
+</View>
+<View id="33" did="32" type="ScrollView">
+<ppt>width=-1
+height=-1
+ut_below=2
+ut_above=35
+scrollbars=none
+</ppt>
+<event></event>
+</View>
+<View id="139" did="33" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="6" did="139" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginLeft=17dp</ppt>
+<event></event>
+</View>
+<View id="3" did="6" type="RelativeLayout">
+<ppt>width=-1
+height=50dp</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=画质
+textColor=#626262
+textSize=13dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="7" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=设置游戏最佳画质
+textColor=#626262
+textSize=9dp
+textStyle=bold
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="10" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本10
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="8" did="3" type="Spinner">
+<ppt>width=47dp
+height=-2
+ut_alignParentRight=true
+ut_centerVertical=true</ppt>
+<event><eventItme type="onitemselected">
+s id = "gfx.9"
+ug(gfx.8,"selecteditem",selecteditem)
+
+f(selecteditem=="超流畅")
+{
+us(id,"text","超流畅")
+}
+else f(selecteditem=="流畅")
+{
+us(id,"text","流畅")
+}
+else f(selecteditem=="均衡")
+{
+
+us(id,"text","均衡")
+}
+else f(selecteditem=="高清")
+{
+
+us(id,"text","高清")
+}
+else f(selecteditem=="HDR")
+{
+
+us(id,"text","HDR")
+}
+else f(selecteditem=="超高清")
+{
+
+us(id,"text","超高清")
+}</eventItme></event>
+</View>
+<View id="9" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=流畅
+textColor=#626262
+textSize=11dp
+ut_toLeftOf=8
+ut_centerVertical=true
+</ppt>
+<event></event>
+</View>
+<View id="11" did="6" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+layout_marginTop=8dp</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="TextView">
+<ppt>width=-2
+height=-2
+text=分辨率
+textColor=#626262
+textSize=12.5dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="14" did="12" type="TextView">
+<ppt>width=-2
+height=-2
+text=设置游戏最佳分辨率
+textColor=#626262
+textSize=9dp
+textStyle=bold
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="15" did="12" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本10
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="16" did="11" type="Spinner">
+<ppt>width=47dp
+height=-2
+ut_alignParentRight=true
+ut_centerVertical=true</ppt>
+<event><eventItme type="onitemselected">
+s id = "gfx.17"
+ug(gfx.16,"selecteditem",selecteditem)
+f(selecteditem=="默认")
+{
+
+us(id,"text","默认")
+}
+else f(selecteditem=="144p")
+{
+
+us(id,"text","144p")
+}
+else f(selecteditem=="360p")
+{
+
+us(id,"text","360p")
+}
+else f(selecteditem=="480p")
+{
+
+us(id,"text","480p")
+}
+else f(selecteditem=="540p")
+{
+
+us(id,"text","540p")
+}
+else f(selecteditem=="640p")
+{
+
+us(id,"text","640p")
+}
+else f(selecteditem=="720p")
+{
+
+us(id,"text","720p")
+}
+else f(selecteditem=="1080p")
+{
+
+us(id,"text","1080p")
+}
+else f(selecteditem=="1080p HD+")
+{
+
+us(id,"text","1080p HD+")
+}
+else f(selecteditem=="1440p")
+{
+
+us(id,"text","1440p")
+}
+</eventItme></event>
+</View>
+<View id="17" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=流畅
+textColor=#626262
+textSize=11dp
+ut_toLeftOf=16
+ut_centerVertical=true
+</ppt>
+<event></event>
+</View>
+<View id="18" did="6" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+layout_marginTop=8dp</ppt>
+<event></event>
+</View>
+<View id="19" did="18" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="20" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+text=帧数
+textColor=#626262
+textSize=13dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="21" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+text=解锁最大帧数极限
+textColor=#626262
+textSize=9dp
+textStyle=bold
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="22" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本10
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="23" did="18" type="Spinner">
+<ppt>width=47dp
+height=-2
+ut_alignParentRight=true
+ut_centerVertical=true</ppt>
+<event><eventItme type="onitemselected">
+s id = "gfx.24"
+ug(gfx.23,"selecteditem",selecteditem)
+f(selecteditem=="默认")
+{
+
+us(id,"text","默认")
+}
+else f(selecteditem=="30FPS")
+{
+
+us(id,"text","30FPS")
+}
+else f(selecteditem=="40FPS")
+{
+
+us(id,"text","40FPS")
+}
+else f(selecteditem=="60FPS")
+{
+
+us(id,"text","60FPS")
+}
+else f(selecteditem=="90FPS(if supported)")
+{
+
+us(id,"text","90FPS(if supported)")
+}</eventItme></event>
+</View>
+<View id="24" did="18" type="TextView">
+<ppt>width=-2
+height=-2
+text=流畅
+textColor=#626262
+textSize=11dp
+ut_toLeftOf=23
+ut_centerVertical=true
+</ppt>
+<event></event>
+</View>
+<View id="25" did="6" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+layout_marginTop=8dp</ppt>
+<event></event>
+</View>
+<View id="26" did="25" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="27" did="26" type="TextView">
+<ppt>width=-2
+height=-2
+text=风格
+textColor=#626262
+textSize=13dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="28" did="26" type="TextView">
+<ppt>width=-2
+height=-2
+text=选择您喜欢的滤色器
+textColor=#626262
+textSize=9dp
+textStyle=bold
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="29" did="26" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本10
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="30" did="25" type="Spinner">
+<ppt>width=47dp
+height=-2
+ut_alignParentRight=true
+ut_centerVertical=true</ppt>
+<event><eventItme type="onitemselected">
+s id = "gfx.31"
+ug(gfx.30,"selecteditem",selecteditem)
+f(selecteditem=="经典")
+{
+
+us(id,"text","经典")
+}
+else f(selecteditem=="鲜艳")
+{
+
+us(id,"text","鲜艳")
+}
+else f(selecteditem=="写实")
+{
+
+us(id,"text","写实")
+}
+else f(selecteditem=="柔和")
+{
+
+us(id,"text","柔和")
+}
+else f(selecteditem=="电影")
+{
+
+us(id,"text","电影")
+}
+</eventItme></event>
+</View>
+<View id="31" did="25" type="TextView">
+<ppt>width=-2
+height=-2
+text=流畅
+textColor=#626262
+textSize=11dp
+ut_toLeftOf=30
+ut_centerVertical=true
+</ppt>
+<event></event>
+</View>
+<View id="164" did="6" type="CardView">
+<ppt>width=-1
+height=65dp
+app_CardBackgroundColor=#ffffffff
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginRight=17dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="165" did="164" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="166" did="165" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#7fffffff</ppt>
+<event></event>
+</View>
+<View id="167" did="166" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+</ppt>
+<event></event>
+</View>
+<View id="168" did="167" type="LinearLayout">
+<ppt>width=65dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="169" did="168" type="ImageView">
+<ppt>width=38dp
+height=38dp
+src=@img/cs_bg_10.png
+layout_marginLeft=1dp</ppt>
+<event></event>
+</View>
+<View id="170" did="167" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+ut_toRightOf=168
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="171" did="170" type="TextView">
+<ppt>width=-2
+height=-2
+text=解锁平板比例
+textColor=#ff000000
+textSize=12dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="172" did="170" type="TextView">
+<ppt>width=-2
+height=-2
+text=Highly recommended！
+textColor=#34b869
+textSize=9dp
+layout_marginTop=2dp
+</ppt>
+<event></event>
+</View>
+<View id="188" did="167" type="LinearLayout">
+<ppt>width=72dp
+height=28dp
+orientation=vertical
+ut_centerVertical=true
+ut_alignParentRight=true
+layout_marginRight=20dp
+gravity=center</ppt>
+<event><eventItme type="clicki">
+t()
+{
+us(gfx.188,"elevation","2dp")
+stop(150)
+us(gfx.188,"elevation","0dp")
+}
+
+
+
+ug(gfx.150,"checked",pd)
+
+f(pd == true)
+{
+
+fn 国际.解锁("6")
+
+}
+else
+{
+
+f(sss.开关=="关")
+{
+tw("Done！\n修改成功,尽情享受美妙游戏体验吧！")
+
+}
+else
+{
+fe(sss.dtlj,dq)
+f(dq==true)
+{
+tw("Done！\n修改成功,尽情享受美妙游戏体验吧！")
+
+}
+else
+{
+//调用模块(函数)
+fn 弹窗.任务提示()
+}
+}
+
+}
+
+
+</eventItme></event>
+</View>
+<View id="176" did="188" type="TextView">
+<ppt>width=-2
+height=-2
+text=立即解锁
+textColor=#ffffffff
+textSize=11dp
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="47" did="6" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="48" did="47" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="49" did="48" type="TextView">
+<ppt>width=-2
+height=-2
+text=渲染质量
+textColor=#626262
+textSize=13dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="50" did="48" type="TextView">
+<ppt>width=-2
+height=-2
+text=阴影 着色器等
+textColor=#626262
+textSize=9dp
+textStyle=bold
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="51" did="48" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本10
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="52" did="47" type="Spinner">
+<ppt>width=47dp
+height=-2
+ut_alignParentRight=true
+ut_centerVertical=true</ppt>
+<event><eventItme type="onitemselected">
+s id = "gfx.53"
+ug(gfx.52,"selecteditem",selecteditem)
+f(selecteditem=="低")
+{
+
+us(id,"text","低")
+}
+else f(selecteditem=="中")
+{
+
+us(id,"text","中")
+}
+else f(selecteditem=="高")
+{
+
+us(id,"text","高")
+}
+</eventItme></event>
+</View>
+<View id="53" did="47" type="TextView">
+<ppt>width=-2
+height=-2
+text=流畅
+textColor=#626262
+textSize=11dp
+ut_toLeftOf=52
+ut_centerVertical=true
+</ppt>
+<event></event>
+</View>
+<View id="54" did="6" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+layout_marginTop=8dp</ppt>
+<event></event>
+</View>
+<View id="55" did="54" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="56" did="55" type="TextView">
+<ppt>width=-2
+height=-2
+text=阴影
+textColor=#626262
+textSize=13dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="57" did="55" type="TextView">
+<ppt>width=-2
+height=-2
+text=开启或关闭阴影
+textColor=#626262
+textSize=9dp
+textStyle=bold
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="58" did="55" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本10
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="59" did="54" type="Spinner">
+<ppt>width=47dp
+height=-2
+ut_alignParentRight=true
+ut_centerVertical=true</ppt>
+<event><eventItme type="onitemselected">
+s id = "gfx.60"
+ug(gfx.59,"selecteditem",selecteditem)
+f(selecteditem=="关闭")
+{
+
+us(id,"text","关闭")
+}
+else f(selecteditem=="开启")
+{
+
+us(id,"text","开启")
+}
+
+</eventItme></event>
+</View>
+<View id="60" did="54" type="TextView">
+<ppt>width=-2
+height=-2
+text=流畅
+textColor=#626262
+textSize=11dp
+ut_toLeftOf=59
+ut_centerVertical=true
+</ppt>
+<event></event>
+</View>
+<View id="61" did="6" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+layout_marginTop=8dp</ppt>
+<event></event>
+</View>
+<View id="62" did="61" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="63" did="62" type="TextView">
+<ppt>width=-2
+height=-2
+text=纹理质量
+textColor=#626262
+textSize=13dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="64" did="62" type="TextView">
+<ppt>width=-2
+height=-2
+text=物品 车辆等
+textColor=#626262
+textSize=9dp
+textStyle=bold
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="65" did="62" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本10
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="66" did="61" type="Spinner">
+<ppt>width=47dp
+height=-2
+ut_alignParentRight=true
+ut_centerVertical=true</ppt>
+<event><eventItme type="onitemselected">
+s id = "gfx.67"
+ug(gfx.66,"selecteditem",selecteditem)
+f(selecteditem=="默认")
+{
+
+us(id,"text","默认")
+}
+else f(selecteditem=="低")
+{
+
+us(id,"text","低")
+}
+else f(selecteditem=="中")
+{
+
+us(id,"text","中")
+}
+else f(selecteditem=="高")
+{
+
+us(id,"text","高")
+}
+else f(selecteditem=="超高")
+{
+
+us(id,"text","超高")
+}
+</eventItme></event>
+</View>
+<View id="67" did="61" type="TextView">
+<ppt>width=-2
+height=-2
+text=流畅
+textColor=#626262
+textSize=11dp
+ut_toLeftOf=66
+ut_centerVertical=true
+</ppt>
+<event></event>
+</View>
+<View id="68" did="6" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+layout_marginTop=8dp</ppt>
+<event></event>
+</View>
+<View id="69" did="68" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="70" did="69" type="TextView">
+<ppt>width=-2
+height=-2
+text=效果质量
+textColor=#626262
+textSize=13dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="71" did="69" type="TextView">
+<ppt>width=-2
+height=-2
+text=火花 爆炸 射击等
+textColor=#626262
+textSize=9dp
+textStyle=bold
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="72" did="69" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本10
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="73" did="68" type="Spinner">
+<ppt>width=47dp
+height=-2
+ut_alignParentRight=true
+ut_centerVertical=true</ppt>
+<event><eventItme type="onitemselected">
+s id = "gfx.74"
+ug(gfx.73,"selecteditem",selecteditem)
+f(selecteditem=="默认")
+{
+
+us(id,"text","默认")
+}
+else f(selecteditem=="低")
+{
+
+us(id,"text","低")
+}
+else f(selecteditem=="中")
+{
+
+us(id,"text","中")
+}
+else f(selecteditem=="高")
+{
+
+us(id,"text","高")
+}
+</eventItme></event>
+</View>
+<View id="74" did="68" type="TextView">
+<ppt>width=-2
+height=-2
+text=流畅
+textColor=#626262
+textSize=11dp
+ut_toLeftOf=73
+ut_centerVertical=true
+</ppt>
+<event></event>
+</View>
+<View id="75" did="6" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+layout_marginTop=8dp</ppt>
+<event></event>
+</View>
+<View id="76" did="75" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="77" did="76" type="TextView">
+<ppt>width=-2
+height=-2
+text=物体LOG距离
+textColor=#626262
+textSize=13dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="78" did="76" type="TextView">
+<ppt>width=-2
+height=-2
+text=建筑物 板条箱等
+textColor=#626262
+textSize=9dp
+textStyle=bold
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="79" did="76" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本10
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="80" did="75" type="Spinner">
+<ppt>width=47dp
+height=-2
+ut_alignParentRight=true
+ut_centerVertical=true</ppt>
+<event><eventItme type="onitemselected">
+s id = "gfx.81"
+ug(gfx.80,"selecteditem",selecteditem)
+f(selecteditem=="默认")
+{
+
+us(id,"text","默认")
+}
+else f(selecteditem=="低")
+{
+
+us(id,"text","低")
+}
+else f(selecteditem=="中")
+{
+
+us(id,"text","中")
+}
+else f(selecteditem=="高")
+{
+
+us(id,"text","高")
+}
+</eventItme></event>
+</View>
+<View id="81" did="75" type="TextView">
+<ppt>width=-2
+height=-2
+text=流畅
+textColor=#626262
+textSize=11dp
+ut_toLeftOf=80
+ut_centerVertical=true
+</ppt>
+<event></event>
+</View>
+<View id="82" did="6" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+layout_marginTop=8dp</ppt>
+<event></event>
+</View>
+<View id="83" did="82" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="84" did="83" type="TextView">
+<ppt>width=-2
+height=-2
+text=树叶LOG距离
+textColor=#626262
+textSize=13dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="85" did="83" type="TextView">
+<ppt>width=-2
+height=-2
+text=树木 灌木丛等
+textColor=#626262
+textSize=9dp
+textStyle=bold
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="86" did="83" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本10
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="87" did="82" type="Spinner">
+<ppt>width=47dp
+height=-2
+ut_alignParentRight=true
+ut_centerVertical=true</ppt>
+<event><eventItme type="onitemselected">
+s id = "gfx.88"
+ug(gfx.87,"selecteditem",selecteditem)
+f(selecteditem=="默认")
+{
+
+us(id,"text","默认")
+}
+else f(selecteditem=="低")
+{
+
+us(id,"text","低")
+}
+else f(selecteditem=="中")
+{
+
+us(id,"text","中")
+}
+else f(selecteditem=="高")
+{
+
+us(id,"text","高")
+}
+</eventItme></event>
+</View>
+<View id="88" did="82" type="TextView">
+<ppt>width=-2
+height=-2
+text=流畅
+textColor=#626262
+textSize=11dp
+ut_toLeftOf=87
+ut_centerVertical=true
+</ppt>
+<event></event>
+</View>
+<View id="89" did="6" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+layout_marginTop=8dp</ppt>
+<event></event>
+</View>
+<View id="90" did="89" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="91" did="90" type="TextView">
+<ppt>width=-2
+height=-2
+text=颜色质量
+textColor=#626262
+textSize=13dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="92" did="90" type="TextView">
+<ppt>width=-2
+height=-2
+text=64位用于质量 32位用于帧数
+textColor=#626262
+textSize=9dp
+textStyle=bold
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="93" did="90" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本10
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="94" did="89" type="Spinner">
+<ppt>width=47dp
+height=-2
+ut_alignParentRight=true
+ut_centerVertical=true</ppt>
+<event><eventItme type="onitemselected">
+s id = "gfx.95"
+ug(gfx.94,"selecteditem",selecteditem)
+f(selecteditem=="默认")
+{
+
+us(id,"text","默认")
+}
+else f(selecteditem=="32位")
+{
+
+us(id,"text","32位")
+}
+else f(selecteditem=="64位")
+{
+
+us(id,"text","64位")
+}
+
+</eventItme></event>
+</View>
+<View id="95" did="89" type="TextView">
+<ppt>width=-2
+height=-2
+text=流畅
+textColor=#626262
+textSize=11dp
+ut_toLeftOf=94
+ut_centerVertical=true
+</ppt>
+<event></event>
+</View>
+<View id="96" did="6" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+layout_marginTop=8dp</ppt>
+<event></event>
+</View>
+<View id="97" did="96" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="98" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=细节模式
+textColor=#626262
+textSize=13dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="99" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=改善无用效果 降低性能消耗
+textColor=#626262
+textSize=9dp
+textStyle=bold
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="100" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本10
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="101" did="96" type="Spinner">
+<ppt>width=47dp
+height=-2
+ut_alignParentRight=true
+ut_centerVertical=true</ppt>
+<event><eventItme type="onitemselected">
+s id = "gfx.102"
+ug(gfx.101,"selecteditem",selecteditem)
+f(selecteditem=="默认")
+{
+
+us(id,"text","默认")
+}
+else f(selecteditem=="低")
+{
+
+us(id,"text","低")
+}
+else f(selecteditem=="中")
+{
+
+us(id,"text","中")
+}
+else f(selecteditem=="高")
+{
+
+us(id,"text","高")
+}
+</eventItme></event>
+</View>
+<View id="102" did="96" type="TextView">
+<ppt>width=-2
+height=-2
+text=流畅
+textColor=#626262
+textSize=11dp
+ut_toLeftOf=101
+ut_centerVertical=true
+</ppt>
+<event></event>
+</View>
+<View id="103" did="6" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+layout_marginTop=8dp</ppt>
+<event></event>
+</View>
+<View id="104" did="103" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="105" did="104" type="TextView">
+<ppt>width=-2
+height=-2
+text=光影效果
+textColor=#626262
+textSize=13dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="106" did="104" type="TextView">
+<ppt>width=-2
+height=-2
+text=关闭可以获得更好的性能效果
+textColor=#626262
+textSize=9dp
+textStyle=bold
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="107" did="104" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本10
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="108" did="103" type="Spinner">
+<ppt>width=47dp
+height=-2
+ut_alignParentRight=true
+ut_centerVertical=true</ppt>
+<event><eventItme type="onitemselected">
+s id = "gfx.109"
+ug(gfx.108,"selecteditem",selecteditem)
+f(selecteditem=="关闭")
+{
+
+us(id,"text","关闭")
+}
+else f(selecteditem=="低")
+{
+
+us(id,"text","低")
+}
+else f(selecteditem=="中")
+{
+
+us(id,"text","中")
+}
+else f(selecteditem=="高")
+{
+
+us(id,"text","高")
+}
+</eventItme></event>
+</View>
+<View id="109" did="103" type="TextView">
+<ppt>width=-2
+height=-2
+text=流畅
+textColor=#626262
+textSize=11dp
+ut_toLeftOf=108
+ut_centerVertical=true
+</ppt>
+<event></event>
+</View>
+<View id="110" did="6" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+layout_marginTop=8dp</ppt>
+<event></event>
+</View>
+<View id="111" did="110" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="112" did="111" type="TextView">
+<ppt>width=-2
+height=-2
+text=图形API
+textColor=#626262
+textSize=13dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="113" did="111" type="TextView">
+<ppt>width=-2
+height=-2
+text=减少GPU负载
+textColor=#626262
+textSize=9dp
+textStyle=bold
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="114" did="111" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本10
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="115" did="110" type="Spinner">
+<ppt>width=47dp
+height=-2
+ut_alignParentRight=true
+ut_centerVertical=true</ppt>
+<event><eventItme type="onitemselected">
+s id = "gfx.116"
+ug(gfx.115,"selecteditem",selecteditem)
+f(selecteditem=="默认")
+{
+
+us(id,"text","默认")
+}
+else f(selecteditem=="OpenGL引擎")
+{
+
+us(id,"text","OpenGL引擎")
+}
+else f(selecteditem=="Vulkan引擎")
+{
+
+us(id,"text","Vulkan引擎")
+}
+
+</eventItme></event>
+</View>
+<View id="116" did="110" type="TextView">
+<ppt>width=-2
+height=-2
+text=流畅
+textColor=#626262
+textSize=11dp
+ut_toLeftOf=115
+ut_centerVertical=true
+</ppt>
+<event></event>
+</View>
+<View id="117" did="6" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+layout_marginTop=8dp</ppt>
+<event></event>
+</View>
+<View id="118" did="117" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="119" did="118" type="TextView">
+<ppt>width=-2
+height=-2
+text=GPU优化
+textColor=#626262
+textSize=13dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="120" did="118" type="TextView">
+<ppt>width=-2
+height=-2
+text=减少无用效果 需设备硬件支持
+textColor=#626262
+textSize=9dp
+textStyle=bold
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="121" did="118" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本10
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="122" did="117" type="Spinner">
+<ppt>width=47dp
+height=-2
+ut_alignParentRight=true
+ut_centerVertical=true</ppt>
+<event><eventItme type="onitemselected">
+s id = "gfx.123"
+ug(gfx.122,"selecteditem",selecteditem)
+f(selecteditem=="关闭")
+{
+
+us(id,"text","关闭")
+}
+else f(selecteditem=="开启")
+{
+
+us(id,"text","开启")
+}
+
+</eventItme></event>
+</View>
+<View id="123" did="117" type="TextView">
+<ppt>width=-2
+height=-2
+text=流畅
+textColor=#626262
+textSize=11dp
+ut_toLeftOf=122
+ut_centerVertical=true
+</ppt>
+<event></event>
+</View>
+<View id="124" did="6" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+layout_marginTop=8dp</ppt>
+<event></event>
+</View>
+<View id="125" did="124" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="126" did="125" type="TextView">
+<ppt>width=-2
+height=-2
+text=音质
+textColor=#626262
+textSize=13dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="127" did="125" type="TextView">
+<ppt>width=-2
+height=-2
+text=改善音质效果
+textColor=#626262
+textSize=9dp
+textStyle=bold
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="128" did="125" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本10
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="129" did="124" type="Spinner">
+<ppt>width=47dp
+height=-2
+ut_alignParentRight=true
+ut_centerVertical=true</ppt>
+<event><eventItme type="onitemselected">
+s id = "gfx.130"
+ug(gfx.129,"selecteditem",selecteditem)
+f(selecteditem=="默认")
+{
+
+us(id,"text","默认")
+}
+else f(selecteditem=="低")
+{
+
+us(id,"text","低")
+}
+else f(selecteditem=="中")
+{
+
+us(id,"text","中")
+}
+else f(selecteditem=="高")
+{
+
+us(id,"text","高")
+}
+</eventItme></event>
+</View>
+<View id="130" did="124" type="TextView">
+<ppt>width=-2
+height=-2
+text=流畅
+textColor=#626262
+textSize=11dp
+ut_toLeftOf=129
+ut_centerVertical=true
+</ppt>
+<event></event>
+</View>
+<View id="131" did="6" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+layout_marginTop=8dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="132" did="131" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="133" did="132" type="TextView">
+<ppt>width=-2
+height=-2
+text=水反射
+textColor=#626262
+textSize=13dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="134" did="132" type="TextView">
+<ppt>width=-2
+height=-2
+text=设置水反射质量
+textColor=#626262
+textSize=9dp
+textStyle=bold
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="135" did="132" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本10
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="136" did="131" type="Spinner">
+<ppt>width=47dp
+height=-2
+ut_alignParentRight=true
+ut_centerVertical=true</ppt>
+<event><eventItme type="onitemselected">
+s id = "gfx.137"
+ug(gfx.136,"selecteditem",selecteditem)
+f(selecteditem=="关闭")
+{
+
+us(id,"text","关闭")
+}
+else f(selecteditem=="开启")
+{
+
+us(id,"text","开启")
+}
+
+</eventItme></event>
+</View>
+<View id="137" did="131" type="TextView">
+<ppt>width=-2
+height=-2
+text=流畅
+textColor=#626262
+textSize=11dp
+ut_toLeftOf=136
+ut_centerVertical=true
+</ppt>
+<event></event>
+</View>
+<View id="35" did="32" type="LinearLayout">
+<ppt>width=-1
+height=70dp
+orientation=horizontal
+ut_alignParentBottom=true
+background=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="39" did="35" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=6
+gravity=center
+visibility=gone</ppt>
+<event><eventItme type="clicki">fd(sss.ymbb,a)
+uigo("mian.iyu")
+end()</eventItme></event>
+</View>
+<View id="43" did="39" type="ImageView">
+<ppt>width=22dp
+height=22dp
+src=@img/qh.png
+</ppt>
+<event></event>
+</View>
+<View id="160" did="39" type="TextView">
+<ppt>width=-2
+height=-2
+text=切换界面
+textColor=#626262
+textSize=8dp
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="42" did="35" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=3
+</ppt>
+<event></event>
+</View>
+<View id="40" did="42" type="CardView">
+<ppt>width=-1
+height=40dp
+app_CardcornerRadius=4dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#5889FE
+layout_marginLeft=20dp
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="45" did="40" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+BackgroundRipple=#82B1FF</ppt>
+<event><eventItme type="clicki">
+ug(gfx.150,"checked",pd)
+
+f(pd == true)
+{
+
+ug(gfx.9,"text",名字)
+fn 终极.启动(名字)
+
+}
+else
+{
+
+f(sss.开关=="关")
+{
+tw("Done！\n修改成功,尽情享受美妙游戏体验吧！")
+
+}
+else
+{
+fe(sss.dtlj,dq)
+f(dq==true)
+{
+tw("Done！\n修改成功,尽情享受美妙游戏体验吧！")
+
+}
+else
+{
+//调用模块(函数)
+fn 弹窗.任务提示()
+}
+}
+}
+
+
+</eventItme></event>
+</View>
+<View id="46" did="45" type="TextView">
+<ppt>width=-2
+height=-2
+text=应 用 设 定
+textColor=#ffffffff
+textSize=11.5dp
+textStyle=bold
+typeface=@zt.ttf</ppt>
+<event></event>
+</View>
+<View id="41" did="35" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=6
+gravity=center
+visibility=gone</ppt>
+<event><eventItme type="clicki">
+ug(150,"checked",pd)
+
+f(pd == true)
+{
+
+uapp("com.tencent.ig",uapp)
+f(uapp!=true)
+{
+  tw("你好像没有安装国际服？")
+}
+
+
+}
+else
+{
+
+f(sss.开关=="关")
+{
+tw("启动失败！可能是未安装对应版本的游戏",0)
+}
+else
+{
+fe(sss.dtlj,dq)
+f(dq==true)
+{
+tw("启动失败！可能是未安装对应版本的游戏",0)
+
+}
+else
+{
+//调用模块(函数)
+fn 弹窗.任务提示()
+}
+}
+}
+
+
+</eventItme></event>
+</View>
+<View id="44" did="41" type="ImageView">
+<ppt>width=23dp
+height=23dp
+src=@img/qd.png</ppt>
+<event></event>
+</View>
+<View id="161" did="41" type="TextView">
+<ppt>width=-2
+height=-2
+text=启动游戏
+textColor=#626262
+textSize=8dp
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

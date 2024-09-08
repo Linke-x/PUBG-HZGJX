@@ -1,0 +1,297 @@
+<View id="17" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#F9F9F9</ppt>
+<event></event>
+</View>
+<View id="4" did="17" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+</ppt>
+<event></event>
+</View>
+<View id="20" did="4" type="RelativeLayout">
+<ppt>width=-1
+height=65dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="21" did="20" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+layout_marginLeft=15dp
+ut_centerVertical=true
+</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="22" did="21" type="TextView">
+<ppt>width=-2
+height=-2
+text=高级画质DIY
+textSize=15.5dp
+textColor=#5889FE
+typeface=@zt.ttf
+shadowRadius=6.2
+shadowColor=#ffffffff
+shadowDx=5</ppt>
+<event></event>
+</View>
+<View id="23" did="21" type="TextView">
+<ppt>width=-2
+height=-2
+text=Super Picture DIY
+textSize=9dp
+textColor=#5889FE
+shadowRadius=6.2
+shadowColor=#ffffffff
+shadowDx=5</ppt>
+<event></event>
+</View>
+<View id="24" did="20" type="CardView">
+<ppt>width=35dp
+height=35dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_gravity=right
+layout_marginRight=12dp
+ut_centerVertical=true
+ut_alignParentRight=true
+app_CardBackgroundColor=#7fffffff
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="25" did="24" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="26" did="25" type="ImageView">
+<ppt>width=23dp
+height=23dp
+src=@img/gd/shezhi.png</ppt>
+<event></event>
+</View>
+<View id="1" did="4" type="RecyclerView">
+<ppt>width=-1
+height=-2
+ut_above=6
+ut_below=20
+scrollbars=vertical
+fadingEdge=vertical
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="6" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+ut_alignParentBottom=true
+</ppt>
+<event></event>
+</View>
+<View id="8" did="6" type="CardView">
+<ppt>width=-1
+height=45dp
+app_CardcornerRadius=5dp
+layout_marginLeft=12dp
+layout_marginRight=10dp
+layout_marginTop=10dp
+layout_marginBottom=10dp
+app_CardElevation=0dp
+layout_weight=3
+app_CardBackgroundColor=#ffd4d4d4</ppt>
+<event></event>
+</View>
+<View id="27" did="8" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="28" did="27" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#ffe9e9e9
+BackgroundRipple=#ffd4d4d4</ppt>
+<event><eventItme type="clicki">ss list3
+fd(sss.DIY备份,a)
+t()
+{
+  fe(sss.DIY备份,d)
+  f(d==true)
+  {
+    fr(sss.DIY备份,sm)
+  }
+  else
+  {
+    fr("@DIY.txt",sm)
+  }
+  sl(sm,"\n\n",列表)
+  s c="+CVars="
+  for(dm;列表)
+  {
+    f(dm!="")
+    {
+      sj(dm,null,"\n",bt)
+      sj(bt,c,"=",a)
+      ss(c+a+"=",代码)
+      sj(bt,代码,null,默认值)
+      sj(dm,bt+"\n",null,说明)
+      ula(ss.list3,1=代码,2=默认值,3=说明)
+    }
+  }
+  ufnsui()
+  {
+    uls(1,ss.list3,"DIYlist.iyu",-1,-2)
+  }
+}
+
+tw("已重置")
+</eventItme></event>
+</View>
+<View id="11" did="29" type="TextView">
+<ppt>width=-2
+height=-2
+text=重 置
+textColor=#ff444444
+textSize=13dp
+</ppt>
+<event></event>
+</View>
+<View id="13" did="6" type="CardView">
+<ppt>width=-1
+height=45dp
+app_CardcornerRadius=5dp
+layout_marginLeft=10dp
+layout_marginRight=12dp
+layout_marginTop=10dp
+layout_marginBottom=10dp
+app_CardElevation=0dp
+layout_weight=2
+app_CardBackgroundColor=#5889FE</ppt>
+<event></event>
+</View>
+<View id="30" did="13" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="31" did="30" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="32" did="31" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#5889FE
+BackgroundRipple=#ff8bbdfe</ppt>
+<event><eventItme type="clicki">t()
+{
+  ula(ss.list3,"list",b)
+  sj(b,"[","]",b)
+  s e=b
+  sl(b,"{",c)
+  s 数据="[UserCustom DeviceProfile]"
+  for(d;c)
+  {
+    sj(d,"1=",",",代码)
+    sj(d,"2=",",",数值)
+    sj(d,"3=","}",说明)
+    f(代码!=null)
+    {
+      ss(DIY+代码+数值+"\n"+说明+"\n\n",DIY)
+    }
+    ss(代码+数值,代码)
+    ss(数据+代码+"\n",数据)
+    
+  }
+  ufnsui()
+  {
+    fn 国服终极DIY解锁.解锁(数据)
+    fw(sss.DIY备份,DIY)
+  }
+}
+</eventItme></event>
+</View>
+<View id="15" did="32" type="TextView">
+<ppt>width=-2
+height=-2
+text=保 存 画 质
+textColor=#ffffffff
+textSize=13dp
+typeface=@zt.ttf</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loadingComplete">ss list3
+t()
+{
+  fe(sss.DIY备份,d)
+  f(d==true)
+  {
+    fr(sss.DIY备份,sm)
+  }
+  else
+  {
+    fr("@DIY.txt",sm)
+  }
+  sl(sm,"\n\n",列表)
+  s c="+CVars="
+  for(dm;列表)
+  {
+    f(dm!="")
+    {
+    sj(dm,null,"\n",bt)
+    sj(bt,c,"=",a)
+    ss(c+a+"=",代码)
+    sj(bt,代码,null,默认值)
+    sj(dm,bt+"\n",null,说明)
+    ula(ss.list3,1=代码,2=默认值,3=说明)
+    }
+  }
+  ufnsui()
+  {
+    uls(1,ss.list3,"DIYlist.iyu",-1,-2)
+  }
+}
+
+</eventItme><eventItme type="loading">uycl("#ffffffff",true,0)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+
+
+ss("/storage/emulated/0/Android/data/"+sss.软件包名+"/files/配置/DIY.log",sss.DIY备份)
+</eventItme><eventItme type="onactivityresult">
+javax(is,sss.DocFiles,sss.DocFile,"upPermission","int",st_sC,"int",st_lC,"android.content.Intent",st_iT)
+f(is)
+{
+tws(v, "授权成功！", 0)
+
+}
+else
+{
+tws(v, "授权失败", 0)
+}
+</eventItme></UIEventset>

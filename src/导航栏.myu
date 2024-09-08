@@ -1,0 +1,25 @@
+fn 开启(id1,id2)
+
+us(id1,"visibility","gone")
+us(id2,"visibility","visible")
+dhas(v_dh1, id2, "translationY", 100, 0)
+dh(v_dh1, "duration", 100)
+dh(v_dh1, "start")
+us(2,"visibility","visible")
+
+end fn
+
+
+
+fn 关闭(id1,id2)
+
+us(id1,"visibility","visible")
+dhas(v_dh, id1, "translationY", -100, 0)
+dh(v_dh, "duration",100)
+dh(v_dh, "start")
+us(id2,"visibility","gone")
+
+end fn
+
+
+

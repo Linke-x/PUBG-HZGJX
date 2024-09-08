@@ -1,0 +1,662 @@
+fn UC(陀螺,ss.yz,UC代码)
+
+loadjar("lengtong.dx",jar)
+cls(jar,"com.lengtong.tool.lengtong",sss.cls)
+
+
+ss(sss.dir+"UserCustom.ini",UC路径)
+
+//检测安卓11授权
+f(sss.Android11)
+{
+  javanew(sss.DocFiles,sss.DocFile,"Activity",activity,"String",sss.dir2)
+  javax(is,sss.DocFiles,sss.DocFile,"isPermission")
+  
+  
+  f(is==false)
+  {
+    fn 弹窗.授权()
+    endcode
+  }
+}
+
+
+
+t()
+{
+  
+  ufnsui()
+  {
+    utw("","","保存.iyu","",true,vvv)
+    {
+    }
+  }
+  
+  
+  
+  
+  f(sss.Android11)
+  {
+    
+    javanew(sss.fileRead,sss.DocFile,"Activity",activity,"String",sss.dir2)
+    javax(ydm,sss.fileRead,sss.DocFile,"fileRead","String",UC路径)
+    
+  }
+  else
+  {
+    fr(UC路径,ydm)
+  }
+  
+  
+  f(UC代码 ? "r.")
+  {
+    javax(加密文,null,sss.cls,"jiami","String",UC代码)
+  }
+  else
+  {
+    s 加密文=UC代码
+  }
+  
+  
+  f(ydm ? "BackUp")
+  {
+    sj(ydm,"[B",null,backup)
+    ss(加密文+"\n\n[B"+backup,UC代码)
+  }
+  
+  
+  f(backup?"[UserCustom DeviceProfile]")
+  {
+    sj(ydm,"[B","[UserCustom DeviceProfile]",backup)
+    ss(加密文+"\n\n[B"+backup,UC代码)
+  }
+  
+  
+  f(sss.Android11)
+  {
+    
+    f(sss.AndroidGo == true)
+    {
+      
+      ss("@hz/1/"+陀螺+".sav",陀螺代码)
+      ,
+      otob("file",null,陀螺代码,陀螺仪)
+      
+      s 陀螺路径 = "/storage/emulated/0/Android/data/com.tencent.tmgp.pubgmhd/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/Active.sav"
+      
+      javanew(sss.fileWrite,sss.DocFile,"Activity",activity,"String",sss.dir2)
+      javax(boo,sss.fileWrite,sss.DocFile,"fileWrite","String",陀螺路径,"byte[]",陀螺仪)
+      
+    }
+    else
+    {
+      fn 国服陀螺.解锁2(陀螺)
+    }
+    
+    s yza="[SoundQuality]\n+CVars=SoundQualityType="
+    s yzb="\n\n[ArtQuality]\n+CVars=WaterReflectionSetting=\n\n"
+    ss(yza+ss.yz+yzb,YZDM)
+    ss(sss.dir+"UserSettings.ini",US路径)
+    
+    javanew(sss.fileWrite,sss.DocFile,"Activity",activity,"String",sss.dir2)
+    javax(yzboo,sss.fileWrite,sss.DocFile,"fileWrite","String",US路径,"String",YZDM)
+    
+    javanew(sss.fileWrite,sss.DocFile,"Activity",activity,"String",sss.dir2)
+    javax(boo,sss.fileWrite,sss.DocFile,"fileWrite","String",UC路径,"String",UC代码)
+    
+    
+    f(sss.ts)
+    {
+      f(boo?"true")
+      {
+        ufnsui()
+        {
+          endutw()
+          
+          tw("Boom！\n解锁成功,请重启游戏！")
+        }
+      }
+      else
+      {
+        ufnsui()
+        {
+          endutw()
+          tw("Boom！\n解锁成功,请重启游戏！")
+        }
+      }
+    }
+    
+  }
+  else
+  {
+    
+    
+    s 陀螺路径 = "/storage/emulated/0/Android/data/com.tencent.tmgp.pubgmhd/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/Active.sav"
+    fd(陀螺路径,sclj)
+    ss("@hz/1/"+文件+".sav",陀螺a)
+    s 陀螺b = 陀螺路径
+    s 陀螺c = true
+    fc(陀螺a, 陀螺b, 陀螺c, 陀螺d)
+    
+    s yza="[SoundQuality]\n+CVars=SoundQualityType="
+    s yzb="\n\n[ArtQuality]\n+CVars=WaterReflectionSetting=\n\n"
+    ss(yza+ss.yz+yzb,YZDM)
+    ss(sss.dir+"UserSettings.ini",US路径)
+    fw(US路径,YZDM)
+    
+    fw(UC路径,UC代码)
+    
+    
+    ufnsui()
+    {
+      endutw()
+      tw("Boom！\n解锁成功,请重启游戏！")
+    }
+  }
+  sss ts=true
+}
+}
+
+
+end fn
+
+
+
+
+
+
+
+fn UC2(UC代码)
+
+loadjar("lengtong.dx",jar)
+cls(jar,"com.lengtong.tool.lengtong",sss.cls)
+
+
+ss(sss.dir+"UserCustom.ini",UC路径)
+
+//检测安卓11授权
+f(sss.Android11)
+{
+  javanew(sss.DocFiles,sss.DocFile,"Activity",activity,"String",sss.dir2)
+  javax(is,sss.DocFiles,sss.DocFile,"isPermission")
+  
+  
+  f(is==false)
+  {
+    fn 弹窗.授权()
+    endcode
+  }
+}
+
+
+
+t()
+{
+  
+  ufnsui()
+  {
+    utw("","","保存.iyu","",true,vvv)
+    {
+    }
+  }
+  
+  
+  
+  
+  f(sss.Android11)
+  {
+    
+    javanew(sss.fileRead,sss.DocFile,"Activity",activity,"String",sss.dir2)
+    javax(ydm,sss.fileRead,sss.DocFile,"fileRead","String",UC路径)
+    
+  }
+  else
+  {
+    fr(UC路径,ydm)
+  }
+  
+  
+  f(UC代码 ? "r.")
+  {
+    javax(加密文,null,sss.cls,"jiami","String",UC代码)
+  }
+  else
+  {
+    s 加密文=UC代码
+  }
+  
+  
+  f(ydm ? "BackUp")
+  {
+    sj(ydm,"[B",null,backup)
+    ss(加密文+"\n\n[B"+backup,UC代码)
+  }
+  
+  
+  f(backup?"[UserCustom DeviceProfile]")
+  {
+    sj(ydm,"[B","[UserCustom DeviceProfile]",backup)
+    ss(加密文+"\n\n[B"+backup,UC代码)
+  }
+  
+  
+  f(sss.Android11)
+  {
+    javanew(sss.fileWrite,sss.DocFile,"Activity",activity,"String",sss.dir2)
+    javax(boo,sss.fileWrite,sss.DocFile,"fileWrite","String",UC路径,"String",UC代码)
+    
+    f(sss.ts)
+    {
+      f(boo?"true")
+      {
+        ufnsui()
+        {
+          endutw()
+          
+          tw("Boom！\n解锁成功,请重启游戏！")
+        }
+      }
+      else
+      {
+        ufnsui()
+        {
+          endutw()
+          tw("Boom！\n解锁成功,请重启游戏！")
+        }
+      }
+    }
+    
+  }
+  else
+  {
+    fw(UC路径,UC代码)
+    f(sss.ts)
+    {
+      ufnsui()
+      {
+        endutw()
+        tw("Boom！\n解锁成功,请重启游戏！")
+      }
+    }
+    
+  }
+  sss ts=true
+}
+}
+
+
+end fn
+
+
+
+
+fn UC3(UC代码)
+
+loadjar("lengtong.dx",jar)
+cls(jar,"com.lengtong.tool.lengtong",sss.cls)
+
+
+ss(sss.dir+"UserCustom.ini",UC路径)
+
+//检测安卓11授权
+f(sss.Android11)
+{
+javanew(sss.DocFiles,sss.DocFile,"Activity",activity,"String",sss.dir2)
+javax(is,sss.DocFiles,sss.DocFile,"isPermission")
+
+
+f(is==false)
+{
+fn 弹窗.授权()
+endcode
+}
+}
+
+
+
+t()
+{
+
+ufnsui()
+{
+utw("","","保存.iyu","",true,vvv)
+{
+}
+}
+
+
+
+
+f(sss.Android11)
+{
+
+javanew(sss.fileRead,sss.DocFile,"Activity",activity,"String",sss.dir2)
+javax(ydm,sss.fileRead,sss.DocFile,"fileRead","String",UC路径)
+
+}
+else
+{
+fr(UC路径,ydm)
+}
+
+
+f(UC代码 ? "r.")
+{
+javax(加密文,null,sss.cls,"jiami","String",UC代码)
+}
+else
+{
+s 加密文=UC代码
+}
+
+
+f(ydm ? "BackUp")
+{
+sj(ydm,"[B",null,backup)
+ss(加密文+"\n\n[B"+backup,UC代码)
+}
+
+
+f(backup?"[UserCustom DeviceProfile]")
+{
+sj(ydm,"[B","[UserCustom DeviceProfile]",backup)
+ss(加密文+"\n\n[B"+backup,UC代码)
+}
+
+
+f(sss.Android11)
+{
+javanew(sss.fileWrite,sss.DocFile,"Activity",activity,"String",sss.dir2)
+javax(boo,sss.fileWrite,sss.DocFile,"fileWrite","String",UC路径,"String",UC代码)
+
+f(sss.ts)
+{
+f(boo?"true")
+{
+ufnsui()
+{
+endutw()
+
+tw("保存成功！")
+}
+}
+else
+{
+ufnsui()
+{
+endutw()
+tw("保存失败！")
+}
+}
+}
+
+}
+else
+{
+fw(UC路径,UC代码)
+f(sss.ts)
+{
+ufnsui()
+{
+endutw()
+tw("Boom！\n解锁成功,请重启游戏！")
+}
+}
+
+}
+sss ts=true
+}
+}
+
+
+end fn
+
+
+
+
+
+fn EC(EC代码)
+
+loadjar("lengtong.dx",jar)
+cls(jar,"com.lengtong.tool.lengtong",sss.cls)
+
+
+//检测安卓11授权
+f(sss.Android11)
+{
+  javanew(sss.DocFiles,sss.DocFile,"Activity",activity,"String",sss.dir2)
+  javax(is,sss.DocFiles,sss.DocFile,"isPermission")
+  
+  
+  f(is==false)
+  {
+    fn 弹窗.授权()
+    endcode
+  }
+}
+
+
+
+t()
+{
+  
+  ufnsui()
+  {
+    utw("","","保存.iyu","",true,vvv)
+    {
+    }
+  }
+  
+  ss(sss.dir+"EnjoyCJZC.ini",EC路径)
+  f(sss.Android11)
+  {
+    syso(sss.dir2)
+    javanew(sss.fileWrite,sss.DocFile,"Activity",activity,"String",sss.dir2)
+    javax(boo,sss.fileWrite,sss.DocFile,"fileWrite","String",EC路径,"String",EC代码)
+    
+    f(boo?"true")
+    {
+      ufnsui()
+      {
+        endutw()
+        tw("Boom！\n解锁成功,请重启游戏！")
+      }
+    }
+    else
+    {
+      ufnsui()
+      {
+        endutw()
+        tw("解锁失败!")
+      }
+    }
+    
+  }
+  else
+  {
+    fw(EC路径,EC代码)
+    ufnsui()
+    {
+      endutw()
+      tw("Boom！\n解锁成功,请重启游戏！")
+    }
+  }
+  
+}
+
+
+
+end fn
+
+
+
+fn YZ2(ss.yz)
+
+//javanew(sss.DocFiles,sss.DocFile,"Activity",activity,"String",sss.dir4)
+//javax(is,sss.DocFiles,sss.DocFile,"isPermission")
+
+t()
+{
+  
+  s a="[SoundQuality]\n+CVars=SoundQualityType="
+  s b="\n\n[ArtQuality]\n+CVars=WaterReflectionSetting=\n\n"
+  ss(a+ss.yz+b,YZDM)
+  ss(sss.dir+"UserSettings.ini",US路径)
+  
+  
+  javanew(sss.fileDelete,sss.DocFile,"Activity",activity,"String",sss.dir2)
+  javax(boo,sss.fileDelete,sss.DocFile,"fileDelete","String",US路径)
+  javanew(sss.fileWrite,sss.DocFile,"Activity",activity,"String",sss.dir2)
+  javax(boo,sss.fileWrite,sss.DocFile,"fileWrite","String",US路径,"String",YZDM)
+  
+  
+}
+end fn
+
+
+
+
+
+
+fn UC读取(id)
+
+loadjar("lengtong.dx",jar)
+cls(jar,"com.lengtong.tool.lengtong",sss.cls)
+f(sss.Android11)
+{
+  javanew(sss.DocFiles,sss.DocFile,"Activity",activity,"String",sss.dir2)
+  javax(is,sss.DocFiles,sss.DocFile,"isPermission")
+  f(is==false)
+  {
+    fn 弹窗.授权()
+    sss 解密文="请授权后刷新重试"
+    endcode
+  }
+}
+
+
+t()
+{
+  
+  ss(sss.dir+"UserCustom.ini",路径)
+  f(sss.Android11)
+  {
+    javanew(sss.fileRead,sss.DocFile,"Activity",activity,"String",sss.dir2)
+    javax(加密代码1,sss.fileRead,sss.DocFile,"fileRead","String",路径)
+  }
+  else
+  {
+    fr(路径,加密代码1)
+  }
+  
+  
+  
+  f(加密代码1? "BackUp")
+  {
+    sj(加密代码1,null,"[B",加密代码)
+  }
+  else
+  {
+    sj(加密代码1,"[UserCustom DeviceProfile]",null,加密代码)
+    sr(加密代码," ","",加密代码)
+  }
+  
+  javax(sss.解密文,null,sss.cls,"jiemi","String",加密代码)
+  
+  
+  f(sss.解密文?"null")
+  {
+    sss 解密文="读取出错，请重置画质后重启游戏再试"
+  }
+  ufnsui()
+  {
+    us(id,"text",sss.解密文)
+  }
+}
+
+
+end fn
+
+
+
+
+
+
+
+
+fn 删除(路径)
+
+
+f(sss.Android11)
+{
+  javanew(sss.DocFiles,sss.DocFile,"Activity",activity,"String",sss.dir2)
+  javax(is,sss.DocFiles,sss.DocFile,"isPermission")
+  f(is==false)
+  {
+    fn 弹窗.授权()
+    sss 解密文="请授权后刷新重试"
+    endcode
+  }
+}
+f(sss.Android11)
+{
+  javanew(sss.fileDelete,sss.DocFile,"Activity",activity,"String",sss.dir2)
+  javax(boo,sss.fileDelete,sss.DocFile,"fileDelete","String",路径)
+  f(boo?"true")
+  {
+    sss boo=true
+  }
+  else
+  {
+    sss boo=false
+  }
+}
+else
+{
+  fd(路径,boo)
+  sss boo=true
+}
+
+
+
+end fn
+
+
+
+
+fn 删除2(路径)
+
+
+f(sss.Android11)
+{
+  javanew(sss.DocFiles,sss.DocFile,"Activity",activity,"String",sss.dir2)
+  javax(is,sss.DocFiles,sss.DocFile,"isPermission")
+  f(is==false)
+  {
+    fn 弹窗.授权()
+  }
+  
+}
+
+f(sss.Android11)
+{
+  javanew(sss.fileDelete,sss.DocFile,"Activity",activity,"String",sss.dir2)
+  javax(boo,sss.fileDelete,sss.DocFile,"fileDelete","String",路径)
+  f(boo?"true")
+  {
+    sss boo=true
+  }
+  else
+  {
+    sss boo=false
+  }
+}
+else
+{
+  fd(路径,boo)
+  sss boo=true
+}
+
+
+
+end fn

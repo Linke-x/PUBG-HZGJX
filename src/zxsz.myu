@@ -1,0 +1,13 @@
+fn 设置()
+
+f(sss.v == null)
+{
+tw("请先开启准星")
+}
+else
+{
+uigo("准星设置.iyu")
+}
+
+
+end fn

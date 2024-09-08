@@ -1,0 +1,35 @@
+
+import android.app.Activity;
+import android.os.Build;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.Choreographer;
+
+private long mStartFrameTIme = 0;
+    private int mFrameCount = 0;
+    private static final long MONITOR_INTERVAL = 160L;
+    private static final long MONITOR_INTERVAL_NANOS = MONITOR_INTERVAL * 1000 * 1000;
+    private void getFps() {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.JELLY_BEAN) {
+            return;
+        }
+        Choreographer.getInstance().postFrameCallback(new Choreographer.FrameCallback() {
+               
+                public void doFrame(long frameTimeNanos) {
+                    if (mStartFrameTIme == 0) {
+                        mStartFrameTIme = frameTimeNanos;
+                    }
+                    float interval = (frameTimeNanos - mStartFrameTIme) / 1000000.0f;
+                    if (interval > MONITOR_INTERVAL) {
+                        double fps = ((double) mFrameCount * 1000L) / interval;
+                        sss("fps", fps);
+                       
+                        mFrameCount = 0;
+                        mStartFrameTIme = 0;
+                    } else {
+                        ++mFrameCount;
+                    }
+                    Choreographer.getInstance().postFrameCallback(this);
+                }
+            });
+    }

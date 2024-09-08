@@ -1,0 +1,216 @@
+fn 解锁(文件)
+
+f(sss.任务开关=="关")
+{
+
+fn 弹窗.提示("true", "画质正在研发测试阶段，暂时不可用，要是已经急不可耐了的话，可以向客服反馈，如果反馈的人比较多的话，我们会采取个别用户的意见，立即加快画质开发的进度！", "知 道 了", null)
+
+}
+else
+{
+
+fe(sss.dtlj,dq)
+f(dq==true)
+{
+
+fn 弹窗.提示("true", "画质正在研发测试阶段，暂时不可用，要是已经急不可耐了的话，可以向客服反馈，如果反馈的人比较多的话，我们会采取个别用户的意见，立即加快画质开发的进度！", "知 道 了", null)
+
+}
+else
+{
+//调用模块(函数)
+ufnsui()
+{
+fn 弹窗.任务提示()
+}
+}
+
+}
+
+
+end fn
+
+
+
+fn 判断(文件)
+
+loadjar("lengtong.dx",jar)
+cls(jar,"com.lengtong.tool.lengtong",sss.cls)
+
+
+//检测安卓11授权
+f(sss.Android11)
+{
+javanew(sss.DocFiles,sss.DocFile,"Activity",activity,"String",sss.dir4)
+javax(is,sss.DocFiles,sss.DocFile,"isPermission")
+
+
+f(is==false)
+{
+endutw()
+fn 弹窗.授权3()
+endcode
+}
+
+
+fn 暗区.android(文件)
+
+}
+else
+{
+//不是安卓11
+fn 暗区.使用(文件)
+}
+
+
+
+end fn
+
+
+
+
+fn 判断2(文件)
+
+
+loadjar("lengtong2.dex",a)
+cls(a,"com.lengtong.tool.DocUtil",ss.b)
+
+
+//检测安卓11授权
+f(sss.Android11)
+{
+
+javanew(ss.c,ss.b,"Activity",activity,"String",sss.dir4)
+javax(is,ss.c,ss.b,"isPermission")
+
+f(is==false)
+{
+endutw()
+fn 弹窗.授权3()
+endcode
+}
+
+fn 暗区.android2(文件)
+
+}
+else
+{
+//不是安卓11
+fn 暗区.使用(文件)
+}
+
+end fn
+
+
+
+
+
+fn android(文件)
+
+t()
+{
+
+ufnsui()
+{
+utw("","","保存.iyu","",false,v)
+{
+}
+
+}
+
+syso("官方")
+
+ss(sss.dir3 + "UserDefineConfig.ini", 路径)
+
+
+ss("@hz/"+文件,path)
+
+otob("file",null,path,bArr)
+
+// 写入文件   传入 文件路径, 写入字节数组
+fn gad.写入字节(路径, bArr)
+
+
+ufnsui()
+{
+endutw()
+tw("Boom！\n解锁成功,请重启游戏！")
+}
+
+}
+
+
+end fn
+
+
+
+fn android2(文件)
+
+
+t()
+{
+
+ufnsui()
+{
+utw("","","保存.iyu","",false,v)
+{
+}
+}
+
+
+//检测安卓11授权
+f(sss.Android11)
+{
+
+
+ss("@hz/"+文件,path)
+
+ss(sss.dir3 + "UserDefineConfig.ini", target)
+
+otob("file",null,path,bArr)
+
+
+javax(jg,ss.c,ss.b,"fileWrite","String",target,"byte[]",bArr)
+
+
+ufnsui()
+{
+endutw()
+tw("Boom！\n解锁成功,请重启游戏！")
+}
+
+}
+else
+{
+//不是安卓11
+fn 暗区.使用(文件)
+}
+
+
+}
+
+
+end fn
+
+
+
+fn 使用(文件)
+
+ss(sss.dir3 + "UserDefineConfig.ini", 路径)
+
+fd(路径,sclj)
+
+ss("@hz/"+文件,a)
+
+s b = 路径
+s c = true
+
+fc(a, b, c, d)
+
+ufnsui()
+{
+endutw()
+tw("Boom！\n解锁成功,请重启游戏！")
+}
+
+end fn

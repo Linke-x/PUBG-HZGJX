@@ -1,0 +1,890 @@
+fn ends()
+
+javanew(c,"android.os.Process")
+java(id,c,"android.os.Process.myPid")
+java(a,c,"android.os.Process.killProcess","int",id)
+
+
+end fn
+
+//------标题栏图标颜色-----//
+fn ToolbarColor(mTba,color)
+javags(mMode, null, "android.graphics.PorterDuff$Mode", "SRC_ATOP")
+java(颜色,null,"android.graphics.Color.parseColor","String",color)
+java(mTbaBackSrc, mTba, "android.support.v7.widget.Toolbar.getNavigationIcon")
+java(null, mTbaBackSrc, "android.graphics.drawable.Drawable.setColorFilter", "int", 颜色, "android.graphics.PorterDuff$Mode", mMode)
+java(mTbaMenuSrc, mTba, "android.support.v7.widget.Toolbar.getOverflowIcon")
+java(null, mTbaMenuSrc, "android.graphics.drawable.Drawable.setColorFilter", "int", 颜色, "android.graphics.PorterDuff$Mode", mMode)
+end fn
+
+
+
+
+
+
+
+//------滑动窗体动画-----//
+fn hcan(v,type)
+call(包, "mlua", "tool.loadDex","@animation.dex")
+f(type=="card"){
+cls(包,"com.lcw.dynamicviewpager.transformer.CardTransformer",动画类)
+}else f(type=="GT"){
+cls(包,"com.lcw.dynamicviewpager.transformer.GalleryTransformer",动画类)
+}
+javanew(动画,动画类)
+java(null,v,"android.support.v4.view.ViewPager.setPageTransformer","boolean",true,"android.support.v4.view.ViewPager$PageTransformer",动画)
+end fn
+
+
+
+
+
+
+//------图片双指缩放(图片路径，容器id，是否启用缩放，最大缩放倍数，是否启用旋转)------//
+fn scaleimg(tp,aaa,is,ps,ist)
+loadjar("image.dex",a)
+cls(a,"com.bm.library.PhotoView",cls)
+javanew(kj,cls,"Context",activity)
+javax(null,aaa,"android.view.ViewGroup","addView","android.view.View",kj)
+us(kj,"src",tp)
+us(kj,"width",-1)
+us(kj,"height",-1)
+f(is){
+javax(null,kj, cls, "enable")
+.启用缩放功能
+}else{
+javax(null,kj, cls, "disenable")
+.禁用缩放功能
+}
+f(ist){
+javax(null,kj, cls, "enableRotate")
+.启用图片旋转
+}else{
+javax(null,kj, cls, "disenableRotate")
+.禁用图片旋转
+}
+//设置最大可以缩放的倍数
+javax(null,kj, cls, "setMaxScale","float",ps)
+/.
+//获取最大可以缩放的倍数
+javax(bs,kj, cls, "getMaxScale")
+//获取默认动画的持续时间
+javax(bs,kj, cls, "getDefaultAnimaDuring")
+./
+//设置动画的持续时间 单位:毫秒
+javax(null,kj, cls, "setAnimaDuring","int","500")
+javax(bs,kj, cls, "getAnimaDuring")
+end fn
+
+
+
+
+
+
+//跳转名片
+fn jionQQ(number,is)
+    s qq=number
+    sit(a,"action", "android.intent.action.VIEW")
+    sit(a,"data","mqqapi://card/show_pslcard?src_type=internal&source=sharecard&version=1&uin="+qq)
+    f(is){
+    sit(a,"classname","com.tencent.mobileqq", "com.tencent.mobileqq.activity.JumpActivity")
+    }
+    uit(a, "chooser", "添加作者") 
+end fn
+
+
+
+
+
+//QQ加群
+fn jionqun(number,is)
+s qun=number
+ss("mqqapi://card/show_pslcard?src_type=internal&version=1&uin="+qun+"&card_type=group&source=qrcode",joinqq)
+sit(a,"action", "android.intent.action.VIEW")
+f(is){
+sit(a,"classname","com.tencent.mobileqq", "com.tencent.mobileqq.activity.JumpActivity")
+}
+sit(a,"data",joinqq)
+uit(a, "chooser", "选择QQ")
+end fn
+
+
+
+
+//分享文件
+fn sharedoc(dir)
+sit(a, "action", "android.intent.action.SEND")
+sit(a, "type", "*/*")
+fdir(dir,zz)
+sit(a, "extra", "android.intent.extra.STREAM",zz)
+uit(a, "chooser", "分享文件")
+end fn
+
+
+//id批量操作
+fn Batch(ids,name,value)
+f(!ids?";")
+{
+  us(ids,name,value)
+  endcode
+}
+sl(ids,";",arry)
+for(va;arry)
+{
+  f(name=="colorset")
+  {
+   javax(aa,"int","java.lang.Integer","parseInt","String",va)
+   fn tool.colorset(aa,value)
+  }else f(name=="RC"){
+  ngde(value,"#225aa0ff",bg)
+  us(va,"background",bg)
+  }else{
+  us(va,name,value)
+  }
+}
+end fn
+
+
+
+
+//自定义阴影颜色
+/.
+控件id,父id,阴影颜色(透明色)，模糊度数
+./
+fn DIYshadow(id,pid,color,depth)
+loadjar("shadow.dex",k)
+cls(k,"com.lijiankun24.shadowlayout.ShadowLayout",class)
+javanew(shadow_view,class,"Context",activity)
+gvs(id,v)
+urvw(v)
+nvw(shadow_view,pid)
+nvw(v,shadow_view)
+java(null,shadow_view,"android.view.View.setId","int",65535)
+javax(null,shadow_view,class,"setShadowRadius","float",depth)
+javax(null,shadow_view,class,"setShadowColor","String",color)
+javax(null,shadow_view,class,"setShadowShape","int",1)
+javax(null,shadow_view,class,"setShadowSide","int",4369)
+end fn
+fn DIYshadow2(v,pid,color,depth)
+loadjar("shadow.dex",k)
+cls(k,"com.lijiankun24.shadowlayout.ShadowLayout",class)
+javanew(shadow_view,class,"Context",activity)
+urvw(v)
+nvw(shadow_view,pid)
+nvw(v,shadow_view)
+java(null,shadow_view,"android.view.View.setId","int",65535)
+javax(null,shadow_view,class,"setShadowRadius","float",depth)
+javax(null,shadow_view,class,"setShadowColor","String",color)
+javax(null,shadow_view,class,"setShadowShape","int",1)
+javax(null,shadow_view,class,"setShadowSide","int",4369)
+end fn
+
+
+
+//启用自定义弹窗
+fn DIYutw(type,nr,qx,qd,is)
+f(type==1){
+utw(null,"","utw.iyu",is,ss.dv)
+gvs(ss.dv,3,v3)
+gvs(ss.dv,5,v5)
+gvs(ss.dv,6,v6)
+f(qx==null)
+{
+  us(v5,"visibility","gone")
+}
+f(qd==null)
+{
+  us(v6,"visibility","gone")
+}
+us(v3,"text",nr)
+us(v5,"text",qx)
+us(v6,"text",qd)
+ssj(v6,"clicki"){
+     endutw()
+}
+ssj(v5,"clicki"){    
+     endutw()
+}
+.普通类型
+}
+end fn
+
+
+
+
+//软件签名
+fn signapk(inputApkPath,outputApkPath)
+loadjar("sign.dex",插件)
+cls(插件,"残页.插件.签名插件",类)
+s keyPath = "@Yunxie.jks"
+fdir(keyPath,签名证书路径)
+fdir(inputApkPath,输入文件)
+fdir(outputApkPath,输出文件)
+javax(ss.isok,null,类,"签名","String",签名证书路径,"String","W1472583690","String","Yunxie","String","W1472583690","String",输入文件,"String",输出文件)
+end fn
+
+
+
+
+//数组文件排序
+fn sort(sz)
+java(null, null, "java.util.Arrays.sort", "Object[]", sz)
+ss nsz=sz
+end fn
+
+
+//抓包VPN判断
+fn isvpn()
+t(){
+ loadjar("isvpn.dex",jar)
+ cls(jar,"com.Simple.VPN",cls)
+ w(true){
+ ufnsui(){
+ javax(back,null,cls,"isVpnUsed")
+ f(back == true){
+       syso("存在抓包")
+java(null,null,"java.lang.System.exit","int",1)      
+       }else{
+   //     syso("没有抓包")
+       }
+    }
+  stop(500)
+  }
+}
+end fn
+
+
+
+
+//简单防逆向
+fn rever()
+cls("de.robv.android.xposed.XposedBridge",klazz)
+f(klazz != null) {
+tw("存在 Xposed 环境")
+java(null,null,"java.lang.System.exit","int",1)
+}
+cls("de.robv.android.xposed.XposedBridge",klazz)
+f(klazz != null) {
+tw("存在 Xposed 环境")
+java(null,null,"java.lang.System.exit","int",1)
+javass(disable,null,klazz,"disableHooks",true)
+f(disable) {
+tw("禁用 Xposed 成功")
+} else {
+tw("禁用 Xposed 失败")
+}
+}
+java(thread,null,"java.lang.Thread.currentThread")
+java(stackTrace,thread,"java.lang.Thread.getStackTrace")
+s hasHook = false
+for(st;stackTrace) {
+java(sts,st,"java.lang.Object.toString")
+f(sts ? "de.robv.android.xposed." || sts ? "me.weishu.epic." || sts ? "me.weishu.exposed.") {
+s hasHook = true
+break
+}
+}
+f(hasHook) {
+tw("存在Hook框架")
+java(null,null,"java.lang.System.exit","int",1)
+}
+fr("/proc/self/maps",maps)
+f(maps ? "XposedBridge.jar" || maps ? "libepic.so" || maps ? "libdexposed.so" || maps ? "libsubstrate.so") {
+tw("存在Hook框架")
+java(null,null,"java.lang.System.exit","int",1)
+}
+java(isVxp,null,"java.lang.System.getProperty","String","vxp","String","0")
+f(isVxp == "1") {
+tw("vxp环境")
+java(null,null,"java.lang.System.exit","int",1)
+}
+java(filesDir,activity,"android.content.Context.getFilesDir")
+f(filesDir ? "io.va.exposed") {
+tw("处于vxp环境")
+java(null,null,"java.lang.System.exit","int",1)
+}
+end fn
+
+
+//获取视频第一帧
+fn getvideoimg(path)
+cls("android.media.MediaMetadataRetriever",c)
+javanew(media,c)
+javax(x,media,c,"setDataSource","String",path)
+javax(ss.firstimg,media,c,"getFrameAtTime")
+end fn
+
+
+
+
+
+//打开系统文件
+fn opendoc(type)
+javags(agc,"android.content.Intent","android.content.Intent.ACTION_GET_CONTENT")
+javanew(it,"android.content.Intent","String",agc)
+java(c,it,"android.content.Intent.setType","String",type)
+javags(ca,"android.content.Intent","android.content.Intent.CATEGORY_OPENABLE")
+java(c,it,"android.content.Intent.addCategory","String",ca)
+java(c,activity,"android.app.Activity.startActivityForResult","android.content.Intent",it,"int",2)
+end fn
+
+
+
+
+//回调返回路径
+fn backdir(st_sC,st_lC,st_iT)
+javags(er,activity,"android.app.Activity","RESULT_OK")
+f(st_lC==er)
+{
+  f(st_sC==2)
+  {
+    java(uri,st_iT,"android.content.Intent.getData")
+    call(ss.backdir, "mjava", "tool.getRealPath", activity, uri)    
+  }
+}
+end fn
+
+
+
+
+
+
+
+//控件转图片  ss.imgV
+fn idtoimg(id)
+gvs(id,v)
+java(w,v,"android.view.View.getWidth")
+java(h,v,"android.view.View.getHeight")
+javags(config,null,"android.graphics.Bitmap$Config","ARGB_8888")
+java(ss.imgV,null,"android.graphics.Bitmap.createBitmap","int",w,"int",h,"android.graphics.Bitmap$Config",config)
+f(ss.imgV == null){
+  tw("图片错误",0)
+  endcode
+  }
+javanew(hb,"android.graphics.Canvas","android.graphics.Bitmap",ss.imgV)
+java(null,v,"android.view.View.draw","android.graphics.Canvas",hb)
+end fn
+
+
+
+//输入法弹起(骗子没用哼)
+fn input(b)
+syso(b)
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",50)
+end fn
+
+
+
+
+
+fn 取光标位置(edit)
+  java(editX,edit,"android.view.View.getX")
+  java(editY,edit,"android.view.View.getY")
+
+  javags(mEditor,edit,"android.widget.TextView","mEditor")
+  javags(mCursorDrawables,mEditor,"android.widget.Editor","mCursorDrawable")
+  sgsz(mCursorDrawables,0,mCursorDrawable)
+  java(bounds,mCursorDrawable,"android.graphics.drawable.Drawable.getBounds")
+  
+  javags(boundsLeft,bounds,"android.graphics.Rect","left")
+  javags(boundsBottom,bounds,"android.graphics.Rect","bottom")
+  
+  java(mCompoundPaddingLeft,edit,"android.widget.TextView.getCompoundPaddingLeft")
+  s+(editX,mCompoundPaddingLeft,cursorX)
+  s+(cursorX,boundsLeft,ss.cursorX)
+  
+  java(mExtendedPaddingTop,edit,"android.widget.TextView.getExtendedPaddingTop")
+  java(mVerticalOffset,edit,"android.widget.TextView.getVerticalOffset","boolean",false)
+  s+(mExtendedPaddingTop,mVerticalOffset,cursorY)
+  s+(cursorY,boundsBottom,cursorY)
+  s+(cursorY,editY,ss.cursorY)
+  end fn
+
+
+//控件加载控件
+fn smile(id,sleep)
+loadjar("a",bag)
+cls(bag,"com.ldoublem.loadingviewlib.view.base.LVBase",管理类)
+cls(bag,"com.ldoublem.loadingviewlib.view.LVCircularSmile",笑脸类)
+javanew(笑脸,笑脸类,"Context",activity)
+nvw(笑脸,id)
+us(笑脸,"width",-1)
+us(笑脸,"height",-1)
+javax(null,笑脸,管理类,"startAnim","int",sleep)
+end fn
+
+
+
+
+//状态栏沉浸
+
+fn uycll(color,b,back)
+f(b)
+{
+uycl(back,true,0)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", color)
+endcode
+}
+uycl(color,true)
+end fn
+
+//vpn检测
+fn vpnis(b)
+loadjar("classes.dex",jar)
+cls(jar,"com.1874.VPN",cls)
+javax(sss.vpis,null,cls,"isVpnUsed")
+t()
+{
+  w(true)
+  {
+  cls(jar,"com.1874.VPN",cls)
+  javax(sss.vpis,null,cls,"isVpnUsed")
+  f(b&&sss.vpis)
+  {
+    ufnsui()
+    {
+      tw("瓜皮，别抓包了",0)
+      end()
+      endcode
+    }
+  }
+  stop(2000)
+}
+}
+end fn
+
+
+
+
+//接口调用
+fn api(bt,wz)
+sit(a,"action", "android.intent.action.VIEW")
+sit(a,"data",wz)
+uit(a, "chooser", bt)
+end fn
+
+
+
+
+
+
+//QQ侧滑型(容器，界面)
+fn setqd(v,inte,color)
+cls("android.support.v4.widget.SlidingPaneLayout",sss.侧滑类)
+//获取类
+javanew(sss.侧滑栏,sss.侧滑类,"Context",activity)
+//new出来
+addv(sss.侧滑栏,inte)
+//加载界面
+//默认第一个是侧滑界面，顺序不能乱
+nvw(sss.侧滑栏,v)
+//添加上去
+java(颜色,null,"android.graphics.Color.parseColor","String",color)
+javax(null,sss.侧滑栏,sss.侧滑类,"setSliderFadeColor","int",颜色)
+//设置拉出侧滑面板时，主界面的阴影渐变色
+cls("android.support.v4.widget.SlidingPaneLayout$PanelSlideListener",回调类)
+javacb(回调,回调类)
+{
+  java(名,st_mD,"java.lang.Object.toString")
+  f(名 ? "onPanelOpened")
+  {
+    //侧滑打开
+  }
+  else f(名 ? "onPanelClosed")
+  {
+    //侧滑关闭
+  }
+  else f(名 ? "onPanelSlide")
+  {
+    //侧滑移动事件
+    sgsz(st_aS,1,p)
+  }
+}
+javax(null,sss.侧滑栏,sss.侧滑类,"setPanelSlideListener",回调类,回调)
+end fn
+
+
+
+
+
+
+
+
+//文本转图片
+fn txtsrimg(v,nr,ze,imgv)
+call(null,"mlua","tool.EditText4Bitmap",v,nr,ze,imgv)
+end fn
+
+
+
+
+
+
+
+
+//设置控件爆炸
+fn boom(view,visibility)
+f(sss.mid!=null)
+{
+loadjar("boom.dex",mid)
+cls(mid,"com.canyie.viewboom.爆炸",sss.class)
+javanew(sss.boomv,sss.class,"Activity",activity)
+}
+f(visibility)
+{
+javax(null,sss.boomv,sss.class,"恢复","android.view.View",view)
+endcode 
+}
+javax(null,sss.boomv,sss.class,"控件爆炸","android.view.View",view)
+end fn
+
+
+//弹出底部弹窗
+fn showbt(iyu,bln)
+javanew(ss.utwv,"android.support.design.widget.BottomSheetDialog","Context",activity)
+nvw(-1,666666,"线性布局","width=-1\nheight=-1\norientation=vertical\nbackgroundcolor=0",acco)
+addv(acco, iyu)
+java(null,ss.utwv,"android.app.Dialog.setContentView","android.view.View",acco)
+java(null,ss.utwv,"android.app.Dialog.setCancelable","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setCanceledOnTouchOutside","boolean",bln)
+java(delegate,ss.utwv,"android.support.v7.app.AppCompatDialog.getDelegate")
+javags(id,null,"android.support.design.R$id","design_bottom_sheet")
+java(dialog,delegate,"android.support.v7.app.AppCompatDelegate.findViewById","int",id)
+us(dialog,"backgroundcolor",0)
+ss dialog=dialog
+java(null,ss.utwv,"android.app.Dialog.setOnDismissListener",".android.content.DialogInterface$OnDismissListener",null) {
+  //监听关闭
+} 
+java(null,ss.utwv,"android.app.Dialog.show")
+javags(behavior,ss.utwv,"android.support.design.widget.BottomSheetDialog","mBehavior")
+java(null,behavior,"android.support.design.widget.BottomSheetBehavior.setState","int",4)
+end fn
+//关闭弹窗
+fn endubt()
+java(null,ss.utwv,"android.app.Dialog.dismiss")
+end fn
+
+
+
+
+
+
+//获取图片坐标颜色
+fn getcolor(dci,x,y)
+t()
+{
+  java(px,dci,"android.graphics.Bitmap.getPixel","int",x,"int",y)
+  java(A,dci,"android.graphics.Color.alpha","int",px)
+  java(R,dci,"android.graphics.Color.red","int",px)
+  java(G,dci,"android.graphics.Color.green","int",px)
+  java(B,dci,"android.graphics.Color.blue","int",px)
+  java(c,null,"android.graphics.Color.argb","int",A,"int",R,"int",G,"int",B)
+  ufnsui()
+  {
+    sss imgclr=c
+  }
+  }
+end fn
+
+
+
+
+
+//获取ip
+fn getip()
+sss failed=false
+javags(str,null,"android.content.Context","WIFI_SERVICE")
+javax(wm,activity,"android.content.Context","getSystemService","String",str)
+javax(state,wm,"android.net.wifi.WifiManager","getWifiState")
+f(!state == 3)
+{
+  sss failed=true
+  endcode
+}
+javax(info,wm,"android.net.wifi.WifiManager","getDhcpInfo")
+javags(sIp,info,"android.net.DhcpInfo","serverAddress")
+javags(mIp,info,"android.net.DhcpInfo","ipAddress")
+call(sss.sip,"mjava","tool.intToIp",sIp)
+call(sss.mip,"mjava","tool.intToIp",mIp)
+//sss.mIp 设备ip
+//sss.sIp 服务器ip
+//sss.failed 是否获取失败By rose
+end fn
+
+
+
+//发送图片广播
+fn sendvideo(dir)
+fdir(dir,everdir)
+ss("file://"+everdir,uri)
+java(uri,null,"android.net.Uri.parse","String",uri)
+javanew(want,"android.content.Intent","String","android.intent.action.MEDIA_SCANNER_SCAN_FILE","android.net.Uri",uri)
+java(null,activity,"android.content.Context.sendBroadcast","android.content.Intent",want)
+end fn
+
+
+
+//壁纸获取
+fn getwp()
+cls("android.app.WallpaperManager", wallpaper)
+javax(wallpapergl, null, wallpaper, "getInstance", "android.content.Context", activity)
+javax(wp, wallpapergl, wallpaper, "getDrawable")
+sss wallpp=wp
+end fn
+
+
+
+
+//软件悬浮窗设置
+fn systemset()
+call(null, "mlua", "tool.systemset")
+end fn
+
+
+
+//v7列表用法
+fn listset(id,type,n)
+gvs(id,view)
+f(type)
+{
+cls("android.support.v7.widget.RecyclerView",listclass)
+cls("android.support.v7.widget.LinearLayoutManager",layoutclass)
+javanew(layout,layoutclass,"Context",activity,"int",0,"boolean",false)
+javax(null,view,listclass,"setLayoutManager","android.support.v7.widget.RecyclerView$LayoutManager",layout)
+}
+else
+{
+cls("android.support.v7.widget.RecyclerView",listclass)
+cls("android.support.v7.widget.StaggeredGridLayoutManager",layoutclass)
+javanew(layout,layoutclass,"int",n,"int",1)
+javax(null,view,listclass,"setLayoutManager","android.support.v7.widget.RecyclerView$LayoutManager",layout)
+}
+end fn
+
+
+
+
+//圆角阴影
+fn ngd(id,b,r,rc,bc,dp)
+ngde(b,r,rc,bc,xb)
+us(id,"background",xb)
+gvs(id,v)
+zdp(dp,as)
+us(id,"elevation",dp)
+end fn
+
+
+//浏览器修复
+fn url(id)
+gvs(id,wv)
+java(ws,wv,"android.webkit.WebView.getSettings")
+java(null,ws,"android.webkit.WebSettings.setBuiltInZoomControls","boolean",true)
+java(null,ws,"android.webkit.WebSettings.setDisplayZoomControls","boolean",false)
+end fn
+
+
+
+//返回全局联网变量
+fn inte()
+t()
+{
+  w(!sss.closeall)
+  {
+    hs("http://www.10010.com",null,null,qudez)  
+    f(qudez!=null)
+    {
+      sss inte=true   
+    }
+    else
+    {
+      sss inte=false
+    }
+  }
+  stop(3000)
+}
+end fn
+
+
+
+
+
+
+
+//图片颜色修改
+fn imgcolor(id,color)
+gvs(id,v)
+java(颜色,null,"android.graphics.Color.parseColor","String",color)
+java(null,v,"android.widget.ImageView.setColorFilter","int",颜色)
+end fn
+//控件颜色修改
+fn colorset(控件,颜色)
+java(类,控件,"java.lang.Object.getClass")
+java(类名,类,"java.lang.Class.getName")
+f(类名 == "java.lang.Integer"){
+  gvs(控件,控件)
+  java(类,控件,"java.lang.Object.getClass")
+  java(类名,类,"java.lang.Class.getName")
+  }
+f(颜色 ? "#"){
+  java(颜色,null,"android.graphics.Color.parseColor","String",颜色)
+  }
+f(类名 == "android.widget.EditText"){
+  fn tool.编辑框着色(控件,颜色)
+  }else f(类名 == "android.widget.CheckBox" || 类名 == "android.widget.RadioButton" || ){
+  fn tool.单选多选着色(控件,颜色)
+  }else f(类名 == "android.widget.ProgressBar" || 类名 == "android.widget.RatingBar"){  
+  fn tool.进度条着色(控件,颜色)
+  }else f(类名 == "android.support.v7.widget.SwitchCompat"){
+  fn tool.开关着色(控件,颜色)
+  }else f(类名 == "android.widget.SeekBar"){
+  fn tool.拖动条着色(控件,颜色)
+  }else f(类名 == "android.widget.ImageView"){
+  fn tool.图片控件着色(控件,颜色)
+  }else f(类名 == "android.widget.ScrollView"){
+  fn tool.滚动控件边缘着色(控件,颜色)
+  }else f(类名 == "android.widget.ListView"){
+  fn tool.列表控件边缘着色(控件,颜色)
+  }else f(类名 == "android.widget.HorizontalScrollView"){
+  fn tool.水平滚动边缘着色(控件,颜色)
+  }else f(类名 == "android.support.v4.view.ViewPager"){
+  fn tool.滑动窗体边缘着色(控件,颜色)
+  }else{
+  fn tool.背景着色(控件,颜色)
+}
+end fn
+
+fn 编辑框着色(控件,颜色)
+fn tool.背景着色(控件,颜色)
+javags(SDK_INT,null,"android.os.Build$VERSION","SDK_INT")
+f(SDK_INT &gt; 12){
+  javags(dres,控件,"android.widget.TextView","mCursorDrawableRes")
+  f(dres &gt; 0){
+    java(res,activity,"android.content.Context.getResources")
+    java(drawable,res,"android.content.res.Resources.getDrawable","int",dres)
+    fn tool.Drawable着色(drawable,颜色)
+    javags(editor,控件,"android.widget.TextView","mEditor")
+    javags(drawables,editor,"android.widget.Editor","mCursorDrawable")
+    sssz(drawables,0,sss.drawable)
+    sssz(drawables,1,sss.drawable)  
+    }
+  }
+end fn
+fn 单选多选着色(控件,颜色)
+javags(SDK_INT,null,"android.os.Build$VERSION","SDK_INT")
+f(SDK_INT &gt;= 21){
+  java(csl,null,"android.content.res.ColorStateList.valueOf","int",颜色)
+  java(null,控件,"android.widget.CompoundButton.setButtonTintList","android.content.res.ColorStateList",csl)
+  }else{
+  javags(drawable,控件,"android.widget.CompoundButton","mButtonDrawable")
+  fn tool.Drawable着色(drawable,颜色)
+  }
+end fn
+fn 进度条着色(控件,颜色)
+java(是否不精确,控件,"android.widget.ProgressBar.isIndeterminate")
+f(是否不精确){
+  java(drawable,控件,"android.widget.ProgressBar.getIndeterminateDrawable")
+  fn tool.Drawable着色(drawable,颜色)
+  }else{
+  java(drawable,控件,"android.widget.ProgressBar.getProgressDrawable")
+  fn tool.Drawable着色(drawable,颜色)
+  }
+end fn
+fn 拖动条着色(控件,颜色)
+fn tool.进度条着色(控件,颜色)
+java(drawable,控件,"android.widget.AbsSeekBar.getThumb")
+fn tool.Drawable着色(drawable,颜色)
+end fn
+fn 开关着色(控件,颜色)
+java(轨迹,控件,"android.support.v7.widget.SwitchCompat.getTrackDrawable")
+fn tool.Drawable着色(轨迹,颜色)
+java(滑块,控件,"android.support.v7.widget.SwitchCompat.getThumbDrawable")
+fn tool.Drawable着色(滑块,颜色)
+end fn
+fn 图片控件着色(控件,颜色)
+java(null,控件,"android.widget.ImageView.setColorFilter","int",颜色)
+end fn
+fn 滚动控件边缘着色(控件,颜色)
+javags(顶部边缘,控件,"android.widget.ScrollView","mEdgeGlowTop")
+fn tool.EdgeEffect着色(顶部边缘,颜色)
+javags(底部边缘,控件,"android.widget.ScrollView","mEdgeGlowBottom")
+fn tool.EdgeEffect着色(底部边缘,颜色)
+end fn
+fn 列表控件边缘着色(控件,颜色)
+javags(顶部边缘,控件,"android.widget.AbsListView","mEdgeGlowTop")
+fn tool.EdgeEffect着色(顶部边缘,颜色)
+javags(底部边缘,控件,"android.widget.AbsListView","mEdgeGlowBottom")
+fn tool.EdgeEffect着色(底部边缘,颜色)
+end fn
+fn 水平滚动边缘着色(控件,颜色)
+javags(左边缘,控件,"android.widget.HorizontalScrollView","mEdgeGlowLeft")
+fn tool.EdgeEffect着色(左边缘,颜色)
+javags(右边缘,控件,"android.widget.HorizontalScrollView","mEdgeGlowRight")
+fn tool.EdgeEffect着色(右边缘,颜色)
+end fn
+fn 滑动窗体边缘着色(控件,颜色)
+javags(左边缘,控件,"android.support.v4.view.ViewPager","mLeftEdge")
+fn tool.EdgeEffectCompat着色(左边缘,颜色)
+javags(右边缘,控件,"android.support.v4.view.ViewPager","mRightEdge")
+fn tool.EdgeEffectCompat着色(右边缘,颜色)
+end fn
+fn 背景着色(控件,颜色)
+java(背景,控件,"android.view.View.getBackground")
+fn tool.Drawable着色(背景,颜色)
+end fn
+fn Drawable着色(drawable,颜色)
+f(drawable != null){
+  javags(atop,null,"android.graphics.PorterDuff$Mode","SRC_ATOP")
+  javanew(pdcf,"android.graphics.PorterDuffColorFilter","int",颜色,"android.graphics.PorterDuff$Mode",atop)
+  java(null,drawable,"android.graphics.drawable.Drawable.setColorFilter","android.graphics.ColorFilter",pdcf)
+  sss drawable = drawable
+  }
+end fn
+fn EdgeEffect着色(edge,颜色)
+f(edge != null){
+  javags(SDK_INT,null,"android.os.Build$VERSION","SDK_INT")
+  f(SDK_INT &gt;= 21){
+    java(null,edge,"android.widget.EdgeEffect.setColor","int",颜色)
+    }else{
+    javags(drawable,edge,"android.widget.EdgeEffect","mEdge")
+    fn tool.Drawable着色(drawable,颜色)
+    javags(drawable,edge,"android.widget.EdgeEffect","mGlow")
+    fn tool.Drawable着色(drawable,颜色)
+    }
+  }
+end fn
+fn EdgeEffectCompat着色(edgeCompat,颜色)
+f(edgeCompat != null){
+  javags(edge,edgeCompat,"android.support.v4.widget.EdgeEffectCompat","mEdgeEffect")
+  fn tool.EdgeEffect着色(edge,颜色)
+  }
+end fn
+
+
+//弹出底部弹窗
+fn showbt(iyu,bln)
+javanew(ss.utwv,"android.support.design.widget.BottomSheetDialog","Context",activity)
+nvw(-1,666666,"线性布局","width=-1\nheight=-1\norientation=vertical\nbackgroundcolor=0",acco)
+addv(acco, iyu)
+java(null,ss.utwv,"android.app.Dialog.setContentView","android.view.View",acco)
+java(null,ss.utwv,"android.app.Dialog.setCancelable","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setCanceledOnTouchOutside","boolean",bln)
+java(delegate,ss.utwv,"android.support.v7.app.AppCompatDialog.getDelegate")
+javags(id,null,"android.support.design.R$id","design_bottom_sheet")
+java(dialog,delegate,"android.support.v7.app.AppCompatDelegate.findViewById","int",id)
+us(dialog,"backgroundcolor",0)
+ss dialog=dialog
+java(null,ss.utwv,"android.app.Dialog.setOnDismissListener",".android.content.DialogInterface$OnDismissListener",null) {
+  //监听关闭
+} 
+java(null,ss.utwv,"android.app.Dialog.show")
+javags(behavior,ss.utwv,"android.support.design.widget.BottomSheetDialog","mBehavior")
+java(null,behavior,"android.support.design.widget.BottomSheetBehavior.setState","int",4)
+end fn
+//关闭弹窗
+fn endubt()
+java(null,ss.utwv,"android.app.Dialog.dismiss")
+end fn
+

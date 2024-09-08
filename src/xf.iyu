@@ -1,0 +1,343 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-2
+height=-2</ppt>
+<event><eventItme type="touchmonitor">.在屏幕上滑动时候
+f(st_eA == 2)
+{
+.计算当前滑动的距离，如果滑动距离短就不移动了
+s-(st_rX, sss.rX, x)
+s-(st_rY, sss.rY, y)
+
+.判断是否够格移动悬浮
+f(sss.rXY == true || x&gt;64 || x&lt;-64 || y&gt;64 || y&lt;-64)
+{
+.记录本次直到结束释放触屏都可移动悬浮
+sss rXY = true
+.悬浮拖动的位置偏移
+s-(32, st_rX)
+s-(64, st_rY)
+.设置悬浮位置
+us(sss.vs, "x", st_rX)
+us(sss.vs, "y", st_rY)
+.刷新悬浮
+uxf(sss.vs)
+}
+}
+else f(st_eA == 0)
+{
+.当按下屏幕时候记录开始的坐标
+sss rX = st_rX
+sss rY = st_rY
+.初始化
+sss rXY = false
+}
+
+</eventItme></event>
+</View>
+<View id="3" did="1" type="LinearLayout">
+<ppt>width=190dp
+height=-2
+orientation=vertical
+visibility=0
+</ppt>
+<event></event>
+</View>
+<View id="17" did="3" type="CardView">
+<ppt>width=-1
+height=-1
+visibility=0
+layout_margin=1dp
+app_CardElevation=0dp
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#80000000</ppt>
+<event></event>
+</View>
+<View id="18" did="17" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="4" did="18" type="LinearLayout">
+<ppt>width=-1
+height=150dp
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="34" did="4" type="RelativeLayout">
+<ppt>width=-1
+height=40dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="28" did="34" type="LinearLayout">
+<ppt>width=30dp
+height=30dp
+orientation=vertical
+gravity=center
+ut_alignParentRight=true
+layout_marginRight=3dp
+layout_marginTop=2dp</ppt>
+<event><eventItme type="clicki">
+us(117,"text","开启悬浮窗")
+us(115,"app_cardbackgroundcolor","#5889FE")
+
+uxf(sss.vs, "del")
+sss vs = null
+</eventItme></event>
+</View>
+<View id="27" did="28" type="ImageView">
+<ppt>width=17dp
+height=17dp
+src=@xfcgb.jpg</ppt>
+<event></event>
+</View>
+<View id="33" did="34" type="ImageView">
+<ppt>width=25dp
+height=25dp
+src=@sanjiaoxing1.png
+ut_alignParentBottom=true
+ut_centerHorizontal=true</ppt>
+<event><eventItme type="clicki">
+
+gvs(sss.vs,xf.44, x)
+
+ug(x,"text",获)
+
+
+fr(sss.yy, yy)
+s-(获,yy)
+fw(sss.yy, yy)
+us(sss.v, "y", yy)
+uxf(sss.v)
+</eventItme></event>
+</View>
+<View id="35" did="4" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=horizontal
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="38" did="35" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=right|center_vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="40" did="38" type="ImageView">
+<ppt>width=25dp
+height=25dp
+src=@sanjiaoxing1-3.png
+layout_marginRight=30dp</ppt>
+<event><eventItme type="clicki">
+gvs(sss.vs,xf.44, x)
+
+ug(x,"text",获)
+
+
+fr(sss.xx, xx)
+s-(获,xx)
+fw(sss.xx, xx)
+us(sss.v, "x", xx)
+uxf(sss.v)
+
+
+</eventItme></event>
+</View>
+<View id="39" did="35" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=left|center_vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="41" did="39" type="ImageView">
+<ppt>width=25dp
+height=25dp
+src=@sanjiaoxing1-1.png
+layout_marginLeft=30dp</ppt>
+<event><eventItme type="clicki">
+gvs(sss.vs,xf.44, x)
+ug(x,"text",获)
+
+fr(sss.xx, xx)
+s+(获,xx)
+fw(sss.xx, xx)
+us(sss.v, "x", xx)
+uxf(sss.v)
+
+
+</eventItme></event>
+</View>
+<View id="37" did="4" type="RelativeLayout">
+<ppt>width=-1
+height=25dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="42" did="37" type="ImageView">
+<ppt>width=25dp
+height=25dp
+src=@sanjiaoxing1-2.png
+ut_centerHorizontal=true</ppt>
+<event><eventItme type="clicki">
+gvs(sss.vs,xf.44, x)
+ug(x,"text",获)
+
+fr(sss.yy, yy)
+s+(获,yy)
+fw(sss.yy, yy)
+us(sss.v, "y", yy)
+uxf(sss.v)
+</eventItme></event>
+</View>
+<View id="43" did="18" type="RelativeLayout">
+<ppt>width=-1
+height=25dp
+</ppt>
+<event></event>
+</View>
+<View id="45" did="43" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@jian.png
+ut_toLeftOf=44
+ut_centerVertical=true
+layout_marginRight=20dp</ppt>
+<event><eventItme type="clicki">
+
+gvs(sss.vs,xf.44, x)
+
+syso(x)
+
+ug(x,"text",减)
+
+syso(减)
+
+f(减 &lt;= 1)
+{
+tw("已经是最小了！")
+}
+else
+{
+s-("1",减)
+
+us(x,"text",减)
+}
+
+</eventItme></event>
+</View>
+<View id="44" did="43" type="TextView">
+<ppt>width=-2
+height=-2
+text=5
+textColor=#ffffffff
+textSize=11dp
+ut_centerInParent=true</ppt>
+<event></event>
+</View>
+<View id="46" did="43" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@jia.png
+ut_toRightOf=44
+ut_centerVertical=true
+layout_marginLeft=20dp</ppt>
+<event><eventItme type="clicki">
+
+gvs(sss.vs,xf.44, x)
+
+syso(x)
+
+ug(x,"text",加)
+
+syso(加)
+
+f(加 &gt;= 30)
+{
+tw("已经是最大了！")
+}
+else
+{
+s+("1",加)
+
+us(x,"text",加)
+}
+
+</eventItme></event>
+</View>
+<View id="30" did="18" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=horizontal
+gravity=center_horizontal
+layout_marginTop=20dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="31" did="30" type="Button">
+<ppt>width=80dp
+height=-2
+text=调小</ppt>
+<event><eventItme type="clicki">
+fr(sss.xfdx,大小)
+f(大小 &lt;= 10)
+{
+tw("已经不能再小了！")
+}
+else
+{
+s-(大小,"10",大小)
+
+gvs(sss.xfc,悬浮窗.1, x)
+
+us(x,"height",大小)
+us(x,"width",大小)
+
+
+uxf(sss.v)
+
+fw(sss.xfdx,大小)
+
+}
+
+</eventItme></event>
+</View>
+<View id="32" did="30" type="Button">
+<ppt>width=80dp
+height=-2
+text=调大</ppt>
+<event><eventItme type="clicki">
+
+fr(sss.xfdx,大小)
+
+f(大小 &gt;= 250)
+{
+tw("已经不能再大了！")
+}
+else
+{
+
+s+(大小,"10",大小)
+
+gvs(sss.xfc,悬浮窗.1, x)
+
+fw(sss.xfdx,大小)
+
+us(x,"height",大小)
+us(x,"width",大小)
+
+uxf(sss.v)
+
+
+}
+
+
+</eventItme></event>
+</View>
+<UIEventset></UIEventset>

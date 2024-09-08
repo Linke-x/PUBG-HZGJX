@@ -1,0 +1,285 @@
+
+fn 任务提示()
+
+s iyu ="任务提示.iyu"
+s bln ="true"
+
+javanew(ss.utwv,"androidx.appcompat.app.AppCompatDialog","Context",activity)
+nvw(111,111,"相对布局","width=-1\nheight=-1",ss.载体)
+addv(ss.载体,iyu)
+java(null,ss.utwv,"android.app.Dialog.setContentView","android.view.View",ss.载体)
+java(hq,ss.utwv,"android.app.Dialog.getWindow")
+java(null,hq,"android.view.Window.setBackgroundDrawableResource","int",17170445)
+
+java(null,ss.utwv,"android.app.Dialog.setCancelable","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setCanceledOnTouchOutside","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setOnDismissListener",".android.content.DialogInterface$OnDismissListener",null)
+{
+  
+}
+java(null,ss.utwv,"android.app.Dialog.show")
+
+
+end fn
+
+
+
+fn 退出提示()
+
+s iyu ="退出提示.iyu"
+s bln ="false"
+
+javanew(ss.utwv,"androidx.appcompat.app.AppCompatDialog","Context",activity)
+nvw(111,111,"相对布局","width=-1\nheight=-1",ss.载体)
+addv(ss.载体,iyu)
+java(null,ss.utwv,"android.app.Dialog.setContentView","android.view.View",ss.载体)
+java(hq,ss.utwv,"android.app.Dialog.getWindow")
+java(null,hq,"android.view.Window.setBackgroundDrawableResource","int",17170445)
+
+java(null,ss.utwv,"android.app.Dialog.setCancelable","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setCanceledOnTouchOutside","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setOnDismissListener",".android.content.DialogInterface$OnDismissListener",null)
+{
+  
+}
+java(null,ss.utwv,"android.app.Dialog.show")
+
+
+end fn
+
+
+
+
+fn 加载()
+
+s iyu ="加载.iyu"
+s bln ="false"
+
+javanew(ss.utwv,"androidx.appcompat.app.AppCompatDialog","Context",activity)
+nvw(111,111,"相对布局","width=-1\nheight=-1",ss.载体)
+addv(ss.载体,iyu)
+java(null,ss.utwv,"android.app.Dialog.setContentView","android.view.View",ss.载体)
+java(hq,ss.utwv,"android.app.Dialog.getWindow")
+java(null,hq,"android.view.Window.setBackgroundDrawableResource","int",17170445)
+
+java(null,ss.utwv,"android.app.Dialog.setCancelable","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setCanceledOnTouchOutside","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setOnDismissListener",".android.content.DialogInterface$OnDismissListener",null)
+{
+  
+}
+java(null,ss.utwv,"android.app.Dialog.show")
+
+
+end fn
+
+
+
+fn 卡密提示()
+
+s iyu ="卡密提示.iyu"
+s bln ="false"
+
+javanew(ss.utwv,"androidx.appcompat.app.AppCompatDialog","Context",activity)
+nvw(111,111,"相对布局","width=-1\nheight=-1",ss.载体)
+addv(ss.载体,iyu)
+java(null,ss.utwv,"android.app.Dialog.setContentView","android.view.View",ss.载体)
+java(hq,ss.utwv,"android.app.Dialog.getWindow")
+java(null,hq,"android.view.Window.setBackgroundDrawableResource","int",17170445)
+
+java(null,ss.utwv,"android.app.Dialog.setCancelable","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setCanceledOnTouchOutside","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setOnDismissListener",".android.content.DialogInterface$OnDismissListener",null)
+{
+  
+}
+java(null,ss.utwv,"android.app.Dialog.show")
+
+
+end fn
+
+
+
+fn 提示(状态, 内容, 按钮, 提示)
+
+s iyu ="提示.iyu"
+s bln = 状态
+sss 提示信息 = 提示
+
+javanew(ss.utwv,"androidx.appcompat.app.AppCompatDialog","Context",activity)
+nvw(111,111,"相对布局","width=-1\nheight=-1",ss.载体)
+addv(ss.载体,iyu)
+
+gvs(ss.载体,提示.8,kj)
+us(kj,"text",按钮)
+
+gvs(ss.载体,提示.13,kj)
+us(kj,"text",内容)
+
+java(null,ss.utwv,"android.app.Dialog.setContentView","android.view.View",ss.载体)
+java(hq,ss.utwv,"android.app.Dialog.getWindow")
+java(null,hq,"android.view.Window.setBackgroundDrawableResource","int",17170445)
+
+java(null,ss.utwv,"android.app.Dialog.setCancelable","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setCanceledOnTouchOutside","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setOnDismissListener",".android.content.DialogInterface$OnDismissListener",null)
+{
+  
+}
+java(null,ss.utwv,"android.app.Dialog.show")
+
+
+
+end fn
+
+
+
+fn 启动游戏()
+
+s iyu ="启动游戏.iyu"
+s bln ="true"
+
+javanew(ss.utwv,"androidx.appcompat.app.AppCompatDialog","Context",activity)
+nvw(111,111,"相对布局","width=-1\nheight=-1",ss.载体)
+addv(ss.载体,iyu)
+java(null,ss.utwv,"android.app.Dialog.setContentView","android.view.View",ss.载体)
+java(hq,ss.utwv,"android.app.Dialog.getWindow")
+java(null,hq,"android.view.Window.setBackgroundDrawableResource","int",17170445)
+
+java(null,ss.utwv,"android.app.Dialog.setCancelable","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setCanceledOnTouchOutside","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setOnDismissListener",".android.content.DialogInterface$OnDismissListener",null)
+{
+  
+}
+java(null,ss.utwv,"android.app.Dialog.show")
+
+
+
+end fn、
+
+
+fn 到账铃声()
+
+
+s iyu ="到账铃声.iyu"
+s bln ="true"
+
+javanew(ss.utwv,"androidx.appcompat.app.AppCompatDialog","Context",activity)
+nvw(111,111,"相对布局","width=-1\nheight=-1",ss.载体)
+addv(ss.载体,iyu)
+java(null,ss.utwv,"android.app.Dialog.setContentView","android.view.View",ss.载体)
+java(hq,ss.utwv,"android.app.Dialog.getWindow")
+java(null,hq,"android.view.Window.setBackgroundDrawableResource","int",17170445)
+
+java(null,ss.utwv,"android.app.Dialog.setCancelable","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setCanceledOnTouchOutside","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setOnDismissListener",".android.content.DialogInterface$OnDismissListener",null)
+{
+  
+}
+java(null,ss.utwv,"android.app.Dialog.show")
+
+
+end fn
+
+
+fn 授权()
+
+
+s iyu ="授权.iyu"
+s bln ="true"
+
+javanew(ss.utwv,"androidx.appcompat.app.AppCompatDialog","Context",activity)
+nvw(111,111,"相对布局","width=-1\nheight=-1",ss.载体)
+addv(ss.载体,iyu)
+java(null,ss.utwv,"android.app.Dialog.setContentView","android.view.View",ss.载体)
+java(hq,ss.utwv,"android.app.Dialog.getWindow")
+java(null,hq,"android.view.Window.setBackgroundDrawableResource","int",17170445)
+
+java(null,ss.utwv,"android.app.Dialog.setCancelable","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setCanceledOnTouchOutside","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setOnDismissListener",".android.content.DialogInterface$OnDismissListener",null)
+{
+  
+}
+java(null,ss.utwv,"android.app.Dialog.show")
+
+
+
+end fn
+
+
+fn 授权2()
+
+s iyu ="授权2.iyu"
+s bln ="false"
+
+javanew(ss.utwv,"androidx.appcompat.app.AppCompatDialog","Context",activity)
+nvw(111,111,"相对布局","width=-1\nheight=-1",ss.载体)
+addv(ss.载体,iyu)
+java(null,ss.utwv,"android.app.Dialog.setContentView","android.view.View",ss.载体)
+java(hq,ss.utwv,"android.app.Dialog.getWindow")
+java(null,hq,"android.view.Window.setBackgroundDrawableResource","int",17170445)
+
+java(null,ss.utwv,"android.app.Dialog.setCancelable","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setCanceledOnTouchOutside","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setOnDismissListener",".android.content.DialogInterface$OnDismissListener",null)
+{
+  
+}
+java(null,ss.utwv,"android.app.Dialog.show")
+
+
+
+end fn
+
+
+fn 授权3()
+
+s iyu ="授权3.iyu"
+s bln ="true"
+
+javanew(ss.utwv,"androidx.appcompat.app.AppCompatDialog","Context",activity)
+nvw(111,111,"相对布局","width=-1\nheight=-1",ss.载体)
+addv(ss.载体,iyu)
+java(null,ss.utwv,"android.app.Dialog.setContentView","android.view.View",ss.载体)
+java(hq,ss.utwv,"android.app.Dialog.getWindow")
+java(null,hq,"android.view.Window.setBackgroundDrawableResource","int",17170445)
+
+java(null,ss.utwv,"android.app.Dialog.setCancelable","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setCanceledOnTouchOutside","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setOnDismissListener",".android.content.DialogInterface$OnDismissListener",null)
+{
+  
+}
+java(null,ss.utwv,"android.app.Dialog.show")
+
+
+
+end fn
+
+
+
+fn 更新()
+
+s iyu ="更新提示.iyu"
+s bln ="false"
+
+javanew(ss.utwv,"androidx.appcompat.app.AppCompatDialog","Context",activity)
+nvw(111,111,"相对布局","width=-1\nheight=-1",ss.载体)
+addv(ss.载体,iyu)
+java(null,ss.utwv,"android.app.Dialog.setContentView","android.view.View",ss.载体)
+java(hq,ss.utwv,"android.app.Dialog.getWindow")
+java(null,hq,"android.view.Window.setBackgroundDrawableResource","int",17170445)
+
+java(null,ss.utwv,"android.app.Dialog.setCancelable","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setCanceledOnTouchOutside","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setOnDismissListener",".android.content.DialogInterface$OnDismissListener",null)
+{
+  
+}
+java(null,ss.utwv,"android.app.Dialog.show")
+
+end fn
+

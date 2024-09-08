@@ -1,0 +1,191 @@
+<View id="54" did="0" type="CardView">
+<ppt>width=-1
+height=225dp
+app_CardcornerRadius=10dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="3" did="54" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+clipChildren=ture</ppt>
+<event>
+</event>
+</View>
+<View id="5" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+clipChildren=true
+</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="5" type="LinearLayout">
+<ppt>width=-1
+height=70dp
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="55" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=到账音效
+textSize=14dp
+textStyle=bold
+textColor=#ff1d3347
+layout_marginLeft=20dp
+typeface=@zt.ttf</ppt>
+<event></event>
+</View>
+<View id="41" did="5" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="51" did="41" type="RelativeLayout">
+<ppt>width=-1
+height=48dp
+layout_marginLeft=20dp
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="42" did="51" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入金额
+textSize=13dp
+BackgroundColor=0
+paddingLeft=10dp
+singleLine=true
+maxLength=100
+digits=1234567890
+maxLength=13
+textCursorDrawable=#5889FE
+textColor=#5889FE
+textStyle=bold
+</ppt>
+<event><eventItme type="focuschange">
+gvs(st_vW,到账铃声.42,a)
+ngde(5,15,"#ffffffff","#5889FE",b)
+us(a,"background",b)
+
+</eventItme><eventItme type="aftertextchanged">gvs(st_vW,到账铃声.42,a)
+ug(a,"text",sss.jiner)
+</eventItme></event>
+</View>
+<View id="44" did="5" type="LinearLayout">
+<ppt>width=-1
+height=65dp
+orientation=horizontal
+layout_marginTop=10dp
+</ppt>
+<event></event>
+</View>
+<View id="45" did="44" type="CardView">
+<ppt>width=-1
+height=-1
+layout_weight=1
+layout_marginLeft=20dp
+layout_marginRight=10dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginTop=10dp
+layout_marginBottom=10dp
+app_CardBackgroundColor=#ffd4d4d4</ppt>
+<event></event>
+</View>
+<View id="52" did="45" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="53" did="52" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#ffe9e9e9</ppt>
+<event></event>
+</View>
+<View id="47" did="53" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+BackgroundRipple=#ffd4d4d4</ppt>
+<event><eventItme type="clicki">java(null,ss.utwv,"android.app.Dialog.dismiss")
+
+</eventItme></event>
+</View>
+<View id="48" did="47" type="TextView">
+<ppt>width=-2
+height=-2
+text=取 消
+textColor=#ff444444
+textStyle=bold
+textSize=12dp
+</ppt>
+<event></event>
+</View>
+<View id="46" did="44" type="CardView">
+<ppt>width=-1
+height=-1
+layout_weight=1
+layout_marginLeft=10dp
+layout_marginRight=20dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginTop=10dp
+layout_marginBottom=10dp
+</ppt>
+<event></event>
+</View>
+<View id="49" did="46" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#5889FE
+BackgroundRipple=#82B1FF</ppt>
+<event><eventItme type="clicki">
+javanew(对象,"android.app.ProgressDialog","Context",activity)
+cls("android.app.ProgressDialog",类)
+javax(对象,对象,类,"show","Context",activity,"CharSequence","","CharSequence","加载中...","boolean",false,"boolean",false,"android.content.DialogInterface$OnCancelListener",返回事件)
+
+
+s aa=sss.jiner
+s bb="https://mm.cqu.cc/share/zhifubaodaozhang/?money="
+ss(bb+aa,cc)
+sran(1,20,ee)
+t()
+{
+hd(cc,"zfbzbdzls.mp3",true,dd)
+syso(dd)
+ufnsui()
+{
+java(null,对象,"android.app.Dialog.cancel")
+tw("生成成功!")
+bfm("/storage/emulated/0/zfbzbdzls.mp3")
+}
+}
+</eventItme></event>
+</View>
+<View id="50" did="49" type="TextView">
+<ppt>width=-2
+height=-2
+text=确 定
+textColor=#ffffffff
+textSize=12dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

@@ -1,0 +1,104 @@
+<View id="5" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+</ppt>
+<event></event>
+</View>
+<View id="4" did="5" type="CardView">
+<ppt>width=-1
+height=-2
+layout_margin=7dp
+app_CardcornerRadius=8dp
+app_CardmaxElevation=0
+app_CardElevation=0
+layout_marginLeft=12dp
+layout_marginRight=12dp</ppt>
+<event></event>
+</View>
+<View id="6" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="1" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=+CVars=r.UserQualitySetting=
+layout_marginLeft=15dp
+layout_marginTop=15dp
+textcolor=#ff171717
+textSize=15dp
+layout_marginRight=15dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+layout_marginRight=12dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=7dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="10" type="EditText">
+<ppt>width=-1
+height=-2
+text=0
+hint=
+textColor=#5889FE
+digits=1234567890.-
+background=
+layout_marginLeft=8dp
+layout_marginRight=8dp
+textSize=15dp
+textStyle=bold
+textCursorDrawable=#5889FE</ppt>
+<event><eventItme type="aftertextchanged">ulas(st_vW,2,st_sS)
+</eventItme></event>
+</View>
+<View id="3" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=//游戏画面设置中显示的级别\n-1为超流畅\n0-流畅\n1-均衡\n2-高清或HDR高清\n3-超高清\n注：HDR高清的数值也是2，但需要配合 r.PUBGLDR=1 和 r.MobileHDR=1.0 使用！
+layout_marginLeft=15dp
+layout_marginTop=5dp
+textSize=12dp
+layout_marginRight=15dp
+layout_marginBottom=15dp
+</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">ulag(st_vW,2,默认值)
+gvs(st_vW,DIYlist.2,d)
+us(d,"hint","默认值："+默认值)
+
+
+gvs(st_vW,DIYlist.5,dt)
+dhs(dh, 0.9, 1, 0.9, 1, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 300)
+us(dt, "dh", dh)</eventItme></UIEventset>

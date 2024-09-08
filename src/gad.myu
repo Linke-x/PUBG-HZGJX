@@ -1,0 +1,249 @@
+/.
+用于安卓11/12/13无root读取Android/data 数据的实例
+iAPP官方  2023/2/15
+./
+
+
+// 初始化
+fn loadsdk()
+
+// 如果没有初始化就 进行初始化
+f(sss.gadjar == null)
+{
+  // 获取当前应用的 ClassLoader
+  javax(gcl, activity, "android.content.ContextWrapper", "getClassLoader")
+  
+  // 加载SDK 并且把 当前应用的ClassLoader 传入
+  // 这样就可以获取到当前应用的所有类了
+  // 有些用户加载SDK没做这一步,导致SDK因为找不到类导致运行失败
+  loadjar("getAndroidData.jar", false, gcl, sss.gadjar)
+  
+  // 从SDK里加载一个核心的类
+  cls(sss.gadjar, "i.app.tool.Aid_GetAndroidData", sss.gadc)
+  
+  // 把核心的类给实例化
+  javanew(sss.agad, sss.gadc, "android.app.Activity", activity)
+  
+  // 获取根目录, 因为安卓11默认获取的是专属分区
+  javax(file, null, "android.os.Environment", "getExternalStorageDirectory")
+  javax(sss.root, file, "java.io.File", "toString")
+}
+
+end fn
+
+
+// 获取列表  传入目录路径
+fn 列表(ml)
+
+// 读取目录的文件列表
+javax(sz, null, sss.gadc, "list", "android.content.Context", activity, "String", ml)
+
+f(sz == null)
+{
+  tw("无法读取文件夹，请确保是否拥有该文件夹的权限。")
+  endcode
+}
+// 清空列表控件
+ula(sss.list, null)
+
+// 显示访问的当前目录
+us(1, "text", ml)
+
+// 这里数组默认0位为 当前目录对象
+fn gad.获取父文件夹(ml)
+
+f(sss.parentDir != null)
+{
+  // 添加到列表控件上面,作为返回上层
+  ula(sss.list, 1=null, 2="上层文件夹", -1=sss.parentDir, -2=sss.parentDir)
+}
+
+
+// 获得文件列表的总数
+sgszl(sz, j)
+
+// 如果文件列表总数大于0
+f(j &gt; 0){
+  
+  // 循环读取文件列表,这里从第1位开始读取
+  s i = 0
+  w(i &lt; j)
+  {
+    // 获取文件对象
+    sgsz(sz, i, all)
+    
+    // 获取文件的完整路径
+    ss(ml + "/" + all, path)
+    
+    // 添加到列表控件上
+    ula(sss.list, 1=null, 2=all, -1=path, -2=all)
+    
+    s+(1, i)
+  }
+  
+}
+
+// 刷新列表控件
+ula(sss.list)
+
+end fn
+
+
+// 写入文件   传入 文件路径, 写入字符串
+fn 写入内容(file, text)
+
+fn gad.loadsdk()
+
+javax(sss.bWrite, null, sss.gadc, "writeFile", "android.content.Context", activity, "String", file, "String", text)
+
+end fn
+
+
+// 写入文件   传入 文件路径, 写入字节数组
+fn 写入字节(file, bytes)
+
+fn gad.loadsdk()
+
+javax(sss.bWriteBytes, null, sss.gadc, "writeFile", "android.content.Context", activity, "String", file, "byte[]", bytes)
+
+end fn
+
+
+// 读取文件 的字节数组   传入 文件路径
+fn 读取字节(file)
+
+fn gad.loadsdk()
+
+javax(sss.sReadBytes, null, sss.gadc, "readFile", "android.content.Context", activity, "String", file)
+
+end fn
+
+
+// 读取txt文件   传入 文件路径
+fn 读取内容(file)
+
+fn gad.loadsdk()
+
+javax(sss.sRead, null, sss.gadc, "readFileText", "android.content.Context", activity, "String", file)
+
+end fn
+
+
+// 删除文件   传入 文件路径
+fn 删除(file)
+
+fn gad.loadsdk()
+
+javax(sss.bDelete, null, sss.gadc, "delete", "android.content.Context", activity, "String", file)
+
+end fn
+
+
+
+// 删除文件夹   传入 文件夹路径
+fn 删除文件夹(file)
+
+fn gad.loadsdk()
+
+javax(sss.bDeleteDir, null, sss.gadc, "delete", "android.content.Context", activity, "String", file)
+
+end fn
+
+
+// 文件重命名   传入 文件路径, 文件名
+fn 重命名(file, name)
+
+fn gad.loadsdk()
+
+javax(sss.bRename, null, sss.gadc, "renameFile", "android.content.Context", activity, "String", file, "String", name)
+
+end fn
+
+
+fn 是否文件夹(file)
+
+fn gad.loadsdk()
+
+javax(sss.isDir, null, sss.gadc, "isDir", "android.content.Context", activity, "String", file)
+
+end fn
+
+fn 获取父文件夹(file)
+
+fn gad.loadsdk()
+
+javax(sss.parentDir, null, sss.gadc, "getFileParent", "String", file)
+
+end fn
+
+fn 获取文件名(file)
+
+fn gad.loadsdk()
+
+javax(sss.fileName, null, sss.gadc, "getFileName", "String", file)
+
+end fn
+
+
+fn 获取文件对象(file)
+
+fn gad.loadsdk()
+
+javax(sss.documentFile, null, sss.gadc, "getFile", "android.content.Context", activity, "String", file)
+
+end fn
+
+// 复制文件  传入 原有文件路径, 复制至指定的路径
+fn 复制(file, file2)
+
+fn gad.loadsdk()
+
+javax(sss.iCopy, null, sss.gadc, "copyFile", "android.content.Context", activity, "String", file, "String", file2)
+
+end fn
+
+// 复制文件夹  传入 原有文件夹路径, 复制至指定的文件夹路径， 是否覆盖
+fn 复制文件夹(file, file2, isCover)
+
+fn gad.loadsdk()
+
+javax(sss.iCopyDir, null, sss.gadc, "copyDir", "android.content.Context", activity, "String", file, "String", file2, "boolean", isCover)
+
+end fn
+
+// 复制文件  传入 原有文件路径, 复制至指定的路径， 是否覆盖
+fn 复制并可选覆盖(file, file2, isCover)
+
+fn gad.loadsdk()
+
+javax(sss.iCopy, null, sss.gadc, "copyFile", "android.content.Context", activity, "String", file, "String", file2, "boolean", isCover)
+
+end fn
+
+
+fn 是否已授权文件夹权限(pn)
+
+fn gad.loadsdk()
+
+javax(sss.isPermission, null, sss.gadc, "isPermission", "android.app.Activity", activity, "String", pn)
+
+end fn
+
+
+fn 进入授权文件夹权限(pn)
+
+fn gad.loadsdk()
+
+javax(a, null, sss.gadc, "goPermission", "android.app.Activity", activity, "String", pn)
+
+end fn
+
+
+fn 授权文件夹结果(requestCode, resultCode, data)
+
+fn gad.loadsdk()
+
+// 通知权限结果
+javax(a, null, sss.gadc, "onActivityResult", "android.app.Activity", activity, "int", requestCode, "int", resultCode, "android.content.Intent", data)
+
+end fn
