@@ -1,0 +1,5185 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#F9F9F9</ppt>
+<event></event>
+</View>
+<View id="124" did="1" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=vertical
+gravity=center
+visibility=8</ppt>
+<event></event>
+</View>
+<View id="125" did="124" type="TextView">
+<ppt>width=-2
+height=-2
+text=国际服DIY
+textColor=#5889FE
+typeface=@zt.ttf
+textSize=15dp
+</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="142" did="5" type="LinearLayout">
+<ppt>width=-1
+height=170dp
+orientation=horizontal
+layout_marginTop=12dp</ppt>
+<event></event>
+</View>
+<View id="120" did="142" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+layout_marginRight=12dp
+</ppt>
+<event></event>
+</View>
+<View id="167" did="120" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="168" did="167" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+</ppt>
+<event></event>
+</View>
+<View id="170" did="168" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="176" did="170" type="CardView">
+<ppt>width=30dp
+height=30dp
+app_CardcornerRadius=15dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="179" did="176" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#2196F3</ppt>
+<event></event>
+</View>
+<View id="180" did="179" type="ImageView">
+<ppt>width=22dp
+height=25dp
+src=@img/gd/1.png</ppt>
+<event></event>
+</View>
+<View id="177" did="170" type="TextView">
+<ppt>width=-2
+height=-2
+text=设备品牌
+textSize=9dp
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="178" did="170" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#ff000000
+textSize=11dp
+</ppt>
+<event></event>
+</View>
+<View id="181" did="168" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="182" did="181" type="CardView">
+<ppt>width=30dp
+height=30dp
+app_CardcornerRadius=15dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="183" did="182" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#F06292</ppt>
+<event></event>
+</View>
+<View id="184" did="183" type="ImageView">
+<ppt>width=21dp
+height=21dp
+src=@img/gd/3.png</ppt>
+<event></event>
+</View>
+<View id="185" did="181" type="TextView">
+<ppt>width=-2
+height=-2
+text=安卓版本
+textSize=9dp
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="212" did="181" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="214" did="212" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#ff000000
+textSize=11dp
+</ppt>
+<event></event>
+</View>
+<View id="187" did="168" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="188" did="187" type="CardView">
+<ppt>width=30dp
+height=30dp
+app_CardcornerRadius=15dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="189" did="188" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#7E57C2</ppt>
+<event></event>
+</View>
+<View id="190" did="189" type="ImageView">
+<ppt>width=21dp
+height=21dp
+src=@img/gd/6.png</ppt>
+<event></event>
+</View>
+<View id="191" did="187" type="TextView">
+<ppt>width=-2
+height=-2
+text=处理器
+textSize=9dp
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="192" did="187" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#ff000000
+textSize=11dp
+</ppt>
+<event></event>
+</View>
+<View id="193" did="167" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+</ppt>
+<event></event>
+</View>
+<View id="194" did="193" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="195" did="194" type="CardView">
+<ppt>width=30dp
+height=30dp
+app_CardcornerRadius=15dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="196" did="195" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#FFA726</ppt>
+<event></event>
+</View>
+<View id="197" did="196" type="ImageView">
+<ppt>width=21dp
+height=21dp
+src=@img/gd/5.png</ppt>
+<event></event>
+</View>
+<View id="198" did="194" type="TextView">
+<ppt>width=-2
+height=-2
+text=屏幕分辨率
+textSize=9dp
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="199" did="194" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#ff000000
+textSize=11dp
+</ppt>
+<event></event>
+</View>
+<View id="200" did="193" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="201" did="200" type="CardView">
+<ppt>width=30dp
+height=30dp
+app_CardcornerRadius=15dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="202" did="201" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#4CAF50</ppt>
+<event></event>
+</View>
+<View id="203" did="202" type="ImageView">
+<ppt>width=22dp
+height=22dp
+src=@img/gd/2.png</ppt>
+<event></event>
+</View>
+<View id="204" did="200" type="TextView">
+<ppt>width=-2
+height=-2
+text=设备型号
+textSize=9dp
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="205" did="200" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#ff000000
+textSize=11dp
+</ppt>
+<event></event>
+</View>
+<View id="206" did="193" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="207" did="206" type="CardView">
+<ppt>width=30dp
+height=30dp
+app_CardcornerRadius=15dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="208" did="207" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#26A69A</ppt>
+<event></event>
+</View>
+<View id="209" did="208" type="ImageView">
+<ppt>width=21dp
+height=21dp
+src=@img/gd/4.png</ppt>
+<event></event>
+</View>
+<View id="210" did="206" type="TextView">
+<ppt>width=-2
+height=-2
+text=手机SDK
+textSize=9dp
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="211" did="206" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#ff000000
+textSize=11dp
+</ppt>
+<event></event>
+</View>
+<View id="346" did="5" type="CardView">
+<ppt>width=-1
+height=70dp
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+layout_marginRight=12dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="347" did="346" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="348" did="347" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="349" did="348" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+BackgroundRipple=#EEEEEE</ppt>
+<event><eventItme type="clicki">uigo("自定义.iyu")
+</eventItme></event>
+</View>
+<View id="350" did="349" type="ImageView">
+<ppt>width=33dp
+height=33dp
+src=@img/gd/weibaojilubeifen.png</ppt>
+<event></event>
+</View>
+<View id="351" did="349" type="TextView">
+<ppt>width=-2
+height=-2
+text=画质编辑
+textColor=#ff000000
+textSize=11dp
+layout_marginTop=3dp
+typeface=@zt2.ttf</ppt>
+<event></event>
+</View>
+<View id="352" did="347" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="353" did="352" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+BackgroundRipple=#EEEEEE</ppt>
+<event><eventItme type="clicki">uigo("帮助.iyu")</eventItme></event>
+</View>
+<View id="354" did="353" type="ImageView">
+<ppt>width=33dp
+height=33dp
+src=@img/gd/a-kejichanyefuwubeifen2.png</ppt>
+<event></event>
+</View>
+<View id="355" did="353" type="TextView">
+<ppt>width=-2
+height=-2
+text=使用帮助
+textColor=#ff000000
+textSize=11dp
+layout_marginTop=3dp
+typeface=@zt2.ttf</ppt>
+<event></event>
+</View>
+<View id="356" did="347" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="357" did="356" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+BackgroundRipple=#EEEEEE</ppt>
+<event><eventItme type="clicki">fn 跳转.跳转("听声.iyu")</eventItme></event>
+</View>
+<View id="358" did="357" type="ImageView">
+<ppt>width=33dp
+height=33dp
+src=@img/gd/a-bianzu32beifen2.png</ppt>
+<event></event>
+</View>
+<View id="359" did="357" type="TextView">
+<ppt>width=-2
+height=-2
+text=听声辨位
+textColor=#ff000000
+textSize=11dp
+layout_marginTop=3dp
+typeface=@zt2.ttf</ppt>
+<event></event>
+</View>
+<View id="360" did="347" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="361" did="360" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+BackgroundRipple=#EEEEEE</ppt>
+<event><eventItme type="clicki">
+s 画质 = "/storage/emulated/0/Android/data/com.tencent.tmgp.pubgmhd/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/UserCustom.ini"
+
+s 画质2 = "/storage/emulated/0/Android/data/com.tencent.tmgp.pubgmhd/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/EnjoyCJZC.ini"
+
+s 画质3 = "/storage/emulated/0/Android/data/com.tencent.tmgp.pubgmhd/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/UserSettings.ini"
+
+s 画质4 = "/storage/emulated/0/Android/data/com.tencent.tmgp.pubgmhd/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/Active.sav"
+
+//获取设备信息,并且从设备信息中提取系统SDK版本
+sjxx(info)
+sgsz(info,2,info2)
+sl(info2,"\n",info3)
+sgsz(info3,2,sdk)
+
+//如果等于30说明是安卓11系统
+f(sdk&gt;=30)
+{
+
+t()
+{
+
+ufnsui()
+{
+utw("","","保存.iyu","",true,v)
+{
+}
+
+}
+
+
+
+//检测安卓11授权
+f(sss.Android11)
+{
+javanew(sss.DocFiles,sss.DocFile,"Activity",activity,"String",sss.dir2)
+javax(is,sss.DocFiles,sss.DocFile,"isPermission")
+
+
+f(is==false)
+{
+ufnsui()
+{
+endutw()
+fn 弹窗.授权()
+}
+}
+else
+{
+fn 代码.删除(画质)
+
+fn 代码.删除(画质2)
+
+fn 代码.删除(画质3)
+
+fn 代码.删除(画质4)
+
+ufnsui()
+{
+endutw()
+tw("重置成功，请重启一次游戏！")
+}
+}
+
+}
+
+
+}
+}
+else
+{
+
+fd(画质,schz)
+fd(画质2,schz2)
+fd(画质3,schz3)
+fd(画质4,schz4)
+
+ufnsui()
+{
+endutw()
+tw("重置成功，请重启一次游戏！")
+}
+
+}
+
+</eventItme></event>
+</View>
+<View id="362" did="361" type="ImageView">
+<ppt>width=33dp
+height=33dp
+src=@img/gd/anbaoxunjianbeifen.png</ppt>
+<event></event>
+</View>
+<View id="363" did="361" type="TextView">
+<ppt>width=-2
+height=-2
+text=重置画质
+textColor=#ff000000
+textSize=11dp
+layout_marginTop=3dp
+typeface=@zt2.ttf</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="CardView">
+<ppt>width=-1
+height=100dp
+layout_marginLeft=12dp
+layout_marginRight=12dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="LinearLayout">
+<ppt>width=-1
+height=25dp
+orientation=vertical
+gravity=center_vertical
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=画面品质
+textColor=#ff242323
+textStyle=bold
+textSize=13dp
+layout_marginLeft=12dp
+typeface=@zt2.ttf</ppt>
+<event></event>
+</View>
+<View id="10" did="7" type="HorizontalScrollView">
+<ppt>width=-1
+height=40dp
+layout_marginTop=7dp</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=15dp
+app_CardBackgroundColor=#5889FE</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#5889FE</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.12,"app_cardbackgroundcolor",a)
+us(国服DIY.14,"app_cardbackgroundcolor",a)
+us(国服DIY.16,"textcolor",b)
+
+
+us(国服DIY.17,"app_cardbackgroundcolor",c)
+us(国服DIY.19,"app_cardbackgroundcolor",b)
+us(国服DIY.21,"textcolor",d)
+
+us(国服DIY.22,"app_cardbackgroundcolor",c)
+us(国服DIY.24,"app_cardbackgroundcolor",b)
+us(国服DIY.26,"textcolor",d)
+
+us(国服DIY.27,"app_cardbackgroundcolor",c)
+us(国服DIY.29,"app_cardbackgroundcolor",b)
+us(国服DIY.31,"textcolor",d)
+
+us(国服DIY.32,"app_cardbackgroundcolor",c)
+us(国服DIY.34,"app_cardbackgroundcolor",b)
+us(国服DIY.36,"textcolor",d)
+
+
+us(国服DIY.121,"text","流畅")
+</eventItme></event>
+</View>
+<View id="16" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=流畅
+textSize=11dp
+textColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="17" did="11" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="18" did="17" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="19" did="18" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="20" did="19" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.17,"app_cardbackgroundcolor",a)
+us(国服DIY.19,"app_cardbackgroundcolor",a)
+us(国服DIY.21,"textcolor",b)
+
+us(国服DIY.12,"app_cardbackgroundcolor",c)
+us(国服DIY.14,"app_cardbackgroundcolor",b)
+us(国服DIY.16,"textcolor",d)
+
+us(国服DIY.22,"app_cardbackgroundcolor",c)
+us(国服DIY.24,"app_cardbackgroundcolor",b)
+us(国服DIY.26,"textcolor",d)
+
+us(国服DIY.27,"app_cardbackgroundcolor",c)
+us(国服DIY.29,"app_cardbackgroundcolor",b)
+us(国服DIY.31,"textcolor",d)
+
+us(国服DIY.32,"app_cardbackgroundcolor",c)
+us(国服DIY.34,"app_cardbackgroundcolor",b)
+us(国服DIY.36,"textcolor",d)
+
+
+us(国服DIY.121,"text","均衡")
+</eventItme></event>
+</View>
+<View id="21" did="20" type="TextView">
+<ppt>width=-2
+height=-2
+text=均衡
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="22" did="11" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="23" did="22" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="24" did="23" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="25" did="24" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.22,"app_cardbackgroundcolor",a)
+us(国服DIY.24,"app_cardbackgroundcolor",a)
+us(国服DIY.26,"textcolor",b)
+
+
+us(国服DIY.17,"app_cardbackgroundcolor",c)
+us(国服DIY.19,"app_cardbackgroundcolor",b)
+us(国服DIY.21,"textcolor",d)
+
+us(国服DIY.12,"app_cardbackgroundcolor",c)
+us(国服DIY.14,"app_cardbackgroundcolor",b)
+us(国服DIY.16,"textcolor",d)
+
+us(国服DIY.27,"app_cardbackgroundcolor",c)
+us(国服DIY.29,"app_cardbackgroundcolor",b)
+us(国服DIY.31,"textcolor",d)
+
+us(国服DIY.32,"app_cardbackgroundcolor",c)
+us(国服DIY.34,"app_cardbackgroundcolor",b)
+us(国服DIY.36,"textcolor",d)
+
+us(国服DIY.121,"text","高清")
+</eventItme></event>
+</View>
+<View id="26" did="25" type="TextView">
+<ppt>width=-2
+height=-2
+text=高清
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="27" did="11" type="CardView">
+<ppt>width=65dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="28" did="27" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="30" did="29" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.27,"app_cardbackgroundcolor",a)
+us(国服DIY.29,"app_cardbackgroundcolor",a)
+us(国服DIY.31,"textcolor",b)
+
+
+us(国服DIY.17,"app_cardbackgroundcolor",c)
+us(国服DIY.19,"app_cardbackgroundcolor",b)
+us(国服DIY.21,"textcolor",d)
+
+us(国服DIY.12,"app_cardbackgroundcolor",c)
+us(国服DIY.14,"app_cardbackgroundcolor",b)
+us(国服DIY.16,"textcolor",d)
+
+us(国服DIY.22,"app_cardbackgroundcolor",c)
+us(国服DIY.24,"app_cardbackgroundcolor",b)
+us(国服DIY.26,"textcolor",d)
+
+us(国服DIY.32,"app_cardbackgroundcolor",c)
+us(国服DIY.34,"app_cardbackgroundcolor",b)
+us(国服DIY.36,"textcolor",d)
+
+
+us(国服DIY.121,"text","HDR")
+</eventItme></event>
+</View>
+<View id="31" did="30" type="TextView">
+<ppt>width=-2
+height=-2
+text=HDR高清
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="32" did="11" type="CardView">
+<ppt>width=55dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="33" did="32" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="35" did="34" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.32,"app_cardbackgroundcolor",a)
+us(国服DIY.34,"app_cardbackgroundcolor",a)
+us(国服DIY.36,"textcolor",b)
+
+
+us(国服DIY.17,"app_cardbackgroundcolor",c)
+us(国服DIY.19,"app_cardbackgroundcolor",b)
+us(国服DIY.21,"textcolor",d)
+
+us(国服DIY.12,"app_cardbackgroundcolor",c)
+us(国服DIY.14,"app_cardbackgroundcolor",b)
+us(国服DIY.16,"textcolor",d)
+
+us(国服DIY.22,"app_cardbackgroundcolor",c)
+us(国服DIY.24,"app_cardbackgroundcolor",b)
+us(国服DIY.26,"textcolor",d)
+
+us(国服DIY.27,"app_cardbackgroundcolor",c)
+us(国服DIY.29,"app_cardbackgroundcolor",b)
+us(国服DIY.31,"textcolor",d)
+
+us(国服DIY.121,"text","超高清")
+</eventItme></event>
+</View>
+<View id="36" did="35" type="TextView">
+<ppt>width=-2
+height=-2
+text=超高清
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="121" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=流畅
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="37" did="5" type="CardView">
+<ppt>width=-1
+height=100dp
+layout_marginLeft=12dp
+layout_marginRight=12dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="38" did="37" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="39" did="38" type="LinearLayout">
+<ppt>width=-1
+height=25dp
+orientation=vertical
+gravity=center_vertical
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="40" did="39" type="TextView">
+<ppt>width=-2
+height=-2
+text=帧数设置
+textColor=#ff242323
+textStyle=bold
+textSize=13dp
+layout_marginLeft=12dp
+typeface=@zt2.ttf</ppt>
+<event></event>
+</View>
+<View id="41" did="38" type="HorizontalScrollView">
+<ppt>width=-1
+height=40dp
+layout_marginTop=7dp</ppt>
+<event></event>
+</View>
+<View id="42" did="41" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="43" did="42" type="CardView">
+<ppt>width=52dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=15dp
+app_CardBackgroundColor=#5889FE</ppt>
+<event></event>
+</View>
+<View id="44" did="43" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="45" did="44" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#5889FE</ppt>
+<event></event>
+</View>
+<View id="46" did="45" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.43,"app_cardbackgroundcolor",a)
+us(国服DIY.45,"app_cardbackgroundcolor",a)
+us(国服DIY.47,"textcolor",b)
+
+us(国服DIY.301,"app_cardbackgroundcolor",c)
+us(国服DIY.303,"app_cardbackgroundcolor",b)
+us(国服DIY.305,"textcolor",d)
+
+us(国服DIY.48,"app_cardbackgroundcolor",c)
+us(国服DIY.50,"app_cardbackgroundcolor",b)
+us(国服DIY.52,"textcolor",d)
+
+us(国服DIY.122,"text","60")
+</eventItme></event>
+</View>
+<View id="47" did="46" type="TextView">
+<ppt>width=-2
+height=-2
+text=60FPS
+textSize=11dp
+textColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="301" did="42" type="CardView">
+<ppt>width=52dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=15dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="302" did="301" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="303" did="302" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="304" did="303" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.43,"app_cardbackgroundcolor",c)
+us(国服DIY.45,"app_cardbackgroundcolor",b)
+us(国服DIY.47,"textcolor",d)
+
+us(国服DIY.301,"app_cardbackgroundcolor",a)
+us(国服DIY.303,"app_cardbackgroundcolor",a)
+us(国服DIY.305,"textcolor",b)
+
+us(国服DIY.48,"app_cardbackgroundcolor",c)
+us(国服DIY.50,"app_cardbackgroundcolor",b)
+us(国服DIY.52,"textcolor",d)
+
+
+us(国服DIY.122,"text","120")
+</eventItme></event>
+</View>
+<View id="305" did="304" type="TextView">
+<ppt>width=-2
+height=-2
+text=90FPS
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="48" did="42" type="CardView">
+<ppt>width=58dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="49" did="48" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="50" did="49" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="51" did="50" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.43,"app_cardbackgroundcolor",c)
+us(国服DIY.45,"app_cardbackgroundcolor",b)
+us(国服DIY.47,"textcolor",d)
+
+us(国服DIY.301,"app_cardbackgroundcolor",c)
+us(国服DIY.303,"app_cardbackgroundcolor",b)
+us(国服DIY.305,"textcolor",d)
+
+us(国服DIY.48,"app_cardbackgroundcolor",a)
+us(国服DIY.50,"app_cardbackgroundcolor",a)
+us(国服DIY.52,"textcolor",b)
+
+
+us(国服DIY.122,"text","120")
+</eventItme></event>
+</View>
+<View id="52" did="51" type="TextView">
+<ppt>width=-2
+height=-2
+text=120FPS
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="122" did="42" type="TextView">
+<ppt>width=-2
+height=-2
+text=60
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="242" did="5" type="CardView">
+<ppt>width=-1
+height=100dp
+layout_marginLeft=12dp
+layout_marginRight=12dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="243" did="242" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="244" did="243" type="LinearLayout">
+<ppt>width=-1
+height=25dp
+orientation=vertical
+gravity=center_vertical
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="245" did="244" type="TextView">
+<ppt>width=-2
+height=-2
+text=画面风格
+textColor=#ff242323
+textStyle=bold
+textSize=13dp
+layout_marginLeft=12dp
+typeface=@zt2.ttf</ppt>
+<event></event>
+</View>
+<View id="246" did="243" type="HorizontalScrollView">
+<ppt>width=-1
+height=40dp
+layout_marginTop=7dp</ppt>
+<event></event>
+</View>
+<View id="247" did="246" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="248" did="247" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=15dp
+app_CardBackgroundColor=#5889FE</ppt>
+<event></event>
+</View>
+<View id="249" did="248" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="250" did="249" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#5889FE</ppt>
+<event></event>
+</View>
+<View id="251" did="250" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.248,"app_cardbackgroundcolor",a)
+us(国服DIY.250,"app_cardbackgroundcolor",a)
+us(国服DIY.252,"textcolor",b)
+
+
+us(国服DIY.253,"app_cardbackgroundcolor",c)
+us(国服DIY.255,"app_cardbackgroundcolor",b)
+us(国服DIY.257,"textcolor",d)
+
+us(国服DIY.258,"app_cardbackgroundcolor",c)
+us(国服DIY.260,"app_cardbackgroundcolor",b)
+us(国服DIY.262,"textcolor",d)
+
+us(国服DIY.263,"app_cardbackgroundcolor",c)
+us(国服DIY.265,"app_cardbackgroundcolor",b)
+us(国服DIY.267,"textcolor",d)
+
+us(国服DIY.268,"app_cardbackgroundcolor",c)
+us(国服DIY.270,"app_cardbackgroundcolor",b)
+us(国服DIY.272,"textcolor",d)
+
+
+us(国服DIY.273,"text","经典")
+</eventItme></event>
+</View>
+<View id="252" did="251" type="TextView">
+<ppt>width=-2
+height=-2
+text=经典
+textSize=11dp
+textColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="253" did="247" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="254" did="253" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="255" did="254" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="256" did="255" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.248,"app_cardbackgroundcolor",c)
+us(国服DIY.250,"app_cardbackgroundcolor",b)
+us(国服DIY.252,"textcolor",d)
+
+us(国服DIY.253,"app_cardbackgroundcolor",a)
+us(国服DIY.255,"app_cardbackgroundcolor",a)
+us(国服DIY.257,"textcolor",b)
+
+us(国服DIY.258,"app_cardbackgroundcolor",c)
+us(国服DIY.260,"app_cardbackgroundcolor",b)
+us(国服DIY.262,"textcolor",d)
+
+us(国服DIY.263,"app_cardbackgroundcolor",c)
+us(国服DIY.265,"app_cardbackgroundcolor",b)
+us(国服DIY.267,"textcolor",d)
+
+us(国服DIY.268,"app_cardbackgroundcolor",c)
+us(国服DIY.270,"app_cardbackgroundcolor",b)
+us(国服DIY.272,"textcolor",d)
+
+
+us(国服DIY.273,"text","鲜艳")
+</eventItme></event>
+</View>
+<View id="257" did="256" type="TextView">
+<ppt>width=-2
+height=-2
+text=鲜艳
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="258" did="247" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="259" did="258" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="260" did="259" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="261" did="260" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.248,"app_cardbackgroundcolor",c)
+us(国服DIY.250,"app_cardbackgroundcolor",b)
+us(国服DIY.252,"textcolor",d)
+
+us(国服DIY.253,"app_cardbackgroundcolor",c)
+us(国服DIY.255,"app_cardbackgroundcolor",b)
+us(国服DIY.257,"textcolor",d)
+
+us(国服DIY.258,"app_cardbackgroundcolor",a)
+us(国服DIY.260,"app_cardbackgroundcolor",a)
+us(国服DIY.262,"textcolor",b)
+
+us(国服DIY.263,"app_cardbackgroundcolor",c)
+us(国服DIY.265,"app_cardbackgroundcolor",b)
+us(国服DIY.267,"textcolor",d)
+
+us(国服DIY.268,"app_cardbackgroundcolor",c)
+us(国服DIY.270,"app_cardbackgroundcolor",b)
+us(国服DIY.272,"textcolor",d)
+
+
+us(国服DIY.273,"text","写实")
+</eventItme></event>
+</View>
+<View id="262" did="261" type="TextView">
+<ppt>width=-2
+height=-2
+text=写实
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="263" did="247" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="264" did="263" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="265" did="264" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="266" did="265" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.248,"app_cardbackgroundcolor",c)
+us(国服DIY.250,"app_cardbackgroundcolor",b)
+us(国服DIY.252,"textcolor",d)
+
+us(国服DIY.253,"app_cardbackgroundcolor",c)
+us(国服DIY.255,"app_cardbackgroundcolor",b)
+us(国服DIY.257,"textcolor",d)
+
+us(国服DIY.258,"app_cardbackgroundcolor",c)
+us(国服DIY.260,"app_cardbackgroundcolor",b)
+us(国服DIY.262,"textcolor",d)
+
+us(国服DIY.263,"app_cardbackgroundcolor",a)
+us(国服DIY.265,"app_cardbackgroundcolor",a)
+us(国服DIY.267,"textcolor",b)
+
+us(国服DIY.268,"app_cardbackgroundcolor",c)
+us(国服DIY.270,"app_cardbackgroundcolor",b)
+us(国服DIY.272,"textcolor",d)
+
+
+us(国服DIY.273,"text","柔和")
+</eventItme></event>
+</View>
+<View id="267" did="266" type="TextView">
+<ppt>width=-2
+height=-2
+text=柔和
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="268" did="247" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="269" did="268" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="270" did="269" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="271" did="270" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.248,"app_cardbackgroundcolor",c)
+us(国服DIY.250,"app_cardbackgroundcolor",b)
+us(国服DIY.252,"textcolor",d)
+
+us(国服DIY.253,"app_cardbackgroundcolor",c)
+us(国服DIY.255,"app_cardbackgroundcolor",b)
+us(国服DIY.257,"textcolor",d)
+
+us(国服DIY.258,"app_cardbackgroundcolor",c)
+us(国服DIY.260,"app_cardbackgroundcolor",b)
+us(国服DIY.262,"textcolor",d)
+
+us(国服DIY.263,"app_cardbackgroundcolor",c)
+us(国服DIY.265,"app_cardbackgroundcolor",b)
+us(国服DIY.267,"textcolor",d)
+
+us(国服DIY.268,"app_cardbackgroundcolor",a)
+us(国服DIY.270,"app_cardbackgroundcolor",a)
+us(国服DIY.272,"textcolor",b)
+
+
+us(国服DIY.273,"text","电影")
+</eventItme></event>
+</View>
+<View id="272" did="271" type="TextView">
+<ppt>width=-2
+height=-2
+text=电影
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="273" did="247" type="TextView">
+<ppt>width=-2
+height=-2
+text=经典
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="145" did="5" type="CardView">
+<ppt>width=-1
+height=100dp
+layout_marginLeft=12dp
+layout_marginRight=12dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="146" did="145" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="147" did="146" type="LinearLayout">
+<ppt>width=-1
+height=25dp
+orientation=vertical
+gravity=center_vertical
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="148" did="147" type="TextView">
+<ppt>width=-2
+height=-2
+text=音质设置
+textColor=#ff242323
+textStyle=bold
+textSize=13dp
+layout_marginLeft=12dp
+typeface=@zt2.ttf</ppt>
+<event></event>
+</View>
+<View id="149" did="146" type="HorizontalScrollView">
+<ppt>width=-1
+height=40dp
+layout_marginTop=7dp</ppt>
+<event></event>
+</View>
+<View id="150" did="149" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="151" did="150" type="CardView">
+<ppt>width=52dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=15dp
+app_CardBackgroundColor=#5889FE</ppt>
+<event></event>
+</View>
+<View id="152" did="151" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="153" did="152" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#5889FE</ppt>
+<event></event>
+</View>
+<View id="154" did="153" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.151,"app_cardbackgroundcolor",a)
+us(国服DIY.153,"app_cardbackgroundcolor",a)
+us(国服DIY.155,"textcolor",b)
+
+us(国服DIY.156,"app_cardbackgroundcolor",c)
+us(国服DIY.158,"app_cardbackgroundcolor",b)
+us(国服DIY.160,"textcolor",d)
+
+us(国服DIY.162,"app_cardbackgroundcolor",c)
+us(国服DIY.164,"app_cardbackgroundcolor",b)
+us(国服DIY.166,"textcolor",d)
+
+us(国服DIY.161,"text","0")
+</eventItme></event>
+</View>
+<View id="155" did="154" type="TextView">
+<ppt>width=-2
+height=-2
+text=低音质
+textSize=11dp
+textColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="156" did="150" type="CardView">
+<ppt>width=52dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="157" did="156" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="158" did="157" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="159" did="158" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.151,"app_cardbackgroundcolor",c)
+us(国服DIY.153,"app_cardbackgroundcolor",b)
+us(国服DIY.155,"textcolor",d)
+
+us(国服DIY.156,"app_cardbackgroundcolor",a)
+us(国服DIY.158,"app_cardbackgroundcolor",a)
+us(国服DIY.160,"textcolor",b)
+
+us(国服DIY.162,"app_cardbackgroundcolor",c)
+us(国服DIY.164,"app_cardbackgroundcolor",b)
+us(国服DIY.166,"textcolor",d)
+
+us(国服DIY.161,"text","1")
+</eventItme></event>
+</View>
+<View id="160" did="159" type="TextView">
+<ppt>width=-2
+height=-2
+text=高音质
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="162" did="150" type="CardView">
+<ppt>width=64dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="163" did="162" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="164" did="163" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="165" did="164" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.151,"app_cardbackgroundcolor",c)
+us(国服DIY.153,"app_cardbackgroundcolor",b)
+us(国服DIY.155,"textcolor",d)
+
+us(国服DIY.156,"app_cardbackgroundcolor",c)
+us(国服DIY.158,"app_cardbackgroundcolor",b)
+us(国服DIY.160,"textcolor",d)
+
+us(国服DIY.162,"app_cardbackgroundcolor",a)
+us(国服DIY.164,"app_cardbackgroundcolor",a)
+us(国服DIY.166,"textcolor",b)
+
+us(国服DIY.161,"text","2")
+</eventItme></event>
+</View>
+<View id="166" did="165" type="TextView">
+<ppt>width=-2
+height=-2
+text=超高音质
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="161" did="150" type="TextView">
+<ppt>width=-2
+height=-2
+text=0
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="68" did="5" type="CardView">
+<ppt>width=-1
+height=100dp
+layout_marginLeft=12dp
+layout_marginRight=12dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginTop=15dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="69" did="68" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="70" did="69" type="LinearLayout">
+<ppt>width=-1
+height=25dp
+orientation=vertical
+gravity=center_vertical
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="71" did="70" type="TextView">
+<ppt>width=-2
+height=-2
+text=比例大小
+textColor=#ff242323
+textStyle=bold
+textSize=13dp
+layout_marginLeft=12dp
+typeface=@zt2.ttf</ppt>
+<event></event>
+</View>
+<View id="72" did="69" type="HorizontalScrollView">
+<ppt>width=-1
+height=40dp
+layout_marginTop=7dp
+</ppt>
+<event></event>
+</View>
+<View id="73" did="72" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="74" did="73" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=15dp
+app_CardBackgroundColor=#5889FE</ppt>
+<event></event>
+</View>
+<View id="75" did="74" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="76" did="75" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#5889FE</ppt>
+<event></event>
+</View>
+<View id="77" did="76" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.74,"app_cardbackgroundcolor",a)
+us(国服DIY.76,"app_cardbackgroundcolor",a)
+us(国服DIY.78,"textcolor",b)
+
+us(国服DIY.79,"app_cardbackgroundcolor",c)
+us(国服DIY.81,"app_cardbackgroundcolor",b)
+us(国服DIY.83,"textcolor",d)
+
+us(国服DIY.84,"app_cardbackgroundcolor",c)
+us(国服DIY.86,"app_cardbackgroundcolor",b)
+us(国服DIY.88,"textcolor",d)
+
+us(国服DIY.89,"app_cardbackgroundcolor",c)
+us(国服DIY.91,"app_cardbackgroundcolor",b)
+us(国服DIY.93,"textcolor",d)
+
+us(国服DIY.94,"app_cardbackgroundcolor",c)
+us(国服DIY.96,"app_cardbackgroundcolor",b)
+us(国服DIY.98,"textcolor",d)
+
+us(国服DIY.99,"app_cardbackgroundcolor",c)
+us(国服DIY.101,"app_cardbackgroundcolor",b)
+us(国服DIY.103,"textcolor",d)
+
+us(国服DIY.104,"app_cardbackgroundcolor",c)
+us(国服DIY.106,"app_cardbackgroundcolor",b)
+us(国服DIY.108,"textcolor",d)
+
+us(国服DIY.126,"app_cardbackgroundcolor",c)
+us(国服DIY.128,"app_cardbackgroundcolor",b)
+us(国服DIY.130,"textcolor",d)
+
+us(国服DIY.131,"app_cardbackgroundcolor",c)
+us(国服DIY.133,"app_cardbackgroundcolor",b)
+us(国服DIY.135,"textcolor",d)
+
+us(国服DIY.136,"app_cardbackgroundcolor",c)
+us(国服DIY.138,"app_cardbackgroundcolor",b)
+us(国服DIY.140,"textcolor",d)
+
+us(国服DIY.123,"text","90")
+</eventItme></event>
+</View>
+<View id="78" did="77" type="TextView">
+<ppt>width=-2
+height=-2
+text=90
+textSize=11dp
+textColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="79" did="73" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="80" did="79" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="81" did="80" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="82" did="81" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.74,"app_cardbackgroundcolor",c)
+us(国服DIY.76,"app_cardbackgroundcolor",b)
+us(国服DIY.78,"textcolor",d)
+
+us(国服DIY.79,"app_cardbackgroundcolor",a)
+us(国服DIY.81,"app_cardbackgroundcolor",a)
+us(国服DIY.83,"textcolor",b)
+
+us(国服DIY.84,"app_cardbackgroundcolor",c)
+us(国服DIY.86,"app_cardbackgroundcolor",b)
+us(国服DIY.88,"textcolor",d)
+
+us(国服DIY.89,"app_cardbackgroundcolor",c)
+us(国服DIY.91,"app_cardbackgroundcolor",b)
+us(国服DIY.93,"textcolor",d)
+
+us(国服DIY.94,"app_cardbackgroundcolor",c)
+us(国服DIY.96,"app_cardbackgroundcolor",b)
+us(国服DIY.98,"textcolor",d)
+
+us(国服DIY.99,"app_cardbackgroundcolor",c)
+us(国服DIY.101,"app_cardbackgroundcolor",b)
+us(国服DIY.103,"textcolor",d)
+
+us(国服DIY.104,"app_cardbackgroundcolor",c)
+us(国服DIY.106,"app_cardbackgroundcolor",b)
+us(国服DIY.108,"textcolor",d)
+
+us(国服DIY.126,"app_cardbackgroundcolor",c)
+us(国服DIY.128,"app_cardbackgroundcolor",b)
+us(国服DIY.130,"textcolor",d)
+
+us(国服DIY.131,"app_cardbackgroundcolor",c)
+us(国服DIY.133,"app_cardbackgroundcolor",b)
+us(国服DIY.135,"textcolor",d)
+
+us(国服DIY.136,"app_cardbackgroundcolor",c)
+us(国服DIY.138,"app_cardbackgroundcolor",b)
+us(国服DIY.140,"textcolor",d)
+
+
+us(国服DIY.123,"text","100")
+</eventItme></event>
+</View>
+<View id="83" did="82" type="TextView">
+<ppt>width=-2
+height=-2
+text=100
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="84" did="73" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="85" did="84" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="86" did="85" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="87" did="86" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.74,"app_cardbackgroundcolor",c)
+us(国服DIY.76,"app_cardbackgroundcolor",b)
+us(国服DIY.78,"textcolor",d)
+
+us(国服DIY.79,"app_cardbackgroundcolor",c)
+us(国服DIY.81,"app_cardbackgroundcolor",b)
+us(国服DIY.83,"textcolor",d)
+
+us(国服DIY.84,"app_cardbackgroundcolor",a)
+us(国服DIY.86,"app_cardbackgroundcolor",a)
+us(国服DIY.88,"textcolor",b)
+
+us(国服DIY.89,"app_cardbackgroundcolor",c)
+us(国服DIY.91,"app_cardbackgroundcolor",b)
+us(国服DIY.93,"textcolor",d)
+
+us(国服DIY.94,"app_cardbackgroundcolor",c)
+us(国服DIY.96,"app_cardbackgroundcolor",b)
+us(国服DIY.98,"textcolor",d)
+
+us(国服DIY.99,"app_cardbackgroundcolor",c)
+us(国服DIY.101,"app_cardbackgroundcolor",b)
+us(国服DIY.103,"textcolor",d)
+
+us(国服DIY.104,"app_cardbackgroundcolor",c)
+us(国服DIY.106,"app_cardbackgroundcolor",b)
+us(国服DIY.108,"textcolor",d)
+
+us(国服DIY.126,"app_cardbackgroundcolor",c)
+us(国服DIY.128,"app_cardbackgroundcolor",b)
+us(国服DIY.130,"textcolor",d)
+
+us(国服DIY.131,"app_cardbackgroundcolor",c)
+us(国服DIY.133,"app_cardbackgroundcolor",b)
+us(国服DIY.135,"textcolor",d)
+
+us(国服DIY.136,"app_cardbackgroundcolor",c)
+us(国服DIY.138,"app_cardbackgroundcolor",b)
+us(国服DIY.140,"textcolor",d)
+
+
+us(国服DIY.123,"text","110")
+</eventItme></event>
+</View>
+<View id="88" did="87" type="TextView">
+<ppt>width=-2
+height=-2
+text=110
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="89" did="73" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="90" did="89" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="91" did="90" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="92" did="91" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.74,"app_cardbackgroundcolor",c)
+us(国服DIY.76,"app_cardbackgroundcolor",b)
+us(国服DIY.78,"textcolor",d)
+
+us(国服DIY.79,"app_cardbackgroundcolor",c)
+us(国服DIY.81,"app_cardbackgroundcolor",b)
+us(国服DIY.83,"textcolor",d)
+
+us(国服DIY.84,"app_cardbackgroundcolor",c)
+us(国服DIY.86,"app_cardbackgroundcolor",b)
+us(国服DIY.88,"textcolor",d)
+
+us(国服DIY.89,"app_cardbackgroundcolor",a)
+us(国服DIY.91,"app_cardbackgroundcolor",a)
+us(国服DIY.93,"textcolor",b)
+
+us(国服DIY.94,"app_cardbackgroundcolor",c)
+us(国服DIY.96,"app_cardbackgroundcolor",b)
+us(国服DIY.98,"textcolor",d)
+
+us(国服DIY.99,"app_cardbackgroundcolor",c)
+us(国服DIY.101,"app_cardbackgroundcolor",b)
+us(国服DIY.103,"textcolor",d)
+
+us(国服DIY.104,"app_cardbackgroundcolor",c)
+us(国服DIY.106,"app_cardbackgroundcolor",b)
+us(国服DIY.108,"textcolor",d)
+
+us(国服DIY.126,"app_cardbackgroundcolor",c)
+us(国服DIY.128,"app_cardbackgroundcolor",b)
+us(国服DIY.130,"textcolor",d)
+
+us(国服DIY.131,"app_cardbackgroundcolor",c)
+us(国服DIY.133,"app_cardbackgroundcolor",b)
+us(国服DIY.135,"textcolor",d)
+
+us(国服DIY.136,"app_cardbackgroundcolor",c)
+us(国服DIY.138,"app_cardbackgroundcolor",b)
+us(国服DIY.140,"textcolor",d)
+
+us(国服DIY.123,"text","120")
+</eventItme></event>
+</View>
+<View id="93" did="92" type="TextView">
+<ppt>width=-2
+height=-2
+text=120
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="94" did="73" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="95" did="94" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="96" did="95" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="97" did="96" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.74,"app_cardbackgroundcolor",c)
+us(国服DIY.76,"app_cardbackgroundcolor",b)
+us(国服DIY.78,"textcolor",d)
+
+us(国服DIY.79,"app_cardbackgroundcolor",c)
+us(国服DIY.81,"app_cardbackgroundcolor",b)
+us(国服DIY.83,"textcolor",d)
+
+us(国服DIY.84,"app_cardbackgroundcolor",c)
+us(国服DIY.86,"app_cardbackgroundcolor",b)
+us(国服DIY.88,"textcolor",d)
+
+us(国服DIY.89,"app_cardbackgroundcolor",c)
+us(国服DIY.91,"app_cardbackgroundcolor",b)
+us(国服DIY.93,"textcolor",d)
+
+us(国服DIY.94,"app_cardbackgroundcolor",a)
+us(国服DIY.96,"app_cardbackgroundcolor",a)
+us(国服DIY.98,"textcolor",b)
+
+us(国服DIY.99,"app_cardbackgroundcolor",c)
+us(国服DIY.101,"app_cardbackgroundcolor",b)
+us(国服DIY.103,"textcolor",d)
+
+us(国服DIY.104,"app_cardbackgroundcolor",c)
+us(国服DIY.106,"app_cardbackgroundcolor",b)
+us(国服DIY.108,"textcolor",d)
+
+us(国服DIY.126,"app_cardbackgroundcolor",c)
+us(国服DIY.128,"app_cardbackgroundcolor",b)
+us(国服DIY.130,"textcolor",d)
+
+us(国服DIY.131,"app_cardbackgroundcolor",c)
+us(国服DIY.133,"app_cardbackgroundcolor",b)
+us(国服DIY.135,"textcolor",d)
+
+us(国服DIY.136,"app_cardbackgroundcolor",c)
+us(国服DIY.138,"app_cardbackgroundcolor",b)
+us(国服DIY.140,"textcolor",d)
+
+us(国服DIY.123,"text","130")
+</eventItme></event>
+</View>
+<View id="98" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=130
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="99" did="73" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="100" did="99" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="101" did="100" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="102" did="101" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.74,"app_cardbackgroundcolor",c)
+us(国服DIY.76,"app_cardbackgroundcolor",b)
+us(国服DIY.78,"textcolor",d)
+
+us(国服DIY.79,"app_cardbackgroundcolor",c)
+us(国服DIY.81,"app_cardbackgroundcolor",b)
+us(国服DIY.83,"textcolor",d)
+
+us(国服DIY.84,"app_cardbackgroundcolor",c)
+us(国服DIY.86,"app_cardbackgroundcolor",b)
+us(国服DIY.88,"textcolor",d)
+
+us(国服DIY.89,"app_cardbackgroundcolor",c)
+us(国服DIY.91,"app_cardbackgroundcolor",b)
+us(国服DIY.93,"textcolor",d)
+
+us(国服DIY.94,"app_cardbackgroundcolor",c)
+us(国服DIY.96,"app_cardbackgroundcolor",b)
+us(国服DIY.98,"textcolor",d)
+
+us(国服DIY.99,"app_cardbackgroundcolor",a)
+us(国服DIY.101,"app_cardbackgroundcolor",a)
+us(国服DIY.103,"textcolor",b)
+
+us(国服DIY.104,"app_cardbackgroundcolor",c)
+us(国服DIY.106,"app_cardbackgroundcolor",b)
+us(国服DIY.108,"textcolor",d)
+
+us(国服DIY.126,"app_cardbackgroundcolor",c)
+us(国服DIY.128,"app_cardbackgroundcolor",b)
+us(国服DIY.130,"textcolor",d)
+
+us(国服DIY.131,"app_cardbackgroundcolor",c)
+us(国服DIY.133,"app_cardbackgroundcolor",b)
+us(国服DIY.135,"textcolor",d)
+
+us(国服DIY.136,"app_cardbackgroundcolor",c)
+us(国服DIY.138,"app_cardbackgroundcolor",b)
+us(国服DIY.140,"textcolor",d)
+
+us(国服DIY.123,"text","140")
+</eventItme></event>
+</View>
+<View id="103" did="102" type="TextView">
+<ppt>width=-2
+height=-2
+text=140
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="104" did="73" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0
+</ppt>
+<event></event>
+</View>
+<View id="105" did="104" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="106" did="105" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="107" did="106" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.74,"app_cardbackgroundcolor",c)
+us(国服DIY.76,"app_cardbackgroundcolor",b)
+us(国服DIY.78,"textcolor",d)
+
+us(国服DIY.79,"app_cardbackgroundcolor",c)
+us(国服DIY.81,"app_cardbackgroundcolor",b)
+us(国服DIY.83,"textcolor",d)
+
+us(国服DIY.84,"app_cardbackgroundcolor",c)
+us(国服DIY.86,"app_cardbackgroundcolor",b)
+us(国服DIY.88,"textcolor",d)
+
+us(国服DIY.89,"app_cardbackgroundcolor",c)
+us(国服DIY.91,"app_cardbackgroundcolor",b)
+us(国服DIY.93,"textcolor",d)
+
+us(国服DIY.94,"app_cardbackgroundcolor",c)
+us(国服DIY.96,"app_cardbackgroundcolor",b)
+us(国服DIY.98,"textcolor",d)
+
+us(国服DIY.99,"app_cardbackgroundcolor",c)
+us(国服DIY.101,"app_cardbackgroundcolor",b)
+us(国服DIY.103,"textcolor",d)
+
+us(国服DIY.104,"app_cardbackgroundcolor",a)
+us(国服DIY.106,"app_cardbackgroundcolor",a)
+us(国服DIY.108,"textcolor",b)
+
+us(国服DIY.126,"app_cardbackgroundcolor",c)
+us(国服DIY.128,"app_cardbackgroundcolor",b)
+us(国服DIY.130,"textcolor",d)
+
+us(国服DIY.131,"app_cardbackgroundcolor",c)
+us(国服DIY.133,"app_cardbackgroundcolor",b)
+us(国服DIY.135,"textcolor",d)
+
+us(国服DIY.136,"app_cardbackgroundcolor",c)
+us(国服DIY.138,"app_cardbackgroundcolor",b)
+us(国服DIY.140,"textcolor",d)
+
+us(国服DIY.123,"text","150")
+</eventItme></event>
+</View>
+<View id="108" did="107" type="TextView">
+<ppt>width=-2
+height=-2
+text=150
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="123" did="73" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本123
+visibility=8</ppt>
+<event></event>
+</View>
+<View id="126" did="73" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0
+</ppt>
+<event></event>
+</View>
+<View id="127" did="126" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="128" did="127" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="129" did="128" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.74,"app_cardbackgroundcolor",c)
+us(国服DIY.76,"app_cardbackgroundcolor",b)
+us(国服DIY.78,"textcolor",d)
+
+us(国服DIY.79,"app_cardbackgroundcolor",c)
+us(国服DIY.81,"app_cardbackgroundcolor",b)
+us(国服DIY.83,"textcolor",d)
+
+us(国服DIY.84,"app_cardbackgroundcolor",c)
+us(国服DIY.86,"app_cardbackgroundcolor",b)
+us(国服DIY.88,"textcolor",d)
+
+us(国服DIY.89,"app_cardbackgroundcolor",c)
+us(国服DIY.91,"app_cardbackgroundcolor",b)
+us(国服DIY.93,"textcolor",d)
+
+us(国服DIY.94,"app_cardbackgroundcolor",c)
+us(国服DIY.96,"app_cardbackgroundcolor",b)
+us(国服DIY.98,"textcolor",d)
+
+us(国服DIY.99,"app_cardbackgroundcolor",c)
+us(国服DIY.101,"app_cardbackgroundcolor",b)
+us(国服DIY.103,"textcolor",d)
+
+us(国服DIY.104,"app_cardbackgroundcolor",c)
+us(国服DIY.106,"app_cardbackgroundcolor",b)
+us(国服DIY.108,"textcolor",d)
+
+us(国服DIY.126,"app_cardbackgroundcolor",a)
+us(国服DIY.128,"app_cardbackgroundcolor",a)
+us(国服DIY.130,"textcolor",b)
+
+us(国服DIY.131,"app_cardbackgroundcolor",c)
+us(国服DIY.133,"app_cardbackgroundcolor",b)
+us(国服DIY.135,"textcolor",d)
+
+us(国服DIY.136,"app_cardbackgroundcolor",c)
+us(国服DIY.138,"app_cardbackgroundcolor",b)
+us(国服DIY.140,"textcolor",d)
+
+us(国服DIY.123,"text","160")
+</eventItme></event>
+</View>
+<View id="130" did="129" type="TextView">
+<ppt>width=-2
+height=-2
+text=160
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="131" did="73" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0
+layout_marginRight=15dp</ppt>
+<event></event>
+</View>
+<View id="132" did="131" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="133" did="132" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="134" did="133" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.74,"app_cardbackgroundcolor",c)
+us(国服DIY.76,"app_cardbackgroundcolor",b)
+us(国服DIY.78,"textcolor",d)
+
+us(国服DIY.79,"app_cardbackgroundcolor",c)
+us(国服DIY.81,"app_cardbackgroundcolor",b)
+us(国服DIY.83,"textcolor",d)
+
+us(国服DIY.84,"app_cardbackgroundcolor",c)
+us(国服DIY.86,"app_cardbackgroundcolor",b)
+us(国服DIY.88,"textcolor",d)
+
+us(国服DIY.89,"app_cardbackgroundcolor",c)
+us(国服DIY.91,"app_cardbackgroundcolor",b)
+us(国服DIY.93,"textcolor",d)
+
+us(国服DIY.94,"app_cardbackgroundcolor",c)
+us(国服DIY.96,"app_cardbackgroundcolor",b)
+us(国服DIY.98,"textcolor",d)
+
+us(国服DIY.99,"app_cardbackgroundcolor",c)
+us(国服DIY.101,"app_cardbackgroundcolor",b)
+us(国服DIY.103,"textcolor",d)
+
+us(国服DIY.104,"app_cardbackgroundcolor",c)
+us(国服DIY.106,"app_cardbackgroundcolor",b)
+us(国服DIY.108,"textcolor",d)
+
+us(国服DIY.126,"app_cardbackgroundcolor",c)
+us(国服DIY.128,"app_cardbackgroundcolor",b)
+us(国服DIY.130,"textcolor",d)
+
+us(国服DIY.131,"app_cardbackgroundcolor",a)
+us(国服DIY.133,"app_cardbackgroundcolor",a)
+us(国服DIY.135,"textcolor",b)
+
+us(国服DIY.136,"app_cardbackgroundcolor",c)
+us(国服DIY.138,"app_cardbackgroundcolor",b)
+us(国服DIY.140,"textcolor",d)
+
+us(国服DIY.123,"text","170")
+</eventItme></event>
+</View>
+<View id="135" did="134" type="TextView">
+<ppt>width=-2
+height=-2
+text=170
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="136" did="73" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0
+layout_marginRight=15dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="137" did="136" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="138" did="137" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="139" did="138" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(74,"app_cardbackgroundcolor",c)
+us(76,"app_cardbackgroundcolor",b)
+us(78,"textcolor",d)
+
+us(79,"app_cardbackgroundcolor",c)
+us(81,"app_cardbackgroundcolor",b)
+us(83,"textcolor",d)
+
+us(84,"app_cardbackgroundcolor",c)
+us(86,"app_cardbackgroundcolor",b)
+us(88,"textcolor",d)
+
+us(89,"app_cardbackgroundcolor",c)
+us(91,"app_cardbackgroundcolor",b)
+us(93,"textcolor",d)
+
+us(94,"app_cardbackgroundcolor",c)
+us(96,"app_cardbackgroundcolor",b)
+us(98,"textcolor",d)
+
+us(99,"app_cardbackgroundcolor",c)
+us(101,"app_cardbackgroundcolor",b)
+us(103,"textcolor",d)
+
+us(104,"app_cardbackgroundcolor",c)
+us(106,"app_cardbackgroundcolor",b)
+us(108,"textcolor",d)
+
+us(126,"app_cardbackgroundcolor",c)
+us(128,"app_cardbackgroundcolor",b)
+us(130,"textcolor",d)
+
+us(131,"app_cardbackgroundcolor",c)
+us(133,"app_cardbackgroundcolor",b)
+us(135,"textcolor",d)
+
+us(136,"app_cardbackgroundcolor",a)
+us(138,"app_cardbackgroundcolor",a)
+us(140,"textcolor",b)
+
+
+us(123,"text","180")</eventItme></event>
+</View>
+<View id="140" did="139" type="TextView">
+<ppt>width=-2
+height=-2
+text=180
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="220" did="5" type="CardView">
+<ppt>width=-1
+height=100dp
+layout_marginLeft=12dp
+layout_marginRight=12dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginTop=15dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="221" did="220" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="222" did="221" type="LinearLayout">
+<ppt>width=-1
+height=25dp
+orientation=vertical
+gravity=center_vertical
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="223" did="222" type="TextView">
+<ppt>width=-2
+height=-2
+text=陀螺仪
+textColor=#ff242323
+textStyle=bold
+textSize=13dp
+layout_marginLeft=12dp
+typeface=@zt2.ttf</ppt>
+<event></event>
+</View>
+<View id="224" did="221" type="HorizontalScrollView">
+<ppt>width=-1
+height=40dp
+layout_marginTop=7dp</ppt>
+<event></event>
+</View>
+<View id="225" did="224" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="226" did="225" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=15dp
+app_CardBackgroundColor=#5889FE</ppt>
+<event></event>
+</View>
+<View id="227" did="226" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="228" did="227" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#5889FE</ppt>
+<event></event>
+</View>
+<View id="229" did="228" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.151,"app_cardbackgroundcolor",a)
+us(国服DIY.153,"app_cardbackgroundcolor",a)
+us(国服DIY.155,"textcolor",b)
+
+us(国服DIY.156,"app_cardbackgroundcolor",c)
+us(国服DIY.158,"app_cardbackgroundcolor",b)
+us(国服DIY.160,"textcolor",d)
+
+us(国服DIY.162,"app_cardbackgroundcolor",c)
+us(国服DIY.164,"app_cardbackgroundcolor",b)
+us(国服DIY.166,"textcolor",d)
+
+us(国服DIY.161,"text","低")
+</eventItme></event>
+</View>
+<View id="230" did="229" type="TextView">
+<ppt>width=-2
+height=-2
+text=200
+textSize=11dp
+textColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="231" did="225" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="232" did="231" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="233" did="232" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="234" did="233" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.151,"app_cardbackgroundcolor",c)
+us(国服DIY.153,"app_cardbackgroundcolor",b)
+us(国服DIY.155,"textcolor",d)
+
+us(国服DIY.156,"app_cardbackgroundcolor",a)
+us(国服DIY.158,"app_cardbackgroundcolor",a)
+us(国服DIY.160,"textcolor",b)
+
+us(国服DIY.162,"app_cardbackgroundcolor",c)
+us(国服DIY.164,"app_cardbackgroundcolor",b)
+us(国服DIY.166,"textcolor",d)
+
+us(国服DIY.161,"text","高")
+</eventItme></event>
+</View>
+<View id="235" did="234" type="TextView">
+<ppt>width=-2
+height=-2
+text=300
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="274" did="225" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="275" did="274" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="276" did="275" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="277" did="276" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.151,"app_cardbackgroundcolor",c)
+us(国服DIY.153,"app_cardbackgroundcolor",b)
+us(国服DIY.155,"textcolor",d)
+
+us(国服DIY.156,"app_cardbackgroundcolor",c)
+us(国服DIY.158,"app_cardbackgroundcolor",b)
+us(国服DIY.160,"textcolor",d)
+
+us(国服DIY.162,"app_cardbackgroundcolor",a)
+us(国服DIY.164,"app_cardbackgroundcolor",a)
+us(国服DIY.166,"textcolor",b)
+
+us(国服DIY.161,"text","超高")
+</eventItme></event>
+</View>
+<View id="278" did="277" type="TextView">
+<ppt>width=-2
+height=-2
+text=500
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="279" did="225" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="280" did="279" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="281" did="280" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="282" did="281" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.151,"app_cardbackgroundcolor",c)
+us(国服DIY.153,"app_cardbackgroundcolor",b)
+us(国服DIY.155,"textcolor",d)
+
+us(国服DIY.156,"app_cardbackgroundcolor",c)
+us(国服DIY.158,"app_cardbackgroundcolor",b)
+us(国服DIY.160,"textcolor",d)
+
+us(国服DIY.162,"app_cardbackgroundcolor",a)
+us(国服DIY.164,"app_cardbackgroundcolor",a)
+us(国服DIY.166,"textcolor",b)
+
+us(国服DIY.161,"text","超高")
+</eventItme></event>
+</View>
+<View id="283" did="282" type="TextView">
+<ppt>width=-2
+height=-2
+text=666
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="284" did="225" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="285" did="284" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="286" did="285" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="287" did="286" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.151,"app_cardbackgroundcolor",c)
+us(国服DIY.153,"app_cardbackgroundcolor",b)
+us(国服DIY.155,"textcolor",d)
+
+us(国服DIY.156,"app_cardbackgroundcolor",c)
+us(国服DIY.158,"app_cardbackgroundcolor",b)
+us(国服DIY.160,"textcolor",d)
+
+us(国服DIY.162,"app_cardbackgroundcolor",a)
+us(国服DIY.164,"app_cardbackgroundcolor",a)
+us(国服DIY.166,"textcolor",b)
+
+us(国服DIY.161,"text","超高")
+</eventItme></event>
+</View>
+<View id="288" did="287" type="TextView">
+<ppt>width=-2
+height=-2
+text=800
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="289" did="225" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="290" did="289" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="291" did="290" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="292" did="291" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.151,"app_cardbackgroundcolor",c)
+us(国服DIY.153,"app_cardbackgroundcolor",b)
+us(国服DIY.155,"textcolor",d)
+
+us(国服DIY.156,"app_cardbackgroundcolor",c)
+us(国服DIY.158,"app_cardbackgroundcolor",b)
+us(国服DIY.160,"textcolor",d)
+
+us(国服DIY.162,"app_cardbackgroundcolor",a)
+us(国服DIY.164,"app_cardbackgroundcolor",a)
+us(国服DIY.166,"textcolor",b)
+
+us(国服DIY.161,"text","超高")
+</eventItme></event>
+</View>
+<View id="293" did="292" type="TextView">
+<ppt>width=-2
+height=-2
+text=999
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="241" did="225" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本122
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="307" did="5" type="CardView">
+<ppt>width=-1
+height=100dp
+layout_marginLeft=12dp
+layout_marginRight=12dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="308" did="307" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="309" did="308" type="LinearLayout">
+<ppt>width=-1
+height=25dp
+orientation=vertical
+gravity=center_vertical
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="310" did="309" type="TextView">
+<ppt>width=-2
+height=-2
+text=陀螺仪
+textColor=#ff242323
+textStyle=bold
+textSize=13dp
+layout_marginLeft=12dp
+typeface=@zt2.ttf</ppt>
+<event></event>
+</View>
+<View id="311" did="308" type="HorizontalScrollView">
+<ppt>width=-1
+height=40dp
+layout_marginTop=7dp</ppt>
+<event></event>
+</View>
+<View id="312" did="311" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="313" did="312" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=15dp
+app_CardBackgroundColor=#5889FE</ppt>
+<event></event>
+</View>
+<View id="314" did="313" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="315" did="314" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#5889FE</ppt>
+<event></event>
+</View>
+<View id="316" did="315" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.313,"app_cardbackgroundcolor",a)
+us(国服DIY.315,"app_cardbackgroundcolor",a)
+us(国服DIY.317,"textcolor",b)
+
+
+us(国服DIY.318,"app_cardbackgroundcolor",c)
+us(国服DIY.320,"app_cardbackgroundcolor",b)
+us(国服DIY.322,"textcolor",d)
+
+us(国服DIY.323,"app_cardbackgroundcolor",c)
+us(国服DIY.325,"app_cardbackgroundcolor",b)
+us(国服DIY.327,"textcolor",d)
+
+us(国服DIY.341,"app_cardbackgroundcolor",c)
+us(国服DIY.343,"app_cardbackgroundcolor",b)
+us(国服DIY.345,"textcolor",d)
+
+us(国服DIY.328,"app_cardbackgroundcolor",c)
+us(国服DIY.330,"app_cardbackgroundcolor",b)
+us(国服DIY.332,"textcolor",d)
+
+us(国服DIY.333,"app_cardbackgroundcolor",c)
+us(国服DIY.335,"app_cardbackgroundcolor",b)
+us(国服DIY.337,"textcolor",d)
+
+
+us(国服DIY.338,"text","1")
+</eventItme></event>
+</View>
+<View id="317" did="316" type="TextView">
+<ppt>width=-2
+height=-2
+text=666
+textSize=11dp
+textColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="318" did="312" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="319" did="318" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="320" did="319" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="321" did="320" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.313,"app_cardbackgroundcolor",c)
+us(国服DIY.315,"app_cardbackgroundcolor",b)
+us(国服DIY.317,"textcolor",d)
+
+
+us(国服DIY.318,"app_cardbackgroundcolor",a)
+us(国服DIY.320,"app_cardbackgroundcolor",a)
+us(国服DIY.322,"textcolor",b)
+
+us(国服DIY.323,"app_cardbackgroundcolor",c)
+us(国服DIY.325,"app_cardbackgroundcolor",b)
+us(国服DIY.327,"textcolor",d)
+
+us(国服DIY.341,"app_cardbackgroundcolor",c)
+us(国服DIY.343,"app_cardbackgroundcolor",b)
+us(国服DIY.345,"textcolor",d)
+
+us(国服DIY.328,"app_cardbackgroundcolor",c)
+us(国服DIY.330,"app_cardbackgroundcolor",b)
+us(国服DIY.332,"textcolor",d)
+
+us(国服DIY.333,"app_cardbackgroundcolor",c)
+us(国服DIY.335,"app_cardbackgroundcolor",b)
+us(国服DIY.337,"textcolor",d)
+
+
+us(国服DIY.338,"text","2")
+</eventItme></event>
+</View>
+<View id="322" did="321" type="TextView">
+<ppt>width=-2
+height=-2
+text=888
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="323" did="312" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="324" did="323" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="325" did="324" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="326" did="325" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.313,"app_cardbackgroundcolor",c)
+us(国服DIY.315,"app_cardbackgroundcolor",b)
+us(国服DIY.317,"textcolor",d)
+
+
+us(国服DIY.318,"app_cardbackgroundcolor",c)
+us(国服DIY.320,"app_cardbackgroundcolor",b)
+us(国服DIY.322,"textcolor",d)
+
+us(国服DIY.323,"app_cardbackgroundcolor",a)
+us(国服DIY.325,"app_cardbackgroundcolor",a)
+us(国服DIY.327,"textcolor",b)
+
+us(国服DIY.341,"app_cardbackgroundcolor",c)
+us(国服DIY.343,"app_cardbackgroundcolor",b)
+us(国服DIY.345,"textcolor",d)
+
+us(国服DIY.328,"app_cardbackgroundcolor",c)
+us(国服DIY.330,"app_cardbackgroundcolor",b)
+us(国服DIY.332,"textcolor",d)
+
+us(国服DIY.333,"app_cardbackgroundcolor",c)
+us(国服DIY.335,"app_cardbackgroundcolor",b)
+us(国服DIY.337,"textcolor",d)
+
+
+us(国服DIY.338,"text","3")
+</eventItme></event>
+</View>
+<View id="327" did="326" type="TextView">
+<ppt>width=-2
+height=-2
+text=999
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="341" did="312" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="342" did="341" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="343" did="342" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="344" did="343" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.313,"app_cardbackgroundcolor",c)
+us(国服DIY.315,"app_cardbackgroundcolor",b)
+us(国服DIY.317,"textcolor",d)
+
+us(国服DIY.318,"app_cardbackgroundcolor",c)
+us(国服DIY.320,"app_cardbackgroundcolor",b)
+us(国服DIY.322,"textcolor",d)
+
+us(国服DIY.323,"app_cardbackgroundcolor",c)
+us(国服DIY.325,"app_cardbackgroundcolor",b)
+us(国服DIY.327,"textcolor",d)
+
+us(国服DIY.341,"app_cardbackgroundcolor",a)
+us(国服DIY.343,"app_cardbackgroundcolor",a)
+us(国服DIY.345,"textcolor",b)
+
+us(国服DIY.328,"app_cardbackgroundcolor",c)
+us(国服DIY.330,"app_cardbackgroundcolor",b)
+us(国服DIY.332,"textcolor",d)
+
+us(国服DIY.333,"app_cardbackgroundcolor",c)
+us(国服DIY.335,"app_cardbackgroundcolor",b)
+us(国服DIY.337,"textcolor",d)
+
+
+us(国服DIY.338,"text","4")
+</eventItme></event>
+</View>
+<View id="345" did="344" type="TextView">
+<ppt>width=-2
+height=-2
+text=1314
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="328" did="312" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0</ppt>
+<event></event>
+</View>
+<View id="329" did="328" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="330" did="329" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="331" did="330" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.313,"app_cardbackgroundcolor",c)
+us(国服DIY.315,"app_cardbackgroundcolor",b)
+us(国服DIY.317,"textcolor",d)
+
+us(国服DIY.318,"app_cardbackgroundcolor",c)
+us(国服DIY.320,"app_cardbackgroundcolor",b)
+us(国服DIY.322,"textcolor",d)
+
+us(国服DIY.323,"app_cardbackgroundcolor",c)
+us(国服DIY.325,"app_cardbackgroundcolor",b)
+us(国服DIY.327,"textcolor",d)
+
+us(国服DIY.341,"app_cardbackgroundcolor",c)
+us(国服DIY.343,"app_cardbackgroundcolor",b)
+us(国服DIY.345,"textcolor",d)
+
+us(国服DIY.328,"app_cardbackgroundcolor",a)
+us(国服DIY.330,"app_cardbackgroundcolor",a)
+us(国服DIY.332,"textcolor",b)
+
+us(国服DIY.333,"app_cardbackgroundcolor",c)
+us(国服DIY.335,"app_cardbackgroundcolor",b)
+us(国服DIY.337,"textcolor",d)
+
+
+us(国服DIY.338,"text","5")
+</eventItme></event>
+</View>
+<View id="332" did="331" type="TextView">
+<ppt>width=-2
+height=-2
+text=1500
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="333" did="312" type="CardView">
+<ppt>width=45dp
+height=28dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+app_CardBackgroundColor=#F0F0F0
+layout_marginRight=12dp</ppt>
+<event></event>
+</View>
+<View id="334" did="333" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="335" did="334" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=3.5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="336" did="335" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+s a = "#5889FE"
+s b = "#ffffffff"
+s c = "#F0F0F0"
+s d = "#424451"
+
+us(国服DIY.313,"app_cardbackgroundcolor",c)
+us(国服DIY.315,"app_cardbackgroundcolor",b)
+us(国服DIY.317,"textcolor",d)
+
+
+us(国服DIY.318,"app_cardbackgroundcolor",c)
+us(国服DIY.320,"app_cardbackgroundcolor",b)
+us(国服DIY.322,"textcolor",d)
+
+us(国服DIY.323,"app_cardbackgroundcolor",c)
+us(国服DIY.325,"app_cardbackgroundcolor",b)
+us(国服DIY.327,"textcolor",d)
+
+us(国服DIY.341,"app_cardbackgroundcolor",c)
+us(国服DIY.343,"app_cardbackgroundcolor",b)
+us(国服DIY.345,"textcolor",d)
+
+us(国服DIY.328,"app_cardbackgroundcolor",c)
+us(国服DIY.330,"app_cardbackgroundcolor",b)
+us(国服DIY.332,"textcolor",d)
+
+us(国服DIY.333,"app_cardbackgroundcolor",a)
+us(国服DIY.335,"app_cardbackgroundcolor",a)
+us(国服DIY.337,"textcolor",b)
+
+
+us(国服DIY.338,"text","6")</eventItme></event>
+</View>
+<View id="337" did="336" type="TextView">
+<ppt>width=-2
+height=-2
+text=2000
+textSize=11dp
+textColor=#424451</ppt>
+<event></event>
+</View>
+<View id="338" did="312" type="TextView">
+<ppt>width=-2
+height=-2
+text=1
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="295" did="5" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+orientation=horizontal
+layout_marginLeft=12dp
+layout_marginRight=12dp
+layout_marginTop=20dp
+layout_marginBottom=20dp</ppt>
+<event></event>
+</View>
+<View id="109" did="295" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#5889FE
+layout_weight=3
+layout_marginRight=12dp</ppt>
+<event></event>
+</View>
+<View id="110" did="109" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="141" did="110" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="112" did="141" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#ffffffff
+BackgroundRipple=#ffe9e9e9</ppt>
+<event><eventItme type="clicki">uigo("DIY.iyu")</eventItme></event>
+</View>
+<View id="113" did="112" type="TextView">
+<ppt>width=-2
+height=-2
+text=高 级 模 式
+typeface=@zt.ttf
+textColor=#5889FE
+textSize=13dp
+</ppt>
+<event></event>
+</View>
+<View id="296" did="295" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#5889FE
+layout_weight=2
+layout_marginLeft=6dp</ppt>
+<event></event>
+</View>
+<View id="297" did="296" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="298" did="297" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="299" did="298" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#5889FE
+BackgroundRipple=#ff8bbdfe</ppt>
+<event><eventItme type="clicki">ug(国服DIY.121,"text",a)
+ug(国服DIY.122,"text",b)
+ug(国服DIY.273,"text",c)
+ug(国服DIY.161,"text",yz)
+ug(国服DIY.338,"text",tly)
+
+
+s qqz = "+CVars=r.StaticMeshLODDistanceScale=0.8\n"
+s qqz2 = "+CVars=foliage.LODDistanceScale=1\n"
+s qqz3 = "+CVars=r.ParticleLODBias=0\n"
+s qqz4 = "+CVars=r.EmitterSpawnRateScale=1\n"
+s qqz5 = "+CVars=r.DetailMode=2\n"
+s qqz6 = "+CVars=r.ShadowQuality=1\n"
+s qqz7 = "+CVars=r.Shadow.MaxCSMResolution=1024\n"
+s qqz8 = "+CVars=r.Shadow.CSM.MaxMobileCascades=2\n"
+s qqz9 = "+CVars=r.Shadow.DistanceScale=0.5\n"
+s qqz10 = "+CVars=r.MaxAnisotropy=4\n"
+s qqz11 = "+CVars=r.MaterialQualityLevel=1\n"
+s qqz12 = "+CVars=r.Mobile.DynamicObjectShadow=1\n"
+s qqz13 = "+CVars=r.DepthOfFieldQuality=0\n"
+s qqz14 = "+CVars=r.RefractionQuality=0\n"
+s qqz15 = "+CVars=foliage.MinLOD=0\n"
+s qqz16 = "+CVars=r.Streaming.PoolSize=300\n"
+s qqz17 = "+CVars=r.PUBGVersion=5\n"
+s qqz18 = "+CVars=r.Mobile.SceneColorFormat=0\n"
+s qqz19 = "+CVars=r.BloomQuality=0\n"
+s qqz20 = "+CVars=r.LightShaftQuality=0\n"
+s qqz21 = "+CVars=r.Mobile.TonemapperFilm=0\n"
+s qqz22 = "+CVars=r.Mobile.AlwaysResolveDepth=0\n"
+s qqz23 = "+CVars=r.UserMSAASetting=0\n"
+s qqz24 = "+CVars=r.DefaultFeature.AntiAliasing=0\n"
+s qqz25 = "+CVars=r.MobileSimpleShader=0\n"
+s qqz26 = "+CVars=r.MobileNumDynamicPointLights=0\n"
+s qqz27 = "+CVars=r.UserTeamQualityEnhanceSetting=0\n"
+s qqz28 = "+CVars=r.OpenGL.StripExtensions=GL_OES_compressed_ETC1_RGB8_texture\n"
+s qqz29 = "+CVars=r.OpenGL.StripExtensions=GL_EXT_texture_compression_s3tc\n"
+s qqz30 = "+CVars=r.OpenGL.StripExtensions=GL_EXT_texture_compression_dxt1\n"
+s qqz31 = "+CVars=r.OpenGL.StripExtensions=GL_EXT_shadow_samplers\n"
+s qqz32 = "+CVars=r.OpenGL.StripExtensions=GL_EXT_shader_framebuffer_fetch\n"
+s qqz33 = "+CVars=r.OpenGL.StripExtensions=GL_OES_depth_texture\n"
+s qqz34 = "+CVars=r.OpenGL.StripExtensions=GL_ARM_shader_framebuffer_fetch_depth_stencil\n"
+s qqz35 = "+CVars=GL_OES_compressed_ETC1_RGB8_texture\n"
+s qqz36 = "+CVars=GL_AMD_compressed_ATC_text\n"
+
+
+ss(qqz + qqz2 + qqz3 + qqz4 + qqz5 + qqz6 + qqz7 + qqz8 + qqz9 + qqz10 + qqz11 + qqz12 + qqz13 + qqz14 + qqz15 + qqz16 + qqz17 + qqz18 + qqz19 + qqz20 + qqz21 + qqz22 + qqz23 + qqz24 + qqz25 + qqz26 + qqz27 + qqz28 + qqz29 + qqz30 + qqz31 + qqz32 + qqz33 + qqz34 + qqz35 + qqz36, dml)
+
+
+f(a == "流畅")
+{
+  f(b == "60")
+  {
+    f(c == "经典")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=1"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=0"
+      s dm3 = "+CVars=r.MobileHDR=0.0"
+      s dm4 = "+CVars=r.PUBGLDR=0"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+      
+    }
+    else f(c == "鲜艳")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=2"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=0"
+      s dm3 = "+CVars=r.MobileHDR=0.0"
+      s dm4 = "+CVars=r.PUBGLDR=0"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "写实")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=3"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=0"
+      s dm3 = "+CVars=r.MobileHDR=0.0"
+      s dm4 = "+CVars=r.PUBGLDR=0"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "柔和")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=4"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=0"
+      s dm3 = "+CVars=r.MobileHDR=0.0"
+      s dm4 = "+CVars=r.PUBGLDR=0"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "电影")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=6"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=0"
+      s dm3 = "+CVars=r.MobileHDR=0.0"
+      s dm4 = "+CVars=r.PUBGLDR=0"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+  }
+  else f(b == "120")
+  {
+    f(c == "经典")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=1"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=0"
+      s dm3 = "+CVars=r.MobileHDR=0.0"
+      s dm4 = "+CVars=r.PUBGLDR=0"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+      
+    }
+    else f(c == "鲜艳")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=2"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=0"
+      s dm3 = "+CVars=r.MobileHDR=0.0"
+      s dm4 = "+CVars=r.PUBGLDR=0"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "写实")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=3"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=0"
+      s dm3 = "+CVars=r.MobileHDR=0.0"
+      s dm4 = "+CVars=r.PUBGLDR=0"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "柔和")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=4"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=0"
+      s dm3 = "+CVars=r.MobileHDR=0.0"
+      s dm4 = "+CVars=r.PUBGLDR=0"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "电影")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=6"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=0"
+      s dm3 = "+CVars=r.MobileHDR=0.0"
+      s dm4 = "+CVars=r.PUBGLDR=0"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+  }
+}
+else f(a == "均衡")
+{
+  f(b == "60")
+  {
+    f(c == "经典")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=1"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=1"
+      s dm3 = "+CVars=r.MobileHDR=0.0"
+      s dm4 = "+CVars=r.PUBGLDR=0"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+      
+    }
+    else f(c == "鲜艳")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=2"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=1"
+      s dm3 = "+CVars=r.MobileHDR=0.0"
+      s dm4 = "+CVars=r.PUBGLDR=0"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "写实")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=3"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=1"
+      s dm3 = "+CVars=r.MobileHDR=0.0"
+      s dm4 = "+CVars=r.PUBGLDR=0"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "柔和")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=4"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=1"
+      s dm3 = "+CVars=r.MobileHDR=0.0"
+      s dm4 = "+CVars=r.PUBGLDR=0"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "电影")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=6"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=1"
+      s dm3 = "+CVars=r.MobileHDR=0.0"
+      s dm4 = "+CVars=r.PUBGLDR=0"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+  }
+  else f(b == "120")
+  {
+    f(c == "经典")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=1"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=1"
+      s dm3 = "+CVars=r.MobileHDR=0.0"
+      s dm4 = "+CVars=r.PUBGLDR=0"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+      
+    }
+    else f(c == "鲜艳")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=2"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=1"
+      s dm3 = "+CVars=r.MobileHDR=0.0"
+      s dm4 = "+CVars=r.PUBGLDR=0"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "写实")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=3"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=1"
+      s dm3 = "+CVars=r.MobileHDR=0.0"
+      s dm4 = "+CVars=r.PUBGLDR=0"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "柔和")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=4"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=1"
+      s dm3 = "+CVars=r.MobileHDR=0.0"
+      s dm4 = "+CVars=r.PUBGLDR=0"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "电影")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=6"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=1"
+      s dm3 = "+CVars=r.MobileHDR=0.0"
+      s dm4 = "+CVars=r.PUBGLDR=0"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+  }
+}
+else f(a == "高清")
+{
+  f(b == "60")
+  {
+    f(c == "经典")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=1"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=2"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+      
+    }
+    else f(c == "鲜艳")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=2"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=2"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "写实")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=3"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=2"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "柔和")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=4"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=2"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "电影")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=6"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=2"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+  }
+  else f(b == "120")
+  {
+    f(c == "经典")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=1"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=2"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+      
+    }
+    else f(c == "鲜艳")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=2"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=2"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "写实")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=3"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=2"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "柔和")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=4"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=2"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "电影")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=6"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=2"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+  }
+}
+else f(a == "HDR")
+{
+  f(b == "60")
+  {
+    f(c == "经典")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=1"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=2"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+      
+    }
+    else f(c == "鲜艳")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=2"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=2"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "写实")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=3"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=2"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "柔和")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=4"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=2"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "电影")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=6"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=2"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+  }
+  else f(b == "120")
+  {
+    f(c == "经典")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=1"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=2"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+      
+    }
+    else f(c == "鲜艳")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=2"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=2"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "写实")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=3"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=2"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "柔和")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=4"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=2"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "电影")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=6"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=2"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+  }
+}
+else f(a == "超高清")
+{
+  f(b == "60")
+  {
+    f(c == "经典")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=1"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=3"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+      
+    }
+    else f(c == "鲜艳")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=2"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=3"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "写实")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=3"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=3"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "柔和")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=4"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=3"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "电影")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=6"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=3"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=60"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=60"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=60"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=60"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=60"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=60"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+  }
+  else f(b == "120")
+  {
+    f(c == "经典")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=1"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=3"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+      
+    }
+    else f(c == "鲜艳")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=2"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=3"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "写实")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=3"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=3"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "柔和")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=4"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=3"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+    else f(c == "电影")
+    {
+      //画面风格
+      s dm = "+CVars=r.UserHDRSetting=6"
+      
+      //画质
+      s dm2 = "+CVars=r.UserQualitySetting=3"
+      s dm3 = "+CVars=r.MobileHDR=1.0"
+      s dm4 = "+CVars=r.PUBGLDR=1"
+      
+      //分辨率
+      s dm5 = "+CVars=r.MobileContentScaleFactor=1"
+      
+      //帧率
+      s dm6 = "+CVars=r.PUBGDeviceFPSDef=6"
+      s dm7 = "+CVars=r.PUBGDeviceFPSLow=6"
+      s dm8 = "+CVars=r.PUBGDeviceFPSMid=6"
+      s dm9 = "+CVars=r.PUBGDeviceFPSHigh=6"
+      s dm10 = "+CVars=r.PUBGDeviceFPSHDR=6"
+      s dm11 = "+CVars=r.PUBGDeviceFPSUltralHigh=6"
+      
+      ss(dm+"\n"+dm2+"\n"+dm3+"\n"+dm4+"\n"+dm5+"\n"+dm6+"\n"+dm7+"\n"+dm8+"\n"+dm9+"\n"+dm10+"\n"+dm11+"\n"+dml,dmz)
+      
+      fn 国服DIY解锁.解锁(tly,yz,dmz)
+    }
+  }
+}
+
+
+
+</eventItme></event>
+</View>
+<View id="300" did="299" type="TextView">
+<ppt>width=-2
+height=-2
+text=立 即 解 锁
+typeface=@zt.ttf
+textColor=#ffffffff
+textSize=13dp
+</ppt>
+<event></event>
+</View>
+<View id="215" did="5" type="CardView">
+<ppt>width=-1
+height=140dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+layout_marginRight=12dp
+layout_marginBottom=25dp
+</ppt>
+<event></event>
+</View>
+<View id="216" did="215" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="217" did="216" type="TextView">
+<ppt>width=-2
+height=-2
+text=使用帮助
+textColor=#000000
+textStyle=bold
+textSize=13dp
+layout_marginLeft=15dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="218" did="216" type="TextView">
+<ppt>width=-2
+height=-2
+text=1.按照自己手机的配置，选择合适的画质，音质修改即可
+layout_marginLeft=15dp
+layout_marginRight=15dp
+layout_marginTop=10dp
+textSize=12dp</ppt>
+<event></event>
+</View>
+<View id="219" did="216" type="TextView">
+<ppt>width=-2
+height=-2
+text=2.如手机配置太低不建议使用太高的画质
+layout_marginLeft=15dp
+layout_marginRight=15dp
+layout_marginTop=10dp
+textSize=12dp</ppt>
+<event></event>
+</View>
+<View id="294" did="216" type="TextView">
+<ppt>width=-2
+height=-2
+text=3.高级模式有更多功能可以任意修改！
+layout_marginLeft=15dp
+layout_marginRight=15dp
+layout_marginTop=10dp
+textSize=12dp</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

@@ -1,0 +1,109 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+background=through</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardElevation=0
+app_CardcornerRadius=15dp</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="12" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center
+layout_marginLeft=12dp
+layout_marginRight=12dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textSize=15dp
+textColor=#ff2e2d2d
+gravity=center
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="6" did="3" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal
+gravity=right|center_vertical
+layout_marginTop=25dp
+layout_marginBottom=25dp
+layout_marginLeft=25dp
+layout_marginRight=25dp</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=25dp
+app_CardBackgroundColor=#2196F3
+layout_weight=1
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-1
+height=-1
+text=
+textColor=#ffffffff
+gravity=center
+textSize=13dp
+textStyle=bold
+BackgroundRipple=#64B5F6</ppt>
+<event><eventItme type="clicki">java(null,ss.utwv,"android.app.Dialog.dismiss")
+
+f(sss.提示信息 == null)
+{
+}
+else
+{
+tw(sss.提示信息)
+}
+
+</eventItme></event>
+</View>
+<View id="18" did="6" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=12dp
+app_CardBackgroundColor=#5889FE
+layout_weight=1
+app_CardElevation=0dp
+layout_marginLeft=8dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="19" did="18" type="TextView">
+<ppt>width=-1
+height=-1
+text=前 往 任 务
+textColor=#ffffffff
+gravity=center
+textSize=13dp
+textStyle=bold
+BackgroundRipple=#82B1FF</ppt>
+<event><eventItme type="clicki">java(null,ss.utwv,"android.app.Dialog.dismiss")
+
+
+uigo("任务大厅.iyu")
+</eventItme></event>
+</View>
+<UIEventset></UIEventset>

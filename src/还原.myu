@@ -1,0 +1,13 @@
+fn 还原()
+
+
+s a = "/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/Active.sav"
+s a = "/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/Cached.sav"
+
+fn gad.删除(a)
+fn gad.删除(b)
+
+tw("还原成功！")
+
+
+end fn

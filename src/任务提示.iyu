@@ -1,0 +1,118 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+background=through</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardElevation=0
+app_CardcornerRadius=15dp</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="11" did="3" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=vertical
+gravity=center
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="4" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=软件未激活
+textSize=19dp
+textColor=#ff3f3f3f
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="12" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center
+layout_marginLeft=15dp
+layout_marginRight=15dp
+layout_marginTop=5dp
+layout_marginBottom=35dp</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="TextView">
+<ppt>width=-2
+height=-2
+text=未解锁软件使用权，请点击下方【免费激活】花2分钟完成任务，或点击【卡密激活】购买卡密激活，完成后即可体验享受软件内所有功能！
+textSize=13dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="6" did="3" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+orientation=horizontal
+gravity=right|center_vertical
+layout_marginBottom=30dp
+layout_marginLeft=18dp
+layout_marginRight=18dp</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=12dp
+app_CardBackgroundColor=#5889FE
+layout_weight=1
+app_CardElevation=0dp
+layout_marginRight=5dp</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-1
+height=-1
+text=卡密激活
+textColor=#ffffffff
+gravity=center
+textSize=13dp
+textStyle=bold
+BackgroundRipple=#82B1FF</ppt>
+<event><eventItme type="clicki">java(null,ss.utwv,"android.app.Dialog.dismiss")
+
+
+uigo("卡密.iyu")
+</eventItme></event>
+</View>
+<View id="15" did="6" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=12dp
+app_CardBackgroundColor=#5889FE
+layout_weight=1
+app_CardElevation=0dp
+layout_marginLeft=5dp
+</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="TextView">
+<ppt>width=-1
+height=-1
+text=免费激活
+textColor=#ffffffff
+gravity=center
+textSize=13dp
+textStyle=bold
+BackgroundRipple=#82B1FF</ppt>
+<event><eventItme type="clicki">java(null,ss.utwv,"android.app.Dialog.dismiss")
+
+
+uigo("任务.iyu")
+</eventItme></event>
+</View>
+<UIEventset></UIEventset>

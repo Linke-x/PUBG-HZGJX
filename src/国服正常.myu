@@ -1,0 +1,33 @@
+fn 使用(文件)
+
+ss(sss.dir + "UserCustom.ini", file)
+
+fr(file,hzpd)
+f(hzpd?"[BackUp DeviceProfile]")
+{
+s a=file
+s b="[BackUp DeviceProfile]"
+s c=文件
+fr(a,am)
+sj(am,"[BackUp DeviceProfile]",null,jqam)
+ss(b+jqam,jqam)
+fr(c,cm)
+ss(cm+"\n"+jqam,jqcg)
+syso(a)
+fw(a,jqcg)
+ufnsui()
+{
+tw("Done！\n修改成功,尽情享受美妙的游戏体验吧！")
+}
+}
+else
+{
+ufnsui()
+{
+//调用模块(函数)
+fn 弹窗.写入提示()
+}
+}
+
+
+end fn

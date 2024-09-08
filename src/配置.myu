@@ -1,0 +1,68 @@
+fn 配置()
+
+
+t()
+{
+  
+  hs(sss.zht,str)
+  sss 全局配置 = str
+  json(str, item)
+  json(item, "get", "任务开关", sss.任务开关)
+  
+  json(item, "get", "版本", sss.版本)
+  
+  json(item, "get", "链接", sss.更新链接)
+  
+  json(item, "get", "公告开关", sss.公告开关)
+  
+  json(item, "get", "公告内容", sss.公告内容)
+  
+  json(item, "get", "任务地址", sss.任务地址)
+  
+  json(item, "get", "按钮开关", sss.按钮开关)
+  
+  json(item, "get", "卡密地址", sss.卡密地址)
+  
+  json(item, "get", "QQ", sss.QQ)
+  
+  json(item, "get", "Q群", sss.Q群)
+  
+  json(item, "get", "快手", sss.快手)
+  
+  json(item, "get", "使用帮助", sss.使用帮助)
+  
+}
+
+end fn
+
+
+
+fn 更新()
+
+
+f(sss.版本 &gt; sss.软件版本)
+{
+  ufnsui()
+  {
+    fn 弹窗.更新()
+  }
+}
+
+
+end fn
+
+
+
+fn 公告()
+
+ufnsui()
+{
+  f(sss.公告开关 == "开")
+  {
+    fn 弹窗.提示("true", sss.公告内容, "知 道 了", null)
+  }
+}
+
+end fn
+
+

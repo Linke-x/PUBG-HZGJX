@@ -1,0 +1,1971 @@
+<View id="74" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="1" did="74" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="110" did="1" type="LinearLayout">
+<ppt>width=-1
+height=55dp
+orientation=horizontal
+elevation=1dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="198" did="110" type="LinearLayout">
+<ppt>width=55dp
+height=-1
+orientation=vertical
+gravity=center
+BackgroundRipple=#ffdbdbdb</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="200" did="198" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@img/202a7f656eb.png</ppt>
+<event></event>
+</View>
+<View id="199" did="110" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical
+layout_marginRight=55dp</ppt>
+<event></event>
+</View>
+<View id="201" did="199" type="TextView">
+<ppt>width=-2
+height=-2
+text=基础准星
+textColor=#000000
+textSize=15dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="381" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginTop=20dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="5" did="381" type="CardView">
+<ppt>width=-1
+height=55dp
+layout_marginLeft=15dp
+layout_marginRight=5dp
+app_CardcornerRadius=5dp
+visibility=visible
+app_CardBackgroundColor=#5889FE
+layout_weight=1</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">fn 开启准星.开启("7","5")
+</eventItme></event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=开启准星
+textColor=#ffffffff
+textSize=13dp
+typeface=@zt.ttf</ppt>
+<event>
+</event>
+</View>
+<View id="378" did="381" type="CardView">
+<ppt>width=-1
+height=55dp
+layout_marginLeft=5dp
+layout_marginRight=15dp
+app_CardcornerRadius=5dp
+app_CardBackgroundColor=#5889FE
+layout_weight=1</ppt>
+<event>
+</event>
+</View>
+<View id="379" did="378" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#82B1FF</ppt>
+<event>
+<eventItme type="clicki">fn zxsz.设置()
+</eventItme></event>
+</View>
+<View id="380" did="379" type="TextView">
+<ppt>width=-2
+height=-2
+text=准星设置
+textColor=#ffffffff
+textSize=13dp
+typeface=@zt.ttf</ppt>
+<event>
+</event>
+</View>
+<View id="8" did="1" type="ScrollView">
+<ppt>width=-1
+height=-1
+layout_marginbottom=5dp
+layout_marginTop=15dp</ppt>
+<event>
+</event>
+</View>
+<View id="73" did="8" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="115" did="73" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="111" did="115" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="112" did="111" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=15dp
+layout_marginRight=5dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="120" did="112" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(333,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="121" did="120" type="ImageView">
+<ppt>width=25dp
+height=25dp
+src=</ppt>
+<event></event>
+</View>
+<View id="333" did="120" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本333
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="113" did="111" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="123" did="113" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(334,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="124" did="123" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=</ppt>
+<event></event>
+</View>
+<View id="334" did="123" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="114" did="111" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginRight=15dp
+layout_marginLeft=5dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="126" did="114" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(335,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="127" did="126" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="335" did="126" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="129" did="115" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="130" did="129" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="131" did="130" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(336,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="132" did="131" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="336" did="131" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="134" did="129" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="135" did="134" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(337,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="136" did="135" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="337" did="135" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="138" did="129" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginRight=15dp
+layout_weight=1
+visibility=0</ppt>
+<event></event>
+</View>
+<View id="139" did="138" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(338,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="140" did="139" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="338" did="139" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="203" did="115" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="204" did="203" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="205" did="204" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(339,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="206" did="205" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="339" did="205" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="207" did="203" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="208" did="207" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(340,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="209" did="208" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="340" did="208" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="210" did="203" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginRight=15dp
+layout_weight=1
+visibility=0</ppt>
+<event></event>
+</View>
+<View id="211" did="210" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(341,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="212" did="211" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="341" did="211" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="213" did="115" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="214" did="213" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="215" did="214" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(342,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="216" did="215" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="342" did="215" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="217" did="213" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="218" did="217" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(343,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="219" did="218" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="343" did="218" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="220" did="213" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginRight=15dp
+layout_weight=1
+visibility=0</ppt>
+<event></event>
+</View>
+<View id="221" did="220" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(344,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="222" did="221" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=</ppt>
+<event></event>
+</View>
+<View id="344" did="221" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="223" did="115" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="224" did="223" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="225" did="224" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(345,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="226" did="225" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="345" did="225" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="227" did="223" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="228" did="227" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(346,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="229" did="228" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="346" did="228" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="230" did="223" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginRight=15dp
+layout_weight=1
+visibility=0</ppt>
+<event></event>
+</View>
+<View id="231" did="230" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(347,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="232" did="231" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="347" did="231" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="233" did="115" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="234" did="233" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="235" did="234" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(348,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="236" did="235" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="348" did="235" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="237" did="233" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="238" did="237" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(349,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="239" did="238" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="349" did="238" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="240" did="233" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginRight=15dp
+layout_weight=1
+visibility=0</ppt>
+<event></event>
+</View>
+<View id="241" did="240" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(350,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="242" did="241" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="350" did="241" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="243" did="115" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="244" did="243" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="245" did="244" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(351,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="246" did="245" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="351" did="245" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="247" did="243" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="248" did="247" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(352,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="249" did="248" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="352" did="248" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="250" did="243" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginRight=15dp
+layout_weight=1
+visibility=0</ppt>
+<event></event>
+</View>
+<View id="251" did="250" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(353,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="252" did="251" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="353" did="251" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="253" did="115" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="254" did="253" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="255" did="254" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(354,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="256" did="255" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="354" did="255" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="257" did="253" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="258" did="257" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(355,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="259" did="258" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="355" did="258" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="260" did="253" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginRight=15dp
+layout_weight=1
+visibility=0</ppt>
+<event></event>
+</View>
+<View id="261" did="260" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(356,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="262" did="261" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="356" did="261" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="263" did="115" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="264" did="263" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="265" did="264" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(357,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="266" did="265" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="357" did="265" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="267" did="263" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="268" did="267" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(358,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="269" did="268" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="358" did="268" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="270" did="263" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginRight=15dp
+layout_weight=1
+visibility=0</ppt>
+<event></event>
+</View>
+<View id="271" did="270" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(359,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="272" did="271" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="359" did="271" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="273" did="115" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="274" did="273" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="275" did="274" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(360,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="276" did="275" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="360" did="275" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="277" did="273" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="278" did="277" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(361,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="279" did="278" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="361" did="278" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="280" did="273" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginRight=15dp
+layout_weight=1
+visibility=0</ppt>
+<event></event>
+</View>
+<View id="281" did="280" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(362,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="282" did="281" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="362" did="281" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="283" did="115" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="284" did="283" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="285" did="284" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(363,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="286" did="285" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="363" did="285" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="287" did="283" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="288" did="287" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(364,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="289" did="288" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="364" did="288" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="290" did="283" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginRight=15dp
+layout_weight=1
+visibility=0</ppt>
+<event></event>
+</View>
+<View id="291" did="290" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(365,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="292" did="291" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="365" did="291" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="293" did="115" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="294" did="293" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="295" did="294" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(366,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="296" did="295" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="366" did="295" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="297" did="293" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="298" did="297" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(367,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="299" did="298" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="367" did="298" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="300" did="293" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginRight=15dp
+layout_weight=1
+visibility=0</ppt>
+<event></event>
+</View>
+<View id="301" did="300" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(368,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="302" did="301" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="368" did="301" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="303" did="115" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="304" did="303" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="305" did="304" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(369,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="306" did="305" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="369" did="305" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="307" did="303" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="308" did="307" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(370,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="309" did="308" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="370" did="308" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="310" did="303" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginRight=15dp
+layout_weight=1
+visibility=0</ppt>
+<event></event>
+</View>
+<View id="311" did="310" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(371,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="312" did="311" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="371" did="311" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="313" did="115" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="314" did="313" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="315" did="314" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(372,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="316" did="315" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="372" did="315" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="317" did="313" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="318" did="317" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(373,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="319" did="318" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="373" did="318" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="320" did="313" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginRight=15dp
+layout_weight=1
+visibility=0</ppt>
+<event></event>
+</View>
+<View id="321" did="320" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(374,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="322" did="321" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="374" did="321" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="323" did="115" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal
+layout_marginTop=15dp
+layout_marginBottom=30dp</ppt>
+<event></event>
+</View>
+<View id="324" did="323" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="325" did="324" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(375,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="326" did="325" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="375" did="325" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="327" did="323" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="328" did="327" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(376,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="329" did="328" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="376" did="328" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="330" did="323" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#FAFAFA
+layout_marginRight=15dp
+layout_weight=1
+visibility=0</ppt>
+<event></event>
+</View>
+<View id="331" did="330" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+ug(377,"text",a)
+fn 更换准星.更换(a)
+</eventItme></event>
+</View>
+<View id="332" did="331" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=</ppt>
+<event></event>
+</View>
+<View id="377" did="331" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本334
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="75" did="74" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white
+gravity=center
+visibility=8</ppt>
+<event></event>
+</View>
+<View id="76" did="75" type="GifView">
+<ppt>width=-1
+height=80dp
+src=@GIF.gif
+layout_marginLeft=20dp
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="77" did="75" type="TextView">
+<ppt>width=-2
+height=-2
+text=加载配置中，请稍等...
+textSize=12dp
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<UIEventset>
+
+
+<eventItme type="loading">uycl("#ffffffff",true,0)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+
+
+sjxx(info)
+sgsz(info, 2, info2)
+sl(info2, "\n", info3)
+sgsz(info3, 2, sdk)
+f(sdk &gt;= 30)
+{
+}
+else
+{
+us(8,"overscrollmode","never")
+}
+
+
+
+s a1 = "@jc/jian_zx1.png"
+s a2 = "@jc/jian_zx2.png"
+s a3 = "@jc/jian_zx3.png"
+s a4 = "@jc/jian_zx4.png"
+s a5 = "@jc/jian_zx5.png"
+s a6 = "@jc/jian_zx6.png"
+s a7 = "@jc/jian_zx7.png"
+s a8 = "@jc/jian_zx8.png"
+s a9 = "@jc/jian_zx9.png"
+s a10 = "@jc/jian_zx10.png"
+s a11 = "@jc/jian_zx11.png"
+s a12 = "@jc/jian_zx12.png"
+s a13 = "@jc/jian_zx13.png"
+s a14 = "@jc/jian_zx14.png"
+s a15 = "@jc/jian_zx15.png"
+s a16 = "@jc/jian_zx16.png"
+s a17 = "@jc/jian_zx17.png"
+s a18 = "@jc/jian_zx18.png"
+s a19 = "@jc/jian_zx19.png"
+s a20 = "@jc/jian_zx20.png"
+s a21 = "@jc/jian_zx21.png"
+s a22 = "@jc/jian_zx22.png"
+s a23 = "@jc/jian_zx23.png"
+s a24 = "@jc/jian_zx24.png"
+s a25 = "@jc/jian_zx25.png"
+s a26 = "@jc/jian_zx26.png"
+s a27 = "@jc/jian_zx27.png"
+s a28 = "@jc/jian_zx28.png"
+s a29 = "@jc/jian_zx29.png"
+s a30 = "@jc/jian_zx30.png"
+s a31 = "@jc/jian_zx31.png"
+s a32 = "@jc/jian_zx32.png"
+s a33 = "@jc/jian_zx33.png"
+s a34 = "@jc/jian_zx34.png"
+s a35 = "@jc/jian_zx35.png"
+s a36 = "@jc/jian_zx36.png"
+s a37 = "@jc/jian_zx37.png"
+s a38 = "@jc/jian_zx38.png"
+s a39 = "@jc/jian_zx39.png"
+s a40 = "@jc/jian_zx40.png"
+s a41 = "@jc/jian_zx41.png"
+s a42 = "@jc/jian_zx42.png"
+s a43 = "@jc/jian_zx43.png"
+s a44 = "@jc/jian_zx44.png"
+s a45 = "@jc/jian_zx45.png"
+
+
+
+us(121,"src",a1)
+us(124,"src",a2)
+us(127,"src",a3)
+us(132,"src",a4)
+us(136,"src",a5)
+us(140,"src",a6)
+us(206,"src",a7)
+us(209,"src",a8)
+us(212,"src",a9)
+us(216,"src",a10)
+us(219,"src",a11)
+us(222,"src",a12)
+us(226,"src",a13)
+us(229,"src",a14)
+us(232,"src",a15)
+us(236,"src",a16)
+us(239,"src",a17)
+us(242,"src",a18)
+us(246,"src",a19)
+us(249,"src",a20)
+us(252,"src",a21)
+us(256,"src",a22)
+us(259,"src",a23)
+us(262,"src",a24)
+us(266,"src",a25)
+us(269,"src",a26)
+us(272,"src",a27)
+us(276,"src",a28)
+us(279,"src",a29)
+us(282,"src",a30)
+us(286,"src",a31)
+us(289,"src",a32)
+us(292,"src",a33)
+us(296,"src",a34)
+us(299,"src",a35)
+us(302,"src",a36)
+us(306,"src",a37)
+us(309,"src",a38)
+us(312,"src",a39)
+us(316,"src",a40)
+us(319,"src",a41)
+us(322,"src",a42)
+us(326,"src",a43)
+us(329,"src",a44)
+us(332,"src",a45)
+
+
+
+us(333,"text",a1)
+us(334,"text",a2)
+us(335,"text",a3)
+us(336,"text",a4)
+us(337,"text",a5)
+us(338,"text",a6)
+us(339,"text",a7)
+us(340,"text",a8)
+us(341,"text",a9)
+us(342,"text",a10)
+us(343,"text",a11)
+us(344,"text",a12)
+us(345,"text",a13)
+us(346,"text",a14)
+us(347,"text",a15)
+us(348,"text",a16)
+us(349,"text",a17)
+us(350,"text",a18)
+us(351,"text",a19)
+us(352,"text",a20)
+us(353,"text",a21)
+us(354,"text",a22)
+us(355,"text",a23)
+us(356,"text",a24)
+us(357,"text",a25)
+us(358,"text",a26)
+us(359,"text",a27)
+us(360,"text",a28)
+us(361,"text",a29)
+us(362,"text",a30)
+us(363,"text",a31)
+us(364,"text",a32)
+us(365,"text",a33)
+us(366,"text",a34)
+us(367,"text",a35)
+us(368,"text",a36)
+us(369,"text",a37)
+us(370,"text",a38)
+us(371,"text",a39)
+us(372,"text",a40)
+us(373,"text",a41)
+us(374,"text",a42)
+us(375,"text",a43)
+us(376,"text",a44)
+us(377,"text",a45)
+
+
+
+
+f(sss.v == null)
+{
+us(7,"text","开启准星")
+us(5,"app_cardbackgroundcolor","#5889FE")
+}
+else
+{
+us(7,"text","关闭准星")
+us(5,"app_cardbackgroundcolor","#fff54242")
+}
+
+</eventItme></UIEventset>

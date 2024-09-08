@@ -1,0 +1,26 @@
+fn 跳转(界面)
+
+
+f(sss.任务开关=="关")
+{
+
+uigo(界面)
+
+}
+else
+{
+fe(sss.dtlj,dq)
+f(dq==true)
+{
+uigo(界面)
+}
+else
+{
+//调用模块(函数)
+fn 弹窗.任务提示()
+
+}
+}
+
+
+end fn

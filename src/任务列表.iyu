@@ -1,0 +1,110 @@
+<View id="1" did="0" type="CardView">
+<ppt>width=-1
+height=75dp
+app_CardElevation=0dp
+layout_marginLeft=10dp
+layout_marginRight=0dp
+app_CardcornerRadius=5dp
+layout_marginBottom=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+BackgroundRipple=#ffc5c5c5</ppt>
+<event><eventItme type="clicki">ufnsui()
+{
+gvs(st_vW,任务列表.14,aa)
+gvs(st_vW,任务列表.15,bb)
+gvs(st_vW,任务列表.16,cc)
+gvs(st_vW,任务列表.18,ee)
+ug(aa,"text",sss.dzz)
+ug(bb,"text",sss.方式)
+ug(cc,"text",sss.邀请)
+ug(ee,"text",sss.开关)
+uigo("任务.iyu")
+}
+</eventItme></event>
+</View>
+<View id="5" did="3" type="LinearLayout">
+<ppt>width=70dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="7" did="5" type="ImageView">
+<ppt>width=45dp
+height=45dp
+src=@icon.png</ppt>
+<event></event>
+</View>
+<View id="14" did="5" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本14
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="19" did="3" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="11" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+text=小啄赚钱-推荐
+textColor=#ff030303
+textSize=13dp
+textStyle=bold
+layout_marginTop=17dp</ppt>
+<event></event>
+</View>
+<View id="13" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+text=小啄任务日撸买吃鸡手
+textSize=11dp
+textColor=#ff787878
+ut_below=11
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="15" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本15
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="16" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本16
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="17" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本17
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="18" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本18
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

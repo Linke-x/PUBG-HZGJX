@@ -1,0 +1,301 @@
+fn 判断()
+
+f(sss.任务开关=="关")
+{
+
+fn 开启帧率.判断2()
+
+}
+else
+{
+
+fe(sss.dtlj,dq)
+f(dq==true)
+{
+
+fn 开启帧率.判断2()
+
+}
+else
+{
+//调用模块(函数)
+fn 弹窗.任务提示()
+}
+
+}
+
+
+end fn
+
+
+fn 判断2()
+
+javags(SDK_INT,null,"android.os.Build$VERSION","SDK_INT")
+s canDraw = false
+f(SDK_INT &gt;= 23) {
+  //6.0及以上，调用Settings.canDrawOverlays
+  java(canDraw,null,"android.provider.Settings.canDrawOverlays","Context",activity)
+  } else f(SDK_INT &lt; 19) {
+  //4.4以下，不检测
+  s canDraw = true
+  }
+
+f(!canDraw && SDK_INT &gt;= 19) {
+  //拿AppOpsManager再检测一次
+  //一是6.0以下无法使用Settings.canDrawOverlays
+  //二是8.0时存在一个bug，更改悬浮窗权限不会立即反映过来
+  //所以拿AppOpsManager再试试（听说没用）
+  java(appops,activity,"android.app.Activity.getSystemService","String","appops")
+  f(appops == null) {
+    syso("no AppOpsManager")
+    s canDraw = true
+    //拿不到AppOpsManager，默认true
+    } else {
+    java(pn,activity,"android.content.Context.getPackageName")
+    java(uid,null,"android.os.Process.myUid")
+    java(mode,appops,"android.app.AppOpsManager.noteOpNoThrow","int",24,"int",uid,"String",pn)
+    f(mode == 0) {
+      s canDraw = true
+      }
+    }
+  }
+f(canDraw ? true)
+{
+
+
+fn 开启帧率.开启()
+
+
+}
+else
+{
+utw(null,"温馨提示","请给予软件悬浮窗权限，否则无法正常使用帧率显示功能！","设置","取消",true,v)
+{
+javags(SDK_INT,null,"android.os.Build$VERSION","SDK_INT")
+f(SDK_INT &gt;= 23) {
+  sit(intent,"action","android.settings.action.MANAGE_OVERLAY_PERMISSION")
+  java(pn,activity,"android.content.Context.getPackageName")
+  ss("package:" + pn, uri)
+  sit(intent,"data",uri)
+  sit(intent,"flags",268435456)
+  uit(intent,"result",0)
+  } else {
+  ufnsui()
+  {
+  tw("系统版本太低")
+  }
+  }
+
+}
+else
+{
+us(功能.367,"text","当前状态：关闭")
+endutw()
+}
+}
+
+
+end fn
+
+
+
+fn 开启()
+
+
+f(sss.xfzl == null)
+{
+
+s w = -2
+s h = -2
+s gravity = "top|left"
+uxf("帧率.iyu", w, h, gravity, sss.xfzl)
+
+gvs(sss.xfzl,帧率.2, hq)
+
+us(hq,"visibility","visible")
+us(功能.367,"text","当前状态：开启")
+
+
+
+call(null,"mjava","fps.getFps")
+sj(sss.fps,null,".",sss.fps)
+
+t()
+{
+  //stop(200)
+  w(true)
+  {
+    ufnsui()
+    {
+    sj(sss.fps,null,".",sss.fps)
+    us(hq,"text","FPS: "+sss.fps)
+    }
+    stop(800)
+  }
+}
+
+
+
+
+
+}
+else
+{
+
+us(功能.367,"text","当前状态：关闭")
+us(功能.374,"text","当前状态：关闭")
+us(功能.382,"text","当前状态：关闭")
+us(功能.389,"text","当前状态：关闭")
+
+uxf(sss.xfzl, "del")
+sss xfzl = null
+
+break
+endcode
+}
+
+
+
+end fn
+
+
+
+
+fn 电池()
+
+s spp ="0"
+
+gvs(sss.xfzl,帧率.3, hq2)
+ug(hq2,"text",pd2)
+
+f(pd2?"电池")
+{
+us(功能.382,"text","当前状态：关闭")
+us(hq2,"visibility","gone")
+us(hq2,"text"," ")
+}
+else
+{
+t()
+{
+  ss("/sys/class/thermal/",aa)
+  fl(aa,bb)
+  for(cc;bb)
+  {
+    ss("/sys/class/thermal/thermal_zone"+spp+"/type",aa1)
+    fr(aa1,"utf-8",bb1)
+    f(bb1?"battery")
+    {
+      ss("/sys/class/thermal/thermal_zone"+spp+"/temp",aa2)
+      fr(aa2,"utf-8",bb2)
+      ufnsui()
+      {
+        ss(bb2+"/1000", bbi)
+        sn(bbi,bbi1)
+        ss("电池温度："+bbi1,bbi1w)
+        
+        us(功能.382,"text","当前状态：开启")
+        us(hq2,"visibility","visible")
+        us(hq2,"text",bbi1w)
+        
+        break
+      }
+    }
+    s+(1, spp)
+  }
+}
+
+}
+
+
+
+end fn
+
+
+fn cpu()
+
+
+gvs(sss.xfzl,帧率.4, hq3)
+ug(hq3,"text",pd3)
+
+f(pd3?"CPU")
+{
+
+us(功能.374,"text","当前状态：关闭")
+us(hq3,"visibility","gone")
+us(hq3,"text"," ")
+
+}
+else
+{
+
+t()
+{
+
+ss("/sys/class/thermal/thermal_zone1/temp",aao)
+fr(aao,"utf-8",bbo)
+ufnsui()
+{
+
+ss(bbo+"/1000", bbo1)
+sn(bbo1,bbu)
+ss("CPU温度："+bbu,bbuw)
+
+us(功能.374,"text","当前状态：开启")
+us(hq3,"visibility","visible")
+us(hq3,"text",bbuw)
+
+}
+
+}
+
+}
+
+
+
+end fn
+
+
+
+fn 频率()
+
+gvs(sss.xfzl,帧率.5, hq4)
+ug(功能.389,"text",pd4)
+
+f(pd4?"开启")
+{
+
+us(功能.389,"text","当前状态：关闭")
+us(hq4,"visibility","gone")
+us(hq4,"text"," ")
+
+}
+else
+{
+
+t()
+{
+w(true)
+{
+ufnsui()
+{
+//call(name,"mjava","CpuUtils.getName")
+call(maxfreg,"mjava","CpuUtils.getMaxFreq")
+call(minfreg,"mjava","CpuUtils.getMinFreq")
+call(curfreg,"mjava","CpuUtils.getCurFreq")
+//call(tempera,"mjava","CpuUtils.getTempera")
+ss("Cpu最大频率:"+maxfreg+"\nCpu最小频率:"+minfreg+"\nCpu当前频率:"+curfreg,info)
+
+us(功能.389,"text","当前状态：开启")
+us(hq4,"visibility","visible")
+us(hq4,"text",info)
+
+}
+stop(800)
+}
+
+}
+
+}
+
+end fn

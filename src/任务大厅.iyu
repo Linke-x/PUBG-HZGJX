@@ -1,0 +1,173 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#F5F6FA</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="79" did="2" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="80" did="79" type="TextView">
+<ppt>width=-2
+height=-2
+text=任务大厅
+textSize=15dp
+textColor=#ff030303
+layout_marginLeft=15dp
+layout_marginBottom=5dp
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="74" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="78" did="74" type="CardView">
+<ppt>width=-1
+height=40dp
+app_CardBackgroundColor=#ffffffff
+app_CardElevation=0dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+app_CardcornerRadius=5dp</ppt>
+<event></event>
+</View>
+<View id="72" did="78" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+</ppt>
+<event></event>
+</View>
+<View id="75" did="72" type="LinearLayout">
+<ppt>width=45dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="81" did="75" type="GifView">
+<ppt>width=27dp
+height=27dp
+src=@gg.gif
+layout_marginLeft=1dp</ppt>
+<event></event>
+</View>
+<View id="76" did="72" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="12" did="74" type="ListView">
+<ppt>width=-1
+height=-2
+dividerheight=0
+scrollbars=none
+overScrollMode=never
+visibility=visible
+ut_below=78
+layout_marginTop=10dp
+</ppt>
+<event></event>
+</View>
+<View id="68" did="74" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=vertical
+gravity=center_horizontal
+ut_alignParentBottom=true</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loadingComplete">
+javanew(对象,"android.app.ProgressDialog","Context",activity)
+cls("android.app.ProgressDialog",类)
+javax(对象,对象,类,"show","Context",activity,"CharSequence","","CharSequence","加载中...","boolean",false,"boolean",true,"android.content.DialogInterface$OnCancelListener",返回事件)
+
+t()
+{
+hs(sss.zht,data)
+syso(data)
+sj(data,"任务大厅【","】",data)
+json(data, json)
+json(json, "list", "rwlist", list)
+json(list, "size", size)
+w(size &gt; 0)
+{
+  s-(1, size)
+  json(list, "data", size, item)
+
+  //获取id
+  json(item, "get", "任务地址", a)
+  //syso(a)
+
+  //获取name
+  json(item, "get", "任务名字", b)
+
+
+  //获取age
+  json(item, "get", "content", c)
+
+
+  //获取ID
+  json(item, "get", "打开方式", d)
+
+
+  //获取任务网站
+  json(item, "get", "邀请链接", e)
+
+
+  //按钮开关
+  json(item, "get", "按钮开关", h)
+
+
+  ula(zzlt,14=a,11=b,13=c,15=d,16=e,18=h)
+}
+  ufnsui()
+  {
+    java(null,对象,"android.app.Dialog.cancel")
+    uls(12,zzlt,"任务列表.iyu",-1,-2)
+  }
+
+}
+
+
+
+</eventItme><eventItme type="loading">uycl("#F5F6FA",true,0)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+
+
+
+fr("@pmd.txt",data)
+
+loadjar("classes2.dex",dex)
+cls(dex,"com.textview.ScrollingTextView",text)
+javanew(view,text,"Context",activity)
+nvw(view,76)
+us(view,"text",data)
+us(view,"textsize","11dp")
+us(view,"textcolor","#ff020202")
+us(view,"singleline","true")
+us(view,"ellipsize","marquee")
+us(view,"marqueerepeatlimit","marquee_forever")
+us(view,"focusable","true")
+
+</eventItme></UIEventset>

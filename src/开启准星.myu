@@ -1,0 +1,226 @@
+fn 判断()
+
+f(sss.任务开关=="关")
+{
+
+f(sss.分享开关 == "开")
+{
+
+f(sss.dqtimes &gt;= sss.fxcs)
+{
+
+fn 开启准星.开启()
+
+ug(准星.26,"text",a)
+f(a == "开启准星")
+{
+us(准星.26,"text","关闭准星")
+}
+else f(a == "关闭准星")
+{
+us(准星.26,"text","开启准星")
+}
+
+
+}
+else
+{
+
+fn 弹窗.分享()
+}
+
+}
+else
+{
+
+fn 开启准星.开启()
+
+ug(准星.26,"text",a)
+f(a == "开启准星")
+{
+us(准星.26,"text","关闭准星")
+}
+else f(a == "关闭准星")
+{
+us(准星.26,"text","开启准星")
+}
+
+
+}
+
+}
+else
+{
+
+fe(sss.dtlj,dq)
+f(dq==true)
+{
+
+fn 开启准星.开启()
+
+ug(准星.26,"text",a)
+f(a == "开启准星")
+{
+us(准星.26,"text","关闭准星")
+}
+else f(a == "关闭准星")
+{
+
+us(准星.26,"text","开启准星")
+}
+
+
+}
+else
+{
+//调用模块(函数)
+fn 弹窗.任务提示()
+}
+
+}
+
+
+end fn
+
+
+
+
+fn 更换(文件)
+
+f(sss.v == null)
+{
+
+s tp = 文件
+
+us(408,"src",tp)
+fw(sss.xftp,tp)
+
+}
+else
+{
+
+s tp = 文件
+gvs(sss.v,悬浮窗.1, x)
+us(x,"src",tp)
+us(408,"src",tp)
+
+fw(sss.xftp,tp)
+
+
+}
+
+end fn
+
+
+
+
+
+fn 开启()
+
+
+javags(SDK_INT,null,"android.os.Build$VERSION","SDK_INT")
+s canDraw = false
+f(SDK_INT &gt;= 23) {
+  //6.0及以上，调用Settings.canDrawOverlays
+  java(canDraw,null,"android.provider.Settings.canDrawOverlays","Context",activity)
+  } else f(SDK_INT &lt; 19) {
+  //4.4以下，不检测
+  s canDraw = true
+  }
+
+f(!canDraw && SDK_INT &gt;= 19) {
+  //拿AppOpsManager再检测一次
+  //一是6.0以下无法使用Settings.canDrawOverlays
+  //二是8.0时存在一个bug，更改悬浮窗权限不会立即反映过来
+  //所以拿AppOpsManager再试试（听说没用）
+  java(appops,activity,"android.app.Activity.getSystemService","String","appops")
+  f(appops == null) 
+  {
+    syso("no AppOpsManager")
+    s canDraw = true
+    //拿不到AppOpsManager，默认true
+    } 
+    else 
+    {
+    java(pn,activity,"android.content.Context.getPackageName")
+    java(uid,null,"android.os.Process.myUid")
+    java(mode,appops,"android.app.AppOpsManager.noteOpNoThrow","int",24,"int",uid,"String",pn)
+    f(mode == 0) {
+      s canDraw = true
+      }
+    }
+  }
+f(canDraw ? true)
+{
+
+ufnsui()
+{
+f(sss.v == null)
+{
+fr(sss.xx, x)
+fr(sss.yy, y)
+fr(sss.xftp, xftp)
+fr(sss.xfdx, 大小)
+s x = x
+syso(x)
+s y = y
+s w = 大小
+syso(大小)
+s h = 大小
+s type = 0
+s gravity = "center"
+s flags = 0
+s format = 0
+uxf("悬浮窗.iyu", x, y, w, h, type, gravity, flags, format, sss.v)
+sss xfc = sss.v
+gvs(sss.v,悬浮窗.1, hq)
+us(hq,"src",xftp)
+
+us(63,"src",xftp)
+}
+else
+{
+uxf(sss.v, "del")
+sss v = null
+
+uxf(sss.vs, "del")
+sss vs = null
+
+}
+
+}
+
+
+}
+else
+{
+utw(null,"温馨提示","请给予软件悬浮窗权限，否则无法正常使用准星功能！","设置","取消",true,v)
+{
+javags(SDK_INT,null,"android.os.Build$VERSION","SDK_INT")
+f(SDK_INT &gt;= 23) {
+  sit(intent,"action","android.settings.action.MANAGE_OVERLAY_PERMISSION")
+  java(pn,activity,"android.content.Context.getPackageName")
+  ss("package:" + pn, uri)
+  sit(intent,"data",uri)
+  sit(intent,"flags",268435456)
+  uit(intent,"result",0)
+  } else {
+  ufnsui()
+  {
+  tw("系统版本太低")
+  }
+  }
+
+}
+else
+{
+
+us(准星.26,"text","开启准星")
+endutw()
+}
+}
+
+
+
+end fn
+

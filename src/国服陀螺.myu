@@ -1,0 +1,25 @@
+
+
+
+fn 解锁2(文件)
+
+t()
+{
+  
+  
+  s 路径 = "/storage/emulated/0/Android/data/com.tencent.tmgp.pubgmhd/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/Active.sav"
+  
+  ss("@hz/1/"+文件+".sav",path)
+  
+  otob("file",null,path,bArr)
+  
+  // 写入文件   传入 文件路径, 写入字节数组
+  fn gad.写入字节(路径, bArr)
+  
+  
+}
+
+
+
+end fn
+

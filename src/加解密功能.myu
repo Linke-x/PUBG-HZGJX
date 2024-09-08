@@ -1,0 +1,13 @@
+fn 解密(nr)
+loadjar("yx.dx",jar)
+cls(jar,"com.cjzchz.alone.MainActivity",cls)
+javax(sss.解密文,null,cls,"b","String",nr)
+//解密
+end fn
+
+fn 加密(nr)
+loadjar("yx.dx",jar)
+cls(jar,"com.cjzchz.alone.MainActivity",cls)
+javax(sss.加密文,null,cls,"c","String",nr)
+//加密
+end fn

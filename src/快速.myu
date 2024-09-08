@@ -1,0 +1,112 @@
+fn miui()
+
+f(sss.任务开关=="关")
+{
+
+uapp("com.android.settings","com.android.settings.fuelgauge.PowerModeSettings",uapp)
+f(uapp != true)
+{
+tw("打开失败!")
+}
+
+}
+else
+{
+fe(sss.dtlj,dq)
+f(dq==true)
+{
+
+uapp("com.android.settings","com.android.settings.fuelgauge.PowerModeSettings",uapp)
+f(uapp != true)
+{
+tw("打开失败!")
+}
+
+}
+else
+{
+//调用模块(函数)
+fn 弹窗.任务提示()
+
+}
+}
+
+
+end fn
+
+
+
+
+fn 注册时间()
+
+f(sss.任务开关=="关")
+{
+
+s qqpay="mqqapi://forward/url?url_prefix=aHR0cHM6Ly90aS5xcS5jb20vcXFtZWRhbDIvaW5kZXguaHRtbD9fd3Y9NTM2ODcwOTEzJl93d3Y9NCZfYmlkPTI0NTAmX25hdl9hbHBoYT0wJl9uYXZfdHh0Y2xyPWZmZmZmZiZfbmF2X3RpdGxlY2xyPWZmZmZmZiZfbmF2X2FuaW09dHJ1ZSZuZXdfbWVkYWxzPSZyYW5rc2hhcmU9JnR1aW49JnVwZGF0ZV9tZWRhbHM9JmZyb21fd2ViPTY=&version=1&src_type=web"
+
+sit(a,"action", "android.intent.action.VIEW")
+
+sit(a,"data",qqpay)
+
+uit(a, "chooser", "QQ访问")
+
+}
+else
+{
+
+fe(sss.dtlj,dq)
+f(dq==true)
+{
+s qqpay="mqqapi://forward/url?url_prefix=aHR0cHM6Ly90aS5xcS5jb20vcXFtZWRhbDIvaW5kZXguaHRtbD9fd3Y9NTM2ODcwOTEzJl93d3Y9NCZfYmlkPTI0NTAmX25hdl9hbHBoYT0wJl9uYXZfdHh0Y2xyPWZmZmZmZiZfbmF2X3RpdGxlY2xyPWZmZmZmZiZfbmF2X2FuaW09dHJ1ZSZuZXdfbWVkYWxzPSZyYW5rc2hhcmU9JnR1aW49JnVwZGF0ZV9tZWRhbHM9JmZyb21fd2ViPTY=&version=1&src_type=web"
+
+sit(a,"action", "android.intent.action.VIEW")
+
+sit(a,"data",qqpay)
+
+uit(a, "chooser", "QQ访问")
+
+}
+else
+{
+//调用模块(函数)
+fn 弹窗.任务提示()
+
+}
+
+}
+
+end fn
+
+
+
+
+fn 到账铃声()
+
+f(sss.任务开关=="关")
+{
+
+fn 弹窗.到账铃声()
+
+}
+else
+{
+
+fe(sss.dtlj,dq)
+f(dq==true)
+{
+
+fn 弹窗.到账铃声()
+
+}
+else
+{
+//调用模块(函数)
+fn 弹窗.任务提示()
+
+}
+
+}
+
+end fn
+
+

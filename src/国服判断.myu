@@ -1,0 +1,28 @@
+fn 判断(文件)
+
+// 获取设备信息, 并且从设备信息中提取系统SDK版本
+sjxx(info)
+sgsz(info, 2, info2)
+sl(info2, "\n", info3)
+sgsz(info3, 2, sdk)
+
+// 如果等于30说明是安卓11系统
+f(sdk == 31)
+{
+
+fn 代码.验证(文件)
+
+}
+else f(sdk &gt;= 31)
+{
+fn 安卓12.验证()
+}
+else
+{
+//不是安卓11
+fn 国服正常.使用(文件)
+}
+
+
+
+end fn

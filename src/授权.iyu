@@ -1,0 +1,150 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+background=through</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardElevation=0
+app_CardcornerRadius=15dp</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="11" did="3" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=vertical
+gravity=center
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="4" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=获取Android/data权限
+textSize=19dp
+textColor=#ff3f3f3f
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="12" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="TextView">
+<ppt>width=-2
+height=-2
+text=由于您的手机是Android11或更高的用户，我们需要获得您手机的Android/data文件操作权限，按照下面操作授权即可
+textSize=11dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="14" did="3" type="ImageView">
+<ppt>width=-1
+height=350dp
+src=@img/1676694028585.jpg
+layout_marginTop=15dp
+layout_marginBottom=15dp</ppt>
+<event></event>
+</View>
+<View id="6" did="3" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+orientation=horizontal
+gravity=right|center_vertical
+layout_marginTop=15dp
+layout_marginBottom=30dp
+layout_marginLeft=18dp
+layout_marginRight=18dp</ppt>
+<event></event>
+</View>
+<View id="9" did="6" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=12dp
+app_CardBackgroundColor=#ffd4d4d4
+layout_marginRight=7dp
+app_CardElevation=0
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="15" did="9" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardElevation=0dp
+app_CardcornerRadius=12dp
+</ppt>
+<event></event>
+</View>
+<View id="10" did="16" type="TextView">
+<ppt>width=-1
+height=-1
+text=取 消
+textColor=#ff444444
+gravity=center
+textSize=13dp
+background=#ffe9e9e9
+BackgroundRipple=#ffd4d4d4</ppt>
+<event><eventItme type="clicki">java(null,ss.utwv,"android.app.Dialog.dismiss")
+</eventItme></event>
+</View>
+<View id="7" did="6" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=12dp
+app_CardBackgroundColor=#5889FE
+layout_weight=1
+app_CardElevation=0dp
+layout_marginLeft=7dp</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-1
+height=-1
+text=授 权
+textColor=#ffffffff
+gravity=center
+textSize=13dp
+textStyle=bold
+BackgroundRipple=#82B1FF</ppt>
+<event><eventItme type="clicki">//检测安卓11授权
+
+javanew(sss.DocFiles,sss.DocFile,"Activity",activity,"String",sss.dir2)
+javax(is,sss.DocFiles,sss.DocFile,"isPermission")
+
+f(is==false)
+{
+tw("直接点击下方蓝色按钮允许授权即可！")
+javax(null,sss.DocFiles,sss.DocFile,"goPermission")
+}
+else
+{
+tw("已授权！")
+}
+
+java(null,ss.utwv,"android.app.Dialog.dismiss")
+
+
+</eventItme></event>
+</View>
+<UIEventset></UIEventset>

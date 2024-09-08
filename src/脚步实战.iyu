@@ -1,0 +1,217 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@img/mmexport1590849934253.jpg</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=60dp</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="ImageView">
+<ppt>width=25dp
+height=25dp
+src=@img/chevron left613.png
+layout_marginLeft=15dp</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="5" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=脚步声训练
+textColor=#ffffffff
+textSize=15dp
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="9" did="7" type="ImageView">
+<ppt>width=-1
+height=180dp
+src=@img/Screenshot_20200519_081140.png
+layout_marginLeft=100dp
+layout_marginRight=100dp</ppt>
+<event></event>
+</View>
+<View id="8" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=2
+gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="12" did="8" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="10" did="12" type="TextView">
+<ppt>width=-2
+height=-2
+text=此时你身处某层楼，点击旁边的声音可听到实际游戏中的具体声音效果.(佩戴耳机效果更佳！)
+textColor=#ffffffff
+textSize=16sp
+textStyle=bold
+layout_marginLeft=15dp
+layout_marginRight=15dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="11" did="12" type="TextView">
+<ppt>width=80dp
+height=40dp
+text=开始答题
+layout_marginTop=15dp
+gravity=center
+textColor=#ffffffff
+textSize=16sp
+textStyle=bold</ppt>
+<event><eventItme type="clicki">sran(1,10,a)
+f(a=="1")
+{
+bfm("@yp/jb/qf.mp3",b)
+utw("","考考你","已经为你播放一段脚步，仔细听喔！","查看答案",true,v)
+{
+utw("","温馨提示","播放中的脚步是：前方","知道啦",true,v)
+{
+bfms(b, "pe")
+}
+}
+}
+else f(a=="2")
+{
+bfm("@yp/jb/hf.mp3",b)
+utw("","考考你","已经为你播放一段脚步，仔细听喔！","查看答案",true,v)
+{
+utw("","温馨提示","播放中的脚步是：后方","知道啦",true,v)
+{
+bfms(b, "pe")
+}
+}
+}
+else f(a=="3")
+{
+bfm("@yp/jb/zf.mp3",b)
+utw("","考考你","已经为你播放一段脚步，仔细听喔！","查看答案",true,v)
+{
+utw("","温馨提示","播放中的脚步是：左方","知道啦",true,v)
+{
+bfms(b, "pe")
+}
+}
+}
+else f(a=="4")
+{
+bfm("@yp/jb/yf.mp3",b)
+utw("","考考你","已经为你播放一段脚步，仔细听喔！","查看答案",true,v)
+{
+utw("","温馨提示","播放中的脚步是：右方","知道啦",true,v)
+{
+bfms(b, "pe")
+}
+}
+}
+else f(a=="5")
+{
+bfm("@yp/jb/fn.mp3",b)
+utw("","考考你","已经为你播放一段脚步，仔细听喔！","查看答案",true,v)
+{
+utw("","温馨提示","播放中的脚步是：房内","知道啦",true,v)
+{
+bfms(b, "pe")
+}
+}
+}
+else f(a=="6")
+{
+bfm("@yp/jb/fw.mp3",b)
+utw("","考考你","已经为你播放一段脚步，仔细听喔！","查看答案",true,v)
+{
+utw("","温馨提示","播放中的脚步是：房外","知道啦",true,v)
+{
+bfms(b, "pe")
+}
+}
+}
+else f(a=="7")
+{
+bfm("@yp/jb/fq.mp3",b)
+utw("","考考你","已经为你播放一段脚步，仔细听喔！","查看答案",true,v)
+{
+utw("","温馨提示","播放中的脚步是：翻墙","知道啦",true,v)
+{
+bfms(b, "pe")
+}
+}
+}
+else f(a=="8")
+{
+bfm("@yp/jb/tl.mp3",b)
+utw("","考考你","已经为你播放一段脚步，仔细听喔！","查看答案",true,v)
+{
+utw("","温馨提示","播放中的脚步是：同楼","知道啦",true,v)
+{
+bfms(b, "pe")
+}
+}
+}
+else f(a=="9")
+{
+bfm("@yp/jb/ls.mp3",b)
+utw("","考考你","已经为你播放一段脚步，仔细听喔！","查看答案",true,v)
+{
+utw("","温馨提示","播放中的脚步是：楼上","知道啦",true,v)
+{
+bfms(b, "pe")
+}
+}
+}
+else f(a=="10")
+{
+bfm("@yp/jb/lx.mp3",b)
+utw("","考考你","已经为你播放一段脚步，仔细听喔！","查看答案",true,v)
+{
+utw("","温馨提示","播放中的脚步是：楼下","知道啦",true,v)
+{
+bfms(b, "pe")
+}
+}
+}
+else
+{
+tw("出现未知错误！")
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl(true)
+
+ushsp(true)
+
+ngde(2,10,"#50999999","#ffffffff",b)
+us(11,"background",b)
+
+</eventItme></UIEventset>

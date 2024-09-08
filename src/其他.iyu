@@ -1,0 +1,175 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#fafafa</ppt>
+<event></event>
+</View>
+<View id="12" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="2" did="12" type="CardView">
+<ppt>width=-1
+height=80dp
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+layout_marginRight=12dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundRipple=#fff2f2f2</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="ImageView">
+<ppt>width=55dp
+height=55dp
+src=@img/qingtian.png
+ut_centerVertical=true
+layout_marginLeft=12dp</ppt>
+<event></event>
+</View>
+<View id="6" did="3" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+ut_centerVertical=true
+layout_marginLeft=10dp
+ut_toRightOf=5</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=解锁暗区突围画质
+textColor=#ff000000
+textSize=12.5dp</ppt>
+<event></event>
+</View>
+<View id="8" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=『暗区突围画质』
+textColor=#ff4d97ff
+textSize=10dp
+layout_marginTop=5dp
+</ppt>
+<event></event>
+</View>
+<View id="9" did="3" type="CardView">
+<ppt>width=65dp
+height=28dp
+ut_centerVertical=true
+ut_alignParentRight=true
+app_CardcornerRadius=15dp
+app_CardElevation=0dp
+layout_marginRight=15dp</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#5889FE
+gravity=center
+BackgroundRipple=#57A85B</ppt>
+<event><eventItme type="clicki">fn 暗区.解锁("9/1")
+</eventItme></event>
+</View>
+<View id="11" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=立即解锁
+textColor=#ffffffff
+textSize=10dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="CardView">
+<ppt>width=-1
+height=80dp
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_marginLeft=12dp
+layout_marginRight=12dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundRipple=#fff2f2f2</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="ImageView">
+<ppt>width=55dp
+height=55dp
+src=@img/qingtian.png
+ut_centerVertical=true
+layout_marginLeft=12dp</ppt>
+<event></event>
+</View>
+<View id="16" did="14" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+ut_centerVertical=true
+layout_marginLeft=10dp
+ut_toRightOf=15</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="TextView">
+<ppt>width=-2
+height=-2
+text=解锁香肠派对画质
+textColor=#ff000000
+textSize=12.5dp</ppt>
+<event></event>
+</View>
+<View id="18" did="16" type="TextView">
+<ppt>width=-2
+height=-2
+text=『香肠派对画质』
+textColor=#ff4d97ff
+textSize=10dp
+layout_marginTop=5dp
+</ppt>
+<event></event>
+</View>
+<View id="19" did="14" type="CardView">
+<ppt>width=65dp
+height=28dp
+ut_centerVertical=true
+ut_alignParentRight=true
+app_CardcornerRadius=15dp
+app_CardElevation=0dp
+layout_marginRight=15dp</ppt>
+<event></event>
+</View>
+<View id="20" did="19" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#5889FE
+gravity=center
+BackgroundRipple=#57A85B</ppt>
+<event><eventItme type="clicki">fn 暗区.解锁("9/1")
+</eventItme></event>
+</View>
+<View id="21" did="20" type="TextView">
+<ppt>width=-2
+height=-2
+text=立即解锁
+textColor=#ffffffff
+textSize=10dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

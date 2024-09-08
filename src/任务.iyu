@@ -1,0 +1,148 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="9" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=55dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="4" did="9" type="LinearLayout">
+<ppt>width=50dp
+height=-1
+orientation=vertical
+gravity=center
+BackgroundRipple=#ffcbcbcb</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="5" did="4" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@202a7f656eb.png</ppt>
+<event></event>
+</View>
+<View id="6" did="9" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+layout_marginRight=80dp
+ut_toRightOf=4</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#000000
+textSize=15dp
+textStyle=bold
+ut_centerVertical=true
+ellipsize=end
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="LinearLayout">
+<ppt>width=100dp
+height=-1
+orientation=vertical
+ut_alignParentRight=true
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="12" did="10" type="CardView">
+<ppt>width=80dp
+height=35dp
+app_CardcornerRadius=5dp
+app_CardElevation=5dp</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+BackgroundRipple=#ffd4d4d4</ppt>
+<event><eventItme type="clicki">
+ug(2,"url",u)
+t()
+{
+hs(u,fhz)
+syso(fhz)
+sj(fhz,"链接【","】",hq)
+hws(hq)
+
+}
+</eventItme></event>
+</View>
+<View id="11" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=打开链接
+textColor=#ffff0500
+textSize=12dp
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="WebView">
+<ppt>width=-1
+height=-1
+overScrollMode=never</ppt>
+<event><eventItme type="onreceivederror">us(2,"visibility",8)
+utw(null,"温馨提示","请检查网络","知道了",true,v)
+{
+  end()
+}</eventItme><eventItme type="onpagefinished">
+ug(2,"url",u)
+t()
+{
+hs(u,fhz)
+f(fhz?"全部答对")
+{
+fw(sss.dtlj,xr)
+}
+}
+</eventItme><eventItme type="onprogresschanged">f(st_nS==100)
+{
+  ug(2,"title",a)
+  us(7,"text",a)
+}
+else
+{
+  ss("正在加载中...",a)
+  us(7,"text",a)
+}
+</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffffff",true,0)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+
+
+javanew(对象,"android.app.ProgressDialog","Context",activity)
+cls("android.app.ProgressDialog",类)
+javax(对象,对象,类,"show","Context",activity,"CharSequence","","CharSequence","加载中...","boolean",false,"boolean",true,"android.content.DialogInterface$OnCancelListener",返回事件)
+
+
+f(sss.按钮开关=="关")
+{
+us(10,"visibility","gone")
+}
+else
+{
+us(10,"visibility","visible")
+}
+
+
+
+ufnsui()
+{
+java(null,对象,"android.app.Dialog.cancel")
+us(2,"url",sss.任务地址)
+}
+
+
+</eventItme></UIEventset>

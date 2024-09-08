@@ -1,0 +1,339 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=55dp
+orientation=horizontal
+background=white
+</ppt>
+<event></event>
+</View>
+<View id="6" did="2" type="LinearLayout">
+<ppt>width=55dp
+height=-1
+orientation=vertical
+gravity=center
+BackgroundRipple=#ffdbdbdb</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="7" did="6" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@img/202a7f656eb.png
+BackgroundRipple=#ffcbcbcb</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical
+layout_marginRight=55dp</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=捏脸码
+textSize=15dp
+textStyle=bold
+textColor=#ff2a2a2a</ppt>
+<event></event>
+</View>
+<View id="39" did="1" type="HorizontalScrollView">
+<ppt>width=-1
+height=50dp
+ut_below=2
+layout_marginBottom=5dp</ppt>
+<event></event>
+</View>
+<View id="38" did="39" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="40" did="38" type="CardView">
+<ppt>width=32dp
+height=32dp
+app_CardcornerRadius=18dp
+layout_marginLeft=20dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="41" did="40" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="42" did="41" type="ImageView">
+<ppt>width=28dp
+height=28dp
+src=@img/aqh.png</ppt>
+<event></event>
+</View>
+<View id="43" did="38" type="CardView">
+<ppt>width=65dp
+height=35dp
+app_CardcornerRadius=5dp
+layout_marginLeft=20dp
+app_CardBackgroundColor=#5889FE
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="44" did="43" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+us(43,"app_cardbackgroundcolor","#5889FE")
+us(45,"textcolor","#ffffffff")
+
+us(46,"app_cardbackgroundcolor","#F4F4F4")
+us(48,"textcolor","#ff2a2a2a")
+us(49,"app_cardbackgroundcolor","#F4F4F4")
+us(51,"textcolor","#ff2a2a2a")
+us(52,"app_cardbackgroundcolor","#F4F4F4")
+us(54,"textcolor","#ff2a2a2a")
+
+
+
+
+fr("@wj/nl.txt",a)
+json(a,b)
+json(b,"list","data",list)
+json(list,"size",size)
+
+w(size&gt;0)
+{
+  s(size-1,size)
+  json(list,"data",size,v)
+  json(v,"get","icon",img)
+  json(v,"get","title",mc)
+  json(v,"get","ID",nldm)
+  ss("@img/nl/1/"+img,tp)
+  ula(列表,16=tp,6=mc,14=nldm)
+}
+uls(56,列表,"捏脸列表.iyu",-1,-2)
+
+</eventItme></event>
+</View>
+<View id="45" did="44" type="TextView">
+<ppt>width=-2
+height=-2
+text=明星脸型
+textColor=#ffffffff
+textStyle=bold
+textSize=12dp</ppt>
+<event></event>
+</View>
+<View id="46" did="38" type="CardView">
+<ppt>width=65dp
+height=35dp
+app_CardcornerRadius=5dp
+layout_marginLeft=20dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#F4F4F4</ppt>
+<event></event>
+</View>
+<View id="47" did="46" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+us(46,"app_cardbackgroundcolor","#5889FE")
+us(48,"textcolor","#ffffffff")
+
+us(43,"app_cardbackgroundcolor","#F4F4F4")
+us(45,"textcolor","#ff2a2a2a")
+us(49,"app_cardbackgroundcolor","#F4F4F4")
+us(51,"textcolor","#ff2a2a2a")
+us(52,"app_cardbackgroundcolor","#F4F4F4")
+us(54,"textcolor","#ff2a2a2a")
+
+
+
+
+fr("@wj/nl2.txt",a)
+json(a,b)
+json(b,"list","data",list)
+json(list,"size",size)
+
+w(size&gt;0)
+{
+  s(size-1,size)
+  json(list,"data",size,v)
+  json(v,"get","icon",img)
+  json(v,"get","title",mc)
+  json(v,"get","ID",nldm)
+  ss("@img/nl/2/"+img,tp)
+  ula(列表,16=tp,6=mc,14=nldm)
+}
+uls(56,列表,"捏脸列表.iyu",-1,-2)
+
+</eventItme></event>
+</View>
+<View id="48" did="47" type="TextView">
+<ppt>width=-2
+height=-2
+text=男生脸型
+textColor=#ff2a2a2a
+textStyle=bold
+textSize=12dp</ppt>
+<event></event>
+</View>
+<View id="49" did="38" type="CardView">
+<ppt>width=65dp
+height=35dp
+app_CardcornerRadius=5dp
+layout_marginLeft=20dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#F4F4F4</ppt>
+<event></event>
+</View>
+<View id="50" did="49" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+us(49,"app_cardbackgroundcolor","#5889FE")
+us(51,"textcolor","#ffffffff")
+
+us(46,"app_cardbackgroundcolor","#F4F4F4")
+us(48,"textcolor","#ff2a2a2a")
+us(43,"app_cardbackgroundcolor","#F4F4F4")
+us(45,"textcolor","#ff2a2a2a")
+us(52,"app_cardbackgroundcolor","#F4F4F4")
+us(54,"textcolor","#ff2a2a2a")
+
+
+
+
+fr("@wj/nl3.txt",a)
+json(a,b)
+json(b,"list","data",list)
+json(list,"size",size)
+
+w(size&gt;0)
+{
+  s(size-1,size)
+  json(list,"data",size,v)
+  json(v,"get","icon",img)
+  json(v,"get","title",mc)
+  json(v,"get","ID",nldm)
+  ss("@img/nl/3/"+img,tp)
+  ula(列表,16=tp,6=mc,14=nldm)
+}
+uls(56,列表,"捏脸列表.iyu",-1,-2)
+
+</eventItme></event>
+</View>
+<View id="51" did="50" type="TextView">
+<ppt>width=-2
+height=-2
+text=女生脸型
+textColor=#ff2a2a2a
+textStyle=bold
+textSize=12dp</ppt>
+<event></event>
+</View>
+<View id="52" did="38" type="CardView">
+<ppt>width=65dp
+height=35dp
+app_CardcornerRadius=5dp
+layout_marginLeft=20dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#F4F4F4
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="53" did="52" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+us(52,"app_cardbackgroundcolor","#5889FE")
+us(54,"textcolor","#ffffffff")
+
+us(46,"app_cardbackgroundcolor","#F4F4F4")
+us(48,"textcolor","#ff2a2a2a")
+us(49,"app_cardbackgroundcolor","#F4F4F4")
+us(51,"textcolor","#ff2a2a2a")
+us(43,"app_cardbackgroundcolor","#F4F4F4")
+us(45,"textcolor","#ff2a2a2a")
+
+
+
+
+fr("@wj/nl4.txt",a)
+json(a,b)
+json(b,"list","data",list)
+json(list,"size",size)
+
+w(size&gt;0)
+{
+  s(size-1,size)
+  json(list,"data",size,v)
+  json(v,"get","icon",img)
+  json(v,"get","title",mc)
+  json(v,"get","ID",nldm)
+  ss("@img/nl/4/"+img,tp)
+  ula(列表,16=tp,6=mc,14=nldm)
+}
+uls(56,列表,"捏脸列表.iyu",-1,-2)
+
+</eventItme></event>
+</View>
+<View id="54" did="53" type="TextView">
+<ppt>width=-2
+height=-2
+text=搞怪脸型
+textColor=#ff2a2a2a
+textStyle=bold
+textSize=12dp</ppt>
+<event></event>
+</View>
+<View id="56" did="1" type="ListView">
+<ppt>width=-1
+height=-1
+ut_below=39
+</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffffff",true,0)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+
+
+
+
+fr("@wj/nl.txt",a)
+json(a,b)
+json(b,"list","data",list)
+json(list,"size",size)
+
+w(size&gt;0)
+{
+  s(size-1,size)
+  json(list,"data",size,v)
+  json(v,"get","icon",img)
+  json(v,"get","title",mc)
+  json(v,"get","ID",nldm)
+  ss("@img/nl/1/"+img,tp)
+  ula(列表,16=tp,6=mc,14=nldm)
+}
+uls(56,列表,"捏脸列表.iyu",-1,-2)
+
+</eventItme></UIEventset>

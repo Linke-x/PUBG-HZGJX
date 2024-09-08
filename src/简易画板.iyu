@@ -1,0 +1,203 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+ut_below=19
+ut_above=4
+background=white</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+ut_alignParentBottom=true
+background=#f5f5f5</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="ImageView">
+<ppt>width=-1
+height=150
+src=@img/abdb09c7108.png
+layout_weight=1
+padding=40
+</ppt>
+<event><eventItme type="clicki">dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 100)
+us(5, "dh", dh)
+
+javax(c,ss.画板,ss.View,"undo")
+</eventItme></event>
+</View>
+<View id="6" did="4" type="ImageView">
+<ppt>width=-1
+height=150
+src=@img/2cddfa4d8ab.png
+layout_weight=1
+padding=40
+</ppt>
+<event><eventItme type="clicki">dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 100)
+us(6, "dh", dh)
+
+javax(c,ss.画板,ss.View,"redo")
+</eventItme></event>
+</View>
+<View id="7" did="4" type="ImageView">
+<ppt>width=-1
+height=150
+src=@img/8628432030e.png
+layout_weight=1
+padding=40
+</ppt>
+<event><eventItme type="clicki">dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 100)
+us(7, "dh", dh)
+
+javax(c,ss.画板,ss.View,"setPenRawSize","int",ss.Dh)
+javax(c,ss.画板,ss.View,"setPenAlpha","int",255)
+us(7,"background","#ffcccccc")
+us(8,"background","")
+tw("画笔\n长按可更改画笔大小")
+</eventItme><eventItme type="press">utw("","","画笔大小.iyu","确认",false,v)
+{
+  javax(c,ss.画板,ss.View,"setPenRawSize","int",ss.Dh)
+}
+gvs(v,2,a)
+gvs(v,3,ss.Hd)
+us(a,"progress",ss.Dh)</eventItme></event>
+</View>
+<View id="8" did="4" type="ImageView">
+<ppt>width=-1
+height=150
+src=@img/6c73e1a48fb.png
+layout_weight=1
+padding=40</ppt>
+<event><eventItme type="clicki">dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 100)
+us(8, "dh", dh)
+
+javax(c,ss.画板,ss.View,"setPenRawSize","int",ss.Dx)
+javax(c,ss.画板,ss.View,"setPenAlpha","int",0)
+
+//javax(c,ss.画板,ss.View,"setMode", ss.Mo,"DRAW")
+us(7,"background","")
+us(8,"background","#ffcccccc")
+tw("橡皮擦\n长按可更改橡皮擦大小")
+</eventItme><eventItme type="press">utw("","","橡皮大小.iyu","确认",false,v)
+{
+  javax(c,ss.画板,ss.View,"setPenRawSize","int",ss.Dx)
+}
+gvs(v,2,a)
+gvs(v,3,ss.Xd)
+us(a,"progress",ss.Dx)</eventItme></event>
+</View>
+<View id="9" did="4" type="ImageView">
+<ppt>width=-1
+height=150
+src=@img/46e07f02102.png
+layout_weight=1
+padding=40
+</ppt>
+<event><eventItme type="clicki">dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 100)
+us(9, "dh", dh)
+
+javax(c,ss.画板,ss.View,"clear")
+us(3,"backgroundcolor",-1)
+tw("清理完毕")</eventItme></event>
+</View>
+<View id="19" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=55dp
+background=#f5f5f5</ppt>
+<event></event>
+</View>
+<View id="11" did="19" type="LinearLayout">
+<ppt>width=55dp
+height=-1
+orientation=vertical
+gravity=center_vertical
+BackgroundRipple=#ffcccccc</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="12" did="11" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@img/202a7f656eb.png
+layout_marginLeft=15dp</ppt>
+<event></event>
+</View>
+<View id="14" did="19" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical
+layout_marginLeft=55dp
+</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="TextView">
+<ppt>width=-2
+height=-2
+text=简易画板
+textSize=15dp
+textStyle=bold
+textColor=#ff2a2a2a
+</ppt>
+<event></event>
+</View>
+<View id="17" did="19" type="LinearLayout">
+<ppt>width=55dp
+height=-1
+orientation=vertical
+gravity=center_vertical
+ut_alignParentRight=true</ppt>
+<event><eventItme type="clicki">dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 100)
+us(17, "dh", dh)
+
+javacb(事件,ss.事件类)
+{
+  sgsz(st_aS,0,颜色值)
+  javax(c,ss.画板,ss.View,"setPenColor","int",颜色值)
+}
+javanew(控件,ss.类,"Context",activity,"int","-1","String","标题",ss.事件类,事件)
+javax(null,控件,"android.app.Dialog","show")
+</eventItme></event>
+</View>
+<View id="18" did="17" type="ImageView">
+<ppt>width=22dp
+height=22dp
+src=@img/7d99236a458.png
+layout_gravity=right
+layout_marginRight=15dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#f5f5f5",true,0)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+
+
+loadjar("Picture",包)
+cls(包,"com.beyondsw.palette.PaletteView",ss.View)
+
+javanew(ss.画板,ss.View,"Context",activity)
+nvw(ss.画板,3)
+utb(2)
+
+ss Dh = 10
+ss Dx = 20
+javax(c,ss.画板,ss.View,"setPenRawSize","int",ss.Dh)
+
+</eventItme><eventItme type="loadingComplete">loadjar("Picture",包)
+cls(包,"com.dwood.paintdemo.ColorPickerDialog",ss.类)
+cls(包,"com.dwood.paintdemo.ColorPickerDialog$OnColorChangedListener",ss.事件类)
+
+tw("长按画笔橡皮擦可更改大小")</eventItme></UIEventset>

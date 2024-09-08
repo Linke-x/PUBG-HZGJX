@@ -1,0 +1,175 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=55dp
+orientation=horizontal
+elevation=1dp
+background=white
+</ppt>
+<event></event>
+</View>
+<View id="6" did="2" type="LinearLayout">
+<ppt>width=55dp
+height=-1
+orientation=vertical
+gravity=center
+BackgroundRipple=#ffdbdbdb</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="7" did="6" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@img/202a7f656eb.png
+BackgroundRipple=#ffcbcbcb</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical
+layout_marginRight=55dp</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=QQ空白名
+textSize=15dp
+textStyle=bold
+textColor=#ff2a2a2a
+</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+ut_below=2
+background=white</ppt>
+<event></event>
+</View>
+<View id="29" did="8" type="LinearLayout">
+<ppt>width=-1
+height=0.8dp
+orientation=vertica
+background=#eeeeee</ppt>
+<event></event>
+</View>
+<View id="15" did="8" type="CardView">
+<ppt>width=-1
+height=-2
+layout_marginLeft=15dp
+layout_marginRight=15dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginBottom=20dp
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#F5F5F5</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="LinearLayout">
+<ppt>width=-1
+height=-2
+gravity=center_vertical
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="18" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=提示
+textColor=#000000
+textStyle=bold
+textSize=13dp
+layout_marginLeft=15dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="19" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=设置空白QQ网名，点击按钮会自动复制代码，然后去QQ修改网名，直接粘贴保存即可！
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginBottom=20dp
+layout_marginTop=10dp
+textSize=12dp</ppt>
+<event></event>
+</View>
+<View id="26" did="8" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+</ppt>
+<event></event>
+</View>
+<View id="12" did="26" type="CardView">
+<ppt>width=-1
+height=45dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+app_CardcornerRadius=5dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#5889FE
+gravity=center
+BackgroundRipple=#ffffffff
+</ppt>
+<event><eventItme type="clicki">sxb("ㅤ")
+
+tw("复制成功！")</eventItme></event>
+</View>
+<View id="14" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=点击复制代码
+textColor=#ffffff
+textSize=12dp</ppt>
+<event></event>
+</View>
+<View id="33" did="8" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="ImageView">
+<ppt>width=-2
+height=-2
+src=17301567
+visibility=8</ppt>
+<event><eventItme type="clicki">
+ug(34,"src",tp)
+
+time(4,tm)
+syso(tm)
+ss(tm+".png",jg)
+
+
+bfs(ss.uqr,sss.二维码)
+tw("保存成功!")
+</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffffff",true,0)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+
+</eventItme></UIEventset>

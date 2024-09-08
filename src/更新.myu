@@ -1,0 +1,22 @@
+fn 更新()
+
+
+t()
+{
+  hs(sss.zht,gx)
+  sj(gx,"版本【","】",bb)
+  sj(gx,"链接【","】",sss.gxlj)
+  f(bb &gt; sss.版本)
+  {
+  ufnsui()
+  {
+    fn 弹窗.更新()
+  }
+  }
+  else
+  {
+  }
+}
+
+
+end fn

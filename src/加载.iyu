@@ -1,0 +1,29 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+background=through</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardElevation=0
+app_CardcornerRadius=15dp</ppt>
+<event></event>
+</View>
+<View id="20" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="22" did="20" type="ProgressBar">
+<ppt>width=50dp
+height=50dp
+style=16842874
+layout_marginTop=22dp
+layout_marginBottom=22dp</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

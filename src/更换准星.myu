@@ -1,0 +1,21 @@
+fn 更换(文件)
+
+
+f(sss.v == null)
+{
+tw("请先开启准星")
+}
+else
+{
+
+s tp = 文件
+gvs(sss.v,悬浮窗.1, x)
+us(x,"src",tp)
+
+fw(sss.xftp,tp)
+
+}
+
+
+
+end fn

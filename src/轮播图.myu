@@ -1,0 +1,47 @@
+fn 国际()
+
+t()
+{
+ 
+hs(sss.zht,jg)
+sj(jg,"轮播图【","】",lbtp4)
+sj(jg,"轮播图2【","】",lbtp5)
+sj(jg,"轮播图3【","】",lbtp6)
+
+sj(jg,"轮播链接【","】",sss.lblj4)
+sj(jg,"轮播链接2【","】",sss.lblj5)
+sj(jg,"轮播链接3【","】",sss.lblj6)
+
+sj(jg,"链接状态【","】",sss.ljzt4)
+sj(jg,"链接状态2【","】",sss.ljzt5)
+sj(jg,"链接状态3【","】",sss.ljzt6)
+
+
+ufnsui()
+{
+us(国际服.20,"visibility","gone")
+us(图.1,"src",lbtp4)
+us(图2.1,"src",lbtp5)
+us(图3.1,"src",lbtp6)
+
+}
+}
+
+//启动线程3秒自动切换轮播图
+
+t()
+{
+w(true)
+{
+ stop(3000)
+ us(国际服.21,"currentitem",1)
+ stop(3000)
+ us(国际服.21,"currentitem",2)
+ stop(3000)
+ us(国际服.21,"currentitem",0)
+}
+}
+
+
+
+end fn

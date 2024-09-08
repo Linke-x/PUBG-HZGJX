@@ -1,0 +1,12 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="WebView">
+<ppt>width=-1
+height=-1
+url=@wj/wzry.html</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#81C784",false)</eventItme></UIEventset>

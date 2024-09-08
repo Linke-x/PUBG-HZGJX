@@ -1,0 +1,49 @@
+fn 使用(文件)
+
+t()
+{
+
+ufnsui()
+{
+utw("","","保存.iyu","",true,v)
+{
+}
+
+}
+
+
+ss(sss.dir + "UserCustom.ini", file)
+
+fn gad.读取内容(file)
+s am = sss.sRead
+
+f(am?"[BackUp DeviceProfile]")
+{
+s b="[BackUp DeviceProfile]"
+s c=文件
+
+sj(am,"[BackUp DeviceProfile]",null,jqam)
+ss(b+jqam,jqam)
+fr(c,cm)
+ss(cm+"\n"+jqam,jqcg)
+fn gad.写入内容(file,jqcg)
+ufnsui()
+{
+endutw()
+tw("Done！\n解锁成功,尽情享受美妙的游戏体验吧！")
+}
+}
+else
+{
+ufnsui()
+{
+//调用模块(函数)
+endutw()
+fn 弹窗.写入提示()
+}
+}
+
+
+}
+
+end fn

@@ -1,0 +1,162 @@
+<View id="54" did="0" type="CardView">
+<ppt>width=-1
+height=210dp
+app_CardcornerRadius=10dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="5" did="54" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+clipChildren=true
+</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="5" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="55" did="6" type="RelativeLayout">
+<ppt>width=-1
+height=60dp</ppt>
+<event></event>
+</View>
+<View id="74" did="55" type="TextView">
+<ppt>width=-2
+height=-2
+text=更新版本
+textSize=13dp
+textStyle=bold
+textColor=#ff1d3347
+layout_marginLeft=20dp
+typeface=@zt.ttf
+layout_marginTop=5dp
+ut_centerVertical=true</ppt>
+<event></event>
+</View>
+<View id="41" did="5" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+gravity=center
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="58" did="41" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+app_CardBackgroundColor=#E3F2FD</ppt>
+<event></event>
+</View>
+<View id="59" did="58" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="60" did="59" type="TextView">
+<ppt>width=-2
+height=-2
+text=新版本APP更新啦！快点击【立即更新】体验新软件吧！
+textColor=#2196F3
+layout_marginLeft=15dp
+textSize=11dp
+textStyle=bold
+layout_marginRight=15dp
+</ppt>
+<event></event>
+</View>
+<View id="44" did="5" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=horizontal
+layout_marginTop=15dp
+layout_marginLeft=13dp
+layout_marginRight=13dp</ppt>
+<event></event>
+</View>
+<View id="46" did="44" type="CardView">
+<ppt>width=-1
+height=-1
+layout_weight=1
+layout_marginLeft=7dp
+layout_marginRight=10dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginTop=10dp
+layout_marginBottom=10dp
+app_CardBackgroundColor=#ffd4d4d4
+</ppt>
+<event></event>
+</View>
+<View id="73" did="46" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+padding=1dp</ppt>
+<event><eventItme type="clicki">java(null,ss.utwv,"android.app.Dialog.dismiss")
+
+uigo("卡密.iyu")
+</eventItme></event>
+</View>
+<View id="75" did="73" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+</ppt>
+<event></event>
+</View>
+<View id="50" did="75" type="TextView">
+<ppt>width=-1
+height=-1
+text=取 消
+textColor=#ff444444
+gravity=center
+textSize=12dp
+background=#ffe9e9e9
+BackgroundRipple=#ffd4d4d4</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="69" did="44" type="CardView">
+<ppt>width=-1
+height=-1
+layout_weight=1
+layout_marginLeft=10dp
+layout_marginRight=7dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginTop=10dp
+layout_marginBottom=10dp
+app_CardBackgroundColor=#5889FE
+</ppt>
+<event></event>
+</View>
+<View id="71" did="69" type="TextView">
+<ppt>width=-1
+height=-1
+text=更 新
+textColor=#ffffffff
+gravity=center
+textStyle=bold
+textSize=12dp
+BackgroundRipple=#82B1FF</ppt>
+<event><eventItme type="clicki">
+hws(sss.gxlj)
+end()
+</eventItme></event>
+</View>
+<UIEventset></UIEventset>
