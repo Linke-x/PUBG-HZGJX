@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<title>FK和平工具箱</title>
+<title>画质工具箱</title>
 <icon>icon.png</icon>
 <packageName>com.fkhphzzs.app</packageName>
 <versionName>4.2</versionName>
@@ -7,7 +7,7 @@
 <sdk>15</sdk>
 <yuv>3</yuv>
 
-<remark>清染出品</remark>
+<remark>Copyright © 2024 XNZJOL</remark>
 <Permissions>android.permission.READ_EXTERNAL_STORAGE
 android.permission.REQUEST_INSTALL_PACKAGES
 android.permission.WRITE_EXTERNAL_STORAGE
