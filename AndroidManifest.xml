@@ -7,7 +7,7 @@
 <sdk>15</sdk>
 <yuv>3</yuv>
 
-<remark>Copyright © 2024 XNZJOL</remark>
+<remark>Copyright © 2024 Linke-x</remark>
 <Permissions>android.permission.READ_EXTERNAL_STORAGE
 android.permission.REQUEST_INSTALL_PACKAGES
 android.permission.WRITE_EXTERNAL_STORAGE
